@@ -280,6 +280,8 @@ def main():
                        help='Directory for output C++ headers')
     parser.add_argument('--prefixes', action='store_true',
                        help='Also generate SI prefixes header')
+    parser.add_argument('--units', action='store_true',
+                       help='Also generate HEP units header')
     
     args = parser.parse_args()
     
@@ -293,6 +295,12 @@ def main():
         from generate_prefixes import generate_prefixes_header
         generate_prefixes_header(args.output_dir / 'prefixes.hpp')
         print("Also generated prefixes.hpp")
+    
+    # Generate units header if requested
+    if args.units:
+        from generate_units import generate_units_header
+        generate_units_header(args.output_dir / 'units.hpp')
+        print("Also generated units.hpp")
 
 
 if __name__ == '__main__':
