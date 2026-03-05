@@ -22,14 +22,26 @@ def parse_codata_file(file_path: Path) -> List[Tuple[str, str, str, Optional[str
         List of tuples containing (name, value, uncertainty, unit, hep_unit)
     """
     constants = []
+    data_section = False
     
     with open(file_path, 'r') as f:
         for line in f:
             line = line.strip()
-            if not line or line.startswith('{') or line.startswith('---'):
+            
+            # Look for the separator line that indicates start of data
+            if line.startswith('---') and len(line) > 50:  # Long separator line
+                data_section = True
                 continue
             
-            # Skip header lines and empty lines
+            # Skip lines before the data section
+            if not data_section:
+                continue
+            
+            # Skip empty lines and comment lines
+            if not line or line.startswith('{'):
+                continue
+            
+            # Skip header lines
             if 'Quantity' in line or 'Value' in line or 'Unit' in line:
                 continue
             
@@ -59,9 +71,27 @@ def parse_codata_file(file_path: Path) -> List[Tuple[str, str, str, Optional[str
             
             # Find where the numeric data actually starts (separate from name)
             # Work backwards through numeric_parts to find the start of numeric data
+            # A part is numeric if it looks like a number (digits, decimal point, scientific notation)
             numeric_start = 0
             for i in range(len(numeric_parts)-1, -1, -1):
-                if not re.match(r'^\d|\.|\+|-|e|E', numeric_parts[i]):
+                part = numeric_parts[i]
+                # Check if this part looks like a number
+                # It should either start with a digit, or be a scientific notation exponent
+                is_numeric = False
+                if re.match(r'^\d', part):  # Starts with digit
+                    is_numeric = True
+                elif re.match(r'^\.', part):  # Starts with decimal point
+                    is_numeric = True
+                elif re.match(r'^\+|^-', part):  # Starts with sign
+                    # Check if next part is numeric
+                    if i + 1 < len(numeric_parts) and re.match(r'^\d', numeric_parts[i+1]):
+                        is_numeric = True
+                elif re.match(r'^e|E', part):  # Scientific notation exponent
+                    # Check if previous part ends with digit
+                    if i > 0 and re.match(r'\d$', numeric_parts[i-1]):
+                        is_numeric = True
+                
+                if not is_numeric:
                     numeric_start = i + 1
                     break
             
@@ -121,9 +151,19 @@ def parse_codata_file(file_path: Path) -> List[Tuple[str, str, str, Optional[str
             value = ''.join(value_parts)
             uncertainty = ''.join(uncertainty_parts)
             
-            # Clean up name
+            # Clean up trailing dots (ellipsis) that would cause compilation errors
+            value = re.sub(r'\.+$', '', value)  # Remove trailing dots
+            uncertainty = re.sub(r'\.+$', '', uncertainty)  # Remove trailing dots
+            
+            # Clean up name - be more careful to preserve meaningful parts
+            # First convert spaces and hyphens to underscores
             name = re.sub(r'[\s\-]', '_', name)
-            name = re.sub(r'[^\w]', '', name)
+            # Remove only problematic characters, but preserve underscores that separate words
+            name = re.sub(r'[^\w_]', '', name)  # Keep underscores
+            # Remove duplicate underscores
+            name = re.sub(r'_+', '_', name)
+            # Remove leading/trailing underscores
+            name = name.strip('_')
             
             # Convert to HEP units if possible
             hep_unit_info = None

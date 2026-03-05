@@ -14,13 +14,14 @@ from main import parse_codata_file, generate_cpp_header
 
 def test_parse_codata_file():
     """Test parsing of a simple CODATA file."""
-    # Create a temporary CODATA file
+    # Create a temporary CODATA file with proper separator
     with tempfile.NamedTemporaryFile(mode='w', suffix='.txt', delete=False) as f:
         f.write("""# Test CODATA file
-# Name Value Uncertainty
 
-speed_of_light 299792458 0
-Planck_constant 6.62607015e-34 0
+  Quantity                                                       Value                 Uncertainty           Unit
+-----------------------------------------------------------------------------------------------------------------------------
+speed_of_light 299792458 0 m s^-1
+Planck_constant 6.62607015e-34 0 J s
 """)
         temp_file = f.name
     
