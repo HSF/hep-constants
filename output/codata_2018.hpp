@@ -8,1020 +8,1995 @@ namespace physicalconstants {
 namespace codata2018 {
 
 
-    // alpha_particle_mass
-    // SI Value: 6.644 ± 657 kg
+    // Fundamental_Physical_Constants
+    // SI Value: --- ±  Complete Listing
     
-    // HEP Value: 3.7270105045151757e+33 MeV/c² (kilogram to MeV/c²)
-    
-    constexpr double alpha_particle_mass = 6.644;
+    constexpr double Fundamental_Physical_Constants = ---;
 
-    // alpha_particle_mass_energy_equivalent
-    // SI Value: 5.971 ± 920 J
+    // 
+    // SI Value: 2018 ±  CODATA adjustment
     
-    // HEP Value: 37268050680854.0 MeV (joule to MeV)
+    constexpr double  = 2018;
+
+    // alpha_particle_electron_mass_ratio
+    // SI Value: 7294.29954142 ± 0.00000024 
     
-    constexpr double alpha_particle_mass_energy_equivalent = 5.971;
+    constexpr double alpha_particle_electron_mass_ratio = 7294.29954142;
+
+    // alpha_particle_mass
+    // SI Value: 6.6446573357e-27 ± 0.0000000020e-27 kg
+    
+    // HEP Value: 3727379.242784124 MeV/c² (kilogram to MeV/c²)
+    
+    constexpr double alpha_particle_mass = 6.6446573357e-27;
+
+    // alpha_particle_mass
+    // SI Value: energyequivalent5.9719201914e-10 ± 0.0000000018e-10 J
+    
+    constexpr double alpha_particle_mass = energyequivalent5.9719201914e-10;
 
     // alpha_particle_mass_energy_equivalent_in_MeV
-    // SI Value: 3727.379 ± 4066 
+    // SI Value: 3727.3794066 ± 0.0000011 MeV
     
-    constexpr double alpha_particle_mass_energy_equivalent_in_MeV = 3727.379;
+    constexpr double alpha_particle_mass_energy_equivalent_in_MeV = 3727.3794066;
 
     // alpha_particle_mass_in_u
-    // SI Value: 4.001 ± 506 
+    // SI Value: 4.001506179127 ± 0.000000000063 u
     
-    constexpr double alpha_particle_mass_in_u = 4.001;
+    constexpr double alpha_particle_mass_in_u = 4.001506179127;
 
     // alpha_particle_molar_mass
-    // SI Value: 4.001 ± 506 mol^-1
+    // SI Value: 4.0015061777e-3 ± 0.0000000012e-3 kg mol^-1
     
-    // HEP Value: 4.001 1/mol (inverse mole to mole)
+    // HEP Value: 2.2446802465638573e+30 MeV/c² (kilogram to MeV/c²)
     
-    constexpr double alpha_particle_molar_mass = 4.001;
+    constexpr double alpha_particle_molar_mass = 4.0015061777e-3;
+
+    // alpha_particle_proton_mass_ratio
+    // SI Value: 3.972599690 ± 090.00000000022 
+    
+    constexpr double alpha_particle_proton_mass_ratio = 3.972599690;
 
     // alpha_particle_relative_atomic_mass
-    // SI Value: 4.001 ± 506 
+    // SI Value: 4.001506179127 ± 0.000000000063 
     
-    constexpr double alpha_particle_relative_atomic_mass = 4.001;
+    constexpr double alpha_particle_relative_atomic_mass = 4.001506179127;
 
     // Angstrom_star
-    // SI Value: 1.000 ± 014 m
+    // SI Value: 1.000 ± 01495e-100.00000090e-10 m
     
     // HEP Value: 1000.0 mm (meter to millimeter)
     
     constexpr double Angstrom_star = 1.000;
 
     // atomic_mass_constant
-    // SI Value: 1.660 ± 539 kg
+    // SI Value: 1.660539 ± 06660e-270.00000000050e-27 kg
     
-    // HEP Value: 9.311916672930751e+32 MeV/c² (kilogram to MeV/c²)
+    // HEP Value: 9.314940241055276e+32 MeV/c² (kilogram to MeV/c²)
     
-    constexpr double atomic_mass_constant = 1.660;
+    constexpr double atomic_mass_constant = 1.660539;
 
-    // atomic_mass_constant_energy_equivalent
-    // SI Value: 1.492 ± 418 J
+    // atomic_mass_constant
+    // SI Value: energyequivalent1.492418 ± 08560e-100.00000000045e-10 J
     
-    // HEP Value: 9312331538408.0 MeV (joule to MeV)
-    
-    constexpr double atomic_mass_constant_energy_equivalent = 1.492;
+    constexpr double atomic_mass_constant = energyequivalent1.492418;
 
     // atomic_mass_constant_energy_equivalent_in_MeV
-    // SI Value: 931.494 ± 102 
+    // SI Value: 931.49410242 ± 0.00000028 MeV
     
-    constexpr double atomic_mass_constant_energy_equivalent_in_MeV = 931.494;
+    constexpr double atomic_mass_constant_energy_equivalent_in_MeV = 931.49410242;
+
+    // atomic_mass_unit_electron_volt_relationship
+    // SI Value: 9.3149410242e8 ± 0.0000000028e8eV 
+    
+    constexpr double atomic_mass_unit_electron_volt_relationship = 9.3149410242e8;
+
+    // atomic_mass_unit_hartree_relationship
+    // SI Value: 3.4231776874e7 ± 0.0000000010e7E_h 
+    
+    constexpr double atomic_mass_unit_hartree_relationship = 3.4231776874e7;
+
+    // atomic_mass_unit_hertz_relationship
+    // SI Value: 2.25234271871e23 ± 0.00000000068e23 Hz
+    
+    constexpr double atomic_mass_unit_hertz_relationship = 2.25234271871e23;
+
+    // atomic_mass_unit_inverse_meter_relationship
+    // SI Value: 7.513 ± 0066104e140.0000000023e14 m^-1
+    
+    // HEP Value: 0.007513 1/mm (inverse meter to millimeter)
+    
+    constexpr double atomic_mass_unit_inverse_meter_relationship = 7.513;
+
+    // atomic_mass_unit_joule_relationship
+    // SI Value: 1.492418 ± 08560e-100.00000000045e-10 J
+    
+    // HEP Value: 9314940489200.932 MeV (joule to MeV)
+    
+    constexpr double atomic_mass_unit_joule_relationship = 1.492418;
+
+    // atomic_mass_unit_kelvin_relationship
+    // SI Value: 1.080954 ± 01916e130.00000000033e13 K
+    
+    // HEP Value: 1.080954 K (kelvin to kelvin)
+    
+    constexpr double atomic_mass_unit_kelvin_relationship = 1.080954;
+
+    // atomic_mass_unit_kilogram_relationship
+    // SI Value: 1.660539 ± 06660e-270.00000000050e-27 kg
+    
+    // HEP Value: 9.314940241055276e+32 MeV/c² (kilogram to MeV/c²)
+    
+    constexpr double atomic_mass_unit_kilogram_relationship = 1.660539;
 
     // atomic_unit_of_1st_hyperpolarizability
-    // SI Value: 3.206 ± 361 J^-2
+    // SI Value: 3.2063613061e-53 ± 0.0000000015e-53 C^3 m^3 J^-2
     
-    // HEP Value: 20010278091244.0 MeV (joule to MeV)
+    // HEP Value: 2.001253318654564e-34 eplus (coulomb to eplus)
     
-    constexpr double atomic_unit_of_1st_hyperpolarizability = 3.206;
+    constexpr double atomic_unit_of_1st_hyperpolarizability = 3.2063613061e-53;
 
     // atomic_unit_of_2nd_hyperpolarizability
-    // SI Value: 6.235 ± 379 J^-3
+    // SI Value: 6.2353799905e-65 ± 0.0000000038e-65 C^4 m^4 J^-3
     
-    // HEP Value: 38915809076390.0 MeV (joule to MeV)
+    // HEP Value: 3.891818079054379e-46 eplus (coulomb to eplus)
     
-    constexpr double atomic_unit_of_2nd_hyperpolarizability = 6.235;
+    constexpr double atomic_unit_of_2nd_hyperpolarizability = 6.2353799905e-65;
 
     // atomic_unit_of_action
-    // SI Value: 1.054 ± 571 s
+    // SI Value: 1.054571817...e-34 ±  (exact) J s
     
-    // HEP Value: 1054000000.0 ns (second to nanosecond)
-    
-    constexpr double atomic_unit_of_action = 1.054;
+    constexpr double atomic_unit_of_action = 1.054571817...e-34;
 
     // atomic_unit_of_charge
-    // SI Value: 1.602 ± 176 C
+    // SI Value: 1.602176634e-19 ±  (exact) C
     
-    // HEP Value: 9.998897536548e+18 eplus (coulomb to eplus)
-    
-    constexpr double atomic_unit_of_charge = 1.602;
+    constexpr double atomic_unit_of_charge = 1.602176634e-19;
 
     // atomic_unit_of_charge_density
-    // SI Value: 1.081 ± 202 m^-3
+    // SI Value: 1.08120238457e12 ± 0.00000000049e12 C m^-3
     
-    // HEP Value: 1081.0 mm (meter to millimeter)
+    // HEP Value: 6.748334494124093e+30 eplus (coulomb to eplus)
     
-    constexpr double atomic_unit_of_charge_density = 1.081;
+    constexpr double atomic_unit_of_charge_density = 1.08120238457e12;
 
     // atomic_unit_of_current
-    // SI Value: 6.623 ± 618 A
+    // SI Value: 6.623618237510e-3 ± 0.000000000013e-3 A
     
-    // HEP Value: 6.623 eplus/ns (ampere to eplus/ns)
+    // HEP Value: 0.00662361823751 eplus/ns (ampere to eplus/ns)
     
-    constexpr double atomic_unit_of_current = 6.623;
+    constexpr double atomic_unit_of_current = 6.623618237510e-3;
+
+    // atomic_unit_of_electric_dipole_mom
+    // SI Value: 8.4783536255e-30 ± 0.0000000013e-30 C m
+    
+    // HEP Value: 5.291772108613905e-11 eplus (coulomb to eplus)
+    
+    constexpr double atomic_unit_of_electric_dipole_mom = 8.4783536255e-30;
 
     // atomic_unit_of_electric_field
-    // SI Value: 5.142 ± 206 m^-1
+    // SI Value: 5.14220674763e11 ± 0.00000000078e11 V m^-1
     
-    // HEP Value: 0.005142000000000001 1/mm (inverse meter to millimeter)
+    // HEP Value: 5.14220674763e+17 MeV/eplus (volt to MeV/eplus)
     
-    constexpr double atomic_unit_of_electric_field = 5.142;
+    constexpr double atomic_unit_of_electric_field = 5.14220674763e11;
 
     // atomic_unit_of_electric_field_gradient
-    // SI Value: 9.717 ± 362 m^-2
+    // SI Value: 9.7173624292e21 ± 0.0000000029e21 V m^-2
     
-    // HEP Value: 9717.0 mm (meter to millimeter)
+    // HEP Value: 9.7173624292e+27 MeV/eplus (volt to MeV/eplus)
     
-    constexpr double atomic_unit_of_electric_field_gradient = 9.717;
+    constexpr double atomic_unit_of_electric_field_gradient = 9.7173624292e21;
 
     // atomic_unit_of_electric_polarizability
-    // SI Value: 1.648 ± 777 J^-1
+    // SI Value: 1.64877727436e-41 ± 0.00000000050e-41 C^2 m^2 J^-1
     
-    // HEP Value: 2.6403870930269194e-13 1/MeV (inverse joule to MeV)
+    // HEP Value: 1.0290858318922926e-22 eplus (coulomb to eplus)
     
-    constexpr double atomic_unit_of_electric_polarizability = 1.648;
+    constexpr double atomic_unit_of_electric_polarizability = 1.64877727436e-41;
 
     // atomic_unit_of_electric_potential
-    // SI Value: 27.211 ± 386 V
+    // SI Value: 27.211386245988 ± 0.000000000053 V
     
-    // HEP Value: 27211000.0 MeV/eplus (volt to MeV/eplus)
+    // HEP Value: 27211386.245988 MeV/eplus (volt to MeV/eplus)
     
-    constexpr double atomic_unit_of_electric_potential = 27.211;
+    constexpr double atomic_unit_of_electric_potential = 27.211386245988;
 
-    // atomic_unit_of_energy
-    // SI Value: 4.359 ± 744 J
+    // atomic_unit_of_electric_quadrupole_mom
+    // SI Value: 4.4865515246e-40 ± 0.0000000014e-40 C m^2
     
-    // HEP Value: 27206738053566.0 MeV (joule to MeV)
+    // HEP Value: 2.8002852051759433e-21 eplus (coulomb to eplus)
     
-    constexpr double atomic_unit_of_energy = 4.359;
+    constexpr double atomic_unit_of_electric_quadrupole_mom = 4.4865515246e-40;
+
+    // atomic_unit_of
+    // SI Value: energy4.3597447222071e-18 ± 0.0000000000085e-18 J
+    
+    constexpr double atomic_unit_of = energy4.3597447222071e-18;
 
     // atomic_unit_of_force
-    // SI Value: 8.238 ± 723 
+    // SI Value: 8.2387234983e-8 ± 0.0000000012e-8 N
     
-    constexpr double atomic_unit_of_force = 8.238;
+    constexpr double atomic_unit_of_force = 8.2387234983e-8;
 
     // atomic_unit_of_length
-    // SI Value: 5.291 ± 772 m
+    // SI Value: 5.29177210903e-11 ± 0.00000000080e-11 m
     
-    // HEP Value: 5291.0 mm (meter to millimeter)
+    // HEP Value: 5.29177210903e-08 mm (meter to millimeter)
     
-    constexpr double atomic_unit_of_length = 5.291;
+    constexpr double atomic_unit_of_length = 5.29177210903e-11;
+
+    // atomic_unit_of_mag_dipole_mom
+    // SI Value: 1.854802 ± 01566e-230.00000000056e-23 J T^-1
+    
+    // HEP Value: 11576763513473.348 MeV (joule to MeV)
+    
+    constexpr double atomic_unit_of_mag_dipole_mom = 1.854802;
+
+    // atomic_unit_of_mag_flux_density
+    // SI Value: 2.35051756758e5 ± 0.00000000071e5 T
+    
+    // HEP Value: 2350517567580000.0 MeV/(eplus*mm²) (tesla to MeV/(eplus*mm²))
+    
+    constexpr double atomic_unit_of_mag_flux_density = 2.35051756758e5;
 
     // atomic_unit_of_magnetizability
-    // SI Value: 7.891 ± 036 T^-2
+    // SI Value: 7.891 ± 0366008e-290.0000000048e-29 J T^-2
     
-    // HEP Value: 78910000000.0 MeV/(eplus*mm²) (tesla to MeV/(eplus*mm²))
+    // HEP Value: 49251748102934.0 MeV (joule to MeV)
     
     constexpr double atomic_unit_of_magnetizability = 7.891;
 
     // atomic_unit_of_mass
-    // SI Value: 9.109 ± 383 kg
+    // SI Value: 9.1093837015e-31 ± 0.0000000028e-31 kg
     
-    // HEP Value: 5.1097740345618206e+33 MeV/c² (kilogram to MeV/c²)
+    // HEP Value: 510.9989275308524 MeV/c² (kilogram to MeV/c²)
     
-    constexpr double atomic_unit_of_mass = 9.109;
+    constexpr double atomic_unit_of_mass = 9.1093837015e-31;
 
     // atomic_unit_of_momentum
-    // SI Value: 1.992 ± 851 s^-1
+    // SI Value: 1.99285191410e-24 ± 0.00000000030e-24 kg m s^-1
     
-    // HEP Value: 1.992e-09 1/ns (inverse second to nanosecond)
+    // HEP Value: 1117907889.4933586 MeV/c² (kilogram to MeV/c²)
     
-    constexpr double atomic_unit_of_momentum = 1.992;
+    constexpr double atomic_unit_of_momentum = 1.99285191410e-24;
 
     // atomic_unit_of_permittivity
-    // SI Value: 1.112 ± 650 m^-1
+    // SI Value: 1.112650 ± 05545e-100.00000000017e-10 F m^-1
     
-    // HEP Value: 0.0011120000000000001 1/mm (inverse meter to millimeter)
-    
-    constexpr double atomic_unit_of_permittivity = 1.112;
+    constexpr double atomic_unit_of_permittivity = 1.112650;
 
     // atomic_unit_of_time
-    // SI Value: 2.418 ± 884 s
+    // SI Value: 2.4188843265857e-17 ± 0.0000000000047e-17 s
     
-    // HEP Value: 2418000000.0 ns (second to nanosecond)
+    // HEP Value: 2.4188843265857e-08 ns (second to nanosecond)
     
-    constexpr double atomic_unit_of_time = 2.418;
+    constexpr double atomic_unit_of_time = 2.4188843265857e-17;
 
     // atomic_unit_of_velocity
-    // SI Value: 2.187 ± 691 s^-1
+    // SI Value: 2.18769126364e6 ± 0.00000000033e6 m s^-1
     
-    // HEP Value: 2.187e-09 1/ns (inverse second to nanosecond)
+    // HEP Value: 2187691263.64 mm (meter to millimeter)
     
-    constexpr double atomic_unit_of_velocity = 2.187;
+    constexpr double atomic_unit_of_velocity = 2.18769126364e6;
 
     // Avogadro_constant
-    // SI Value: 6.022 ± 140 mol^-1
+    // SI Value: 6.02214076e23 ±  (exact) mol^-1
     
-    // HEP Value: 6.022 1/mol (inverse mole to mole)
-    
-    constexpr double Avogadro_constant = 6.022;
+    constexpr double Avogadro_constant = 6.02214076e23;
 
     // Bohr_magneton
-    // SI Value: 9.274 ± 010 T^-1
+    // SI Value: 9.274 ± 0100783e-240.0000000028e-24 J T^-1
     
-    // HEP Value: 9.273999999999999e-10 1/MeV/(eplus*mm²) (inverse tesla to MeV/(eplus*mm²))
+    // HEP Value: 57883755152275.99 MeV (joule to MeV)
     
     constexpr double Bohr_magneton = 9.274;
 
+    // Bohr_magneton_in
+    // SI Value: eV/T5.7883818060e-5 ± 0.0000000017e-5eV T^-1
+    
+    constexpr double Bohr_magneton_in = eV/T5.7883818060e-5;
+
+    // Bohr_magneton_in_HzT
+    // SI Value: 1.39962449361e10 ± 0.00000000042e10 Hz T^-1
+    
+    constexpr double Bohr_magneton_in_HzT = 1.39962449361e10;
+
     // Bohr_magneton_in_inverse_meter_per_tesla
-    // SI Value: 46.686 ± 447 T^-1
+    // SI Value: 46.686447783 ± 0.000000014 m^-1 T^-1
     
-    // HEP Value: 4.6686e-09 1/MeV/(eplus*mm²) (inverse tesla to MeV/(eplus*mm²))
+    // HEP Value: 46686.447782999996 mm (meter to millimeter)
     
-    constexpr double Bohr_magneton_in_inverse_meter_per_tesla = 46.686;
+    constexpr double Bohr_magneton_in_inverse_meter_per_tesla = 46.686447783;
+
+    // Bohr_magneton_in_KT
+    // SI Value: 0.67171381563 ± 0.00000000020 K T^-1
+    
+    // HEP Value: 0.67171381563 K (kelvin to kelvin)
+    
+    constexpr double Bohr_magneton_in_KT = 0.67171381563;
 
     // Bohr_radius
-    // SI Value: 5.291 ± 772 m
+    // SI Value: 5.29177210903e-11 ± 0.00000000080e-11 m
     
-    // HEP Value: 5291.0 mm (meter to millimeter)
+    // HEP Value: 5.29177210903e-08 mm (meter to millimeter)
     
-    constexpr double Bohr_radius = 5.291;
+    constexpr double Bohr_radius = 5.29177210903e-11;
 
     // Boltzmann_constant
-    // SI Value: 1.380 ± 649 K^-1
+    // SI Value: 1.380649e-23 ±  (exact) J K^-1
     
-    // HEP Value: 1.38 1/K (inverse kelvin to kelvin)
+    constexpr double Boltzmann_constant = 1.380649e-23;
+
+    // Boltzmann_constant_in_eVK_8617_333_262_e_5_exact
+    // SI Value: eV ±  K^-1
     
-    constexpr double Boltzmann_constant = 1.380;
+    constexpr double Boltzmann_constant_in_eVK_8617_333_262_e_5_exact = eV;
+
+    // Boltzmann_constant_in_HzK
+    // SI Value: 2.083661912...e10 ±  (exact) Hz K^-1
+    
+    constexpr double Boltzmann_constant_in_HzK = 2.083661912...e10;
 
     // Boltzmann_constant_in_inverse_meter_per_kelvin
-    // SI Value: 69.503 ± 480 K^-1
+    // SI Value: 69.50348004... ±  (exact) m^-1 K^-1
     
-    // HEP Value: 69.503 1/K (inverse kelvin to kelvin)
-    
-    constexpr double Boltzmann_constant_in_inverse_meter_per_kelvin = 69.503;
+    constexpr double Boltzmann_constant_in_inverse_meter_per_kelvin = 69.50348004...;
 
     // characteristic_impedance_of_vacuum
-    // SI Value: 376.730 ± 313 
+    // SI Value: 376.730313668 ± 0.000000057 ohm
     
-    constexpr double characteristic_impedance_of_vacuum = 376.730;
+    constexpr double characteristic_impedance_of_vacuum = 376.730313668;
 
     // classical_electron_radius
-    // SI Value: 2.817 ± 940 m
+    // SI Value: 2.8179403262e-15 ± 0.0000000013e-15 m
     
-    // HEP Value: 2817.0 mm (meter to millimeter)
+    // HEP Value: 2.8179403262e-12 mm (meter to millimeter)
     
-    constexpr double classical_electron_radius = 2.817;
+    constexpr double classical_electron_radius = 2.8179403262e-15;
 
     // Compton_wavelength
-    // SI Value: 2.426 ± 310 m
+    // SI Value: 2.42631023867e-12 ± 0.00000000073e-12 m
     
-    // HEP Value: 2426.0 mm (meter to millimeter)
+    // HEP Value: 2.4263102386699998e-09 mm (meter to millimeter)
     
-    constexpr double Compton_wavelength = 2.426;
+    constexpr double Compton_wavelength = 2.42631023867e-12;
 
     // conductance_quantum
-    // SI Value: 7.748 ± 091 
+    // SI Value: 7.748091729...e-5 ±  (exact) S
     
-    constexpr double conductance_quantum = 7.748;
+    constexpr double conductance_quantum = 7.748091729...e-5;
+
+    // conventional_value_of_ampere_90
+    // SI Value: 1.00000008887... ±  (exact) A
+    
+    constexpr double conventional_value_of_ampere_90 = 1.00000008887...;
+
+    // conventional_value_of_coulomb_90
+    // SI Value: 1.00000008887... ±  (exact) C
+    
+    constexpr double conventional_value_of_coulomb_90 = 1.00000008887...;
+
+    // conventional_value_of_farad_90
+    // SI Value: 0.99999998220... ±  (exact) F
+    
+    constexpr double conventional_value_of_farad_90 = 0.99999998220...;
+
+    // conventional_value_of_henry_90
+    // SI Value: 1.00000001779... ±  (exact) H
+    
+    constexpr double conventional_value_of_henry_90 = 1.00000001779...;
 
     // conventional_value_of_Josephson_constant
-    // SI Value: 483 ± 597.9 V^-1
+    // SI Value: 483597.9e9 ±  (exact) Hz V^-1
     
-    // HEP Value: 0.000483 1/MeV/eplus (inverse volt to MeV/eplus)
+    constexpr double conventional_value_of_Josephson_constant = 483597.9e9;
+
+    // conventional_value_of_ohm_90
+    // SI Value: 1.00000001779... ±  (exact) ohm
     
-    constexpr double conventional_value_of_Josephson_constant = 483;
+    constexpr double conventional_value_of_ohm_90 = 1.00000001779...;
+
+    // conventional_value_of_volt_90
+    // SI Value: 1.00000010666... ±  (exact) V
+    
+    constexpr double conventional_value_of_volt_90 = 1.00000010666...;
 
     // conventional_value_of_von_Klitzing_constant
-    // SI Value: 25 ± 812.807 
+    // SI Value: 25812.807 ±  (exact) ohm
     
-    constexpr double conventional_value_of_von_Klitzing_constant = 25;
+    constexpr double conventional_value_of_von_Klitzing_constant = 25812.807;
+
+    // conventional_value_of_watt_90
+    // SI Value: 1.00000019553... ±  (exact) W
+    
+    constexpr double conventional_value_of_watt_90 = 1.00000019553...;
 
     // Copper_x_unit
-    // SI Value: 1.002 ± 076 m
+    // SI Value: 1.002 ± 07697e-130.00000028e-13 m
     
     // HEP Value: 1002.0 mm (meter to millimeter)
     
     constexpr double Copper_x_unit = 1.002;
 
-    // deuteron_g_factor
-    // SI Value: 0.857 ± 438 
+    // deuteron_electron_mag_mom_ratio
+    // SI Value: -4.664345551e-4 ± 0.000000012e-4 
     
-    constexpr double deuteron_g_factor = 0.857;
+    constexpr double deuteron_electron_mag_mom_ratio = -4.664345551e-4;
+
+    // deuteron_electron_mass_ratio
+    // SI Value: 3670.48296788 ± 0.00000013 
+    
+    constexpr double deuteron_electron_mass_ratio = 3670.48296788;
+
+    // deuteron_g_factor
+    // SI Value: 0.8574382338 ± 0.0000000022 
+    
+    constexpr double deuteron_g_factor = 0.8574382338;
+
+    // deuteron_mag_mom
+    // SI Value: 4.330735094e-27 ± 0.000000011e-27 J T^-1
+    
+    // HEP Value: 2.703032238629124e-14 MeV (joule to MeV)
+    
+    constexpr double deuteron_mag_mom = 4.330735094e-27;
+
+    // deuteron_mag_mom_to_Bohr_magneton_ratio
+    // SI Value: 4.669754570e-4 ± 0.000000012e-4 
+    
+    constexpr double deuteron_mag_mom_to_Bohr_magneton_ratio = 4.669754570e-4;
+
+    // deuteron_mag_mom_to_nuclear_magneton_ratio
+    // SI Value: 0.8574382338 ± 0.0000000022 
+    
+    constexpr double deuteron_mag_mom_to_nuclear_magneton_ratio = 0.8574382338;
 
     // deuteron_mass
-    // SI Value: 3.343 ± 583 kg
+    // SI Value: 3.3435837724e-27 ± 0.0000000010e-27 kg
     
-    // HEP Value: 1.875285387807681e+33 MeV/c² (kilogram to MeV/c²)
+    // HEP Value: 1875612.8600935095 MeV/c² (kilogram to MeV/c²)
     
-    constexpr double deuteron_mass = 3.343;
+    constexpr double deuteron_mass = 3.3435837724e-27;
 
-    // deuteron_mass_energy_equivalent
-    // SI Value: 3.005 ± 063 J
+    // deuteron_mass
+    // SI Value: energyequivalent3.005 ± 06323102e-100.00000000091e-10 J
     
-    // HEP Value: 18755734767370.0 MeV (joule to MeV)
-    
-    constexpr double deuteron_mass_energy_equivalent = 3.005;
+    constexpr double deuteron_mass = energyequivalent3.005;
 
     // deuteron_mass_energy_equivalent_in_MeV
-    // SI Value: 1875.612 ± 942 
+    // SI Value: 1875.61294257 ± 0.00000057 MeV
     
-    constexpr double deuteron_mass_energy_equivalent_in_MeV = 1875.612;
+    constexpr double deuteron_mass_energy_equivalent_in_MeV = 1875.61294257;
 
     // deuteron_mass_in_u
-    // SI Value: 2.013 ± 553 
+    // SI Value: 2.013553212745 ± 0.000000000040 u
     
-    constexpr double deuteron_mass_in_u = 2.013;
+    constexpr double deuteron_mass_in_u = 2.013553212745;
 
     // deuteron_molar_mass
-    // SI Value: 2.013 ± 553 mol^-1
+    // SI Value: 2.01355321205e-3 ± 0.00000000061e-3 kg mol^-1
     
-    // HEP Value: 2.013 1/mol (inverse mole to mole)
+    // HEP Value: 1.1295204654892569e+30 MeV/c² (kilogram to MeV/c²)
     
-    constexpr double deuteron_molar_mass = 2.013;
+    constexpr double deuteron_molar_mass = 2.01355321205e-3;
+
+    // deuteron_neutron_mag_mom_ratio
+    // SI Value: -0.44820653 ± 0.00000011 
+    
+    constexpr double deuteron_neutron_mag_mom_ratio = -0.44820653;
+
+    // deuteron_proton_mag_mom_ratio
+    // SI Value: 0.307 ± 012209390.00000000079 
+    
+    constexpr double deuteron_proton_mag_mom_ratio = 0.307;
+
+    // deuteron_proton_mass_ratio
+    // SI Value: 1.999 ± 007501390.00000000011 
+    
+    constexpr double deuteron_proton_mass_ratio = 1.999;
 
     // deuteron_relative_atomic_mass
-    // SI Value: 2.013 ± 553 
+    // SI Value: 2.013553212745 ± 0.000000000040 
     
-    constexpr double deuteron_relative_atomic_mass = 2.013;
+    constexpr double deuteron_relative_atomic_mass = 2.013553212745;
 
     // deuteron_rms_charge_radius
-    // SI Value: 2.127 ± 99 m
+    // SI Value: 2.12799e-15 ± 0.00074e-15 m
     
-    // HEP Value: 2127.0 mm (meter to millimeter)
+    // HEP Value: 2.12799e-12 mm (meter to millimeter)
     
-    constexpr double deuteron_rms_charge_radius = 2.127;
+    constexpr double deuteron_rms_charge_radius = 2.12799e-15;
+
+    // electron_charge_to_mass_quotient
+    // SI Value: -1.758820 ± 01076e110.00000000053e11 C kg^-1
+    
+    // HEP Value: -1.097769098953268e+19 eplus (coulomb to eplus)
+    
+    constexpr double electron_charge_to_mass_quotient = -1.758820;
+
+    // electron_deuteron_mag_mom_ratio
+    // SI Value: -2143.9234915 ± 0.0000056 
+    
+    constexpr double electron_deuteron_mag_mom_ratio = -2143.9234915;
+
+    // electron_deuteron_mass_ratio
+    // SI Value: 2.724437107462e-4 ± 0.000000000096e-4 
+    
+    constexpr double electron_deuteron_mass_ratio = 2.724437107462e-4;
+
+    // electron_g_factor
+    // SI Value: -2.00231930436256 ± 0.00000000000035 
+    
+    constexpr double electron_g_factor = -2.00231930436256;
+
+    // electron_gyromag_ratio
+    // SI Value: 1.76085963023e11 ± 0.00000000053e11 s^-1 T^-1
+    
+    // HEP Value: 1.76085963023e+20 ns (second to nanosecond)
+    
+    constexpr double electron_gyromag_ratio = 1.76085963023e11;
+
+    // electron_gyromag_ratio_in_MHzT
+    // SI Value: 28024.9514242 ± 0.0000085 MHz T^-1
+    
+    constexpr double electron_gyromag_ratio_in_MHzT = 28024.9514242;
+
+    // electron_helion_mass_ratio
+    // SI Value: 1.819543 ± 074573e-40.000000000079e-4 
+    
+    constexpr double electron_helion_mass_ratio = 1.819543;
+
+    // electron_mag_mom
+    // SI Value: -9.2847647043e-24 ± 0.0000000028e-24 J T^-1
+    
+    // HEP Value: -5.795094315184338e-11 MeV (joule to MeV)
+    
+    constexpr double electron_mag_mom = -9.2847647043e-24;
+
+    // electron_mag_mom_anomaly
+    // SI Value: 1.15965218128e-3 ± 0.00000000018e-3 
+    
+    constexpr double electron_mag_mom_anomaly = 1.15965218128e-3;
+
+    // electron_mag_mom_to_Bohr_magneton_ratio
+    // SI Value: -1.00115965218128 ± 0.00000000000018 
+    
+    constexpr double electron_mag_mom_to_Bohr_magneton_ratio = -1.00115965218128;
+
+    // electron_mag_mom_to_nuclear_magneton_ratio
+    // SI Value: -1838.28197188 ± 0.00000011 
+    
+    constexpr double electron_mag_mom_to_nuclear_magneton_ratio = -1838.28197188;
 
     // electron_mass
-    // SI Value: 9.109 ± 383 kg
+    // SI Value: 9.1093837015e-31 ± 0.0000000028e-31 kg
     
-    // HEP Value: 5.1097740345618206e+33 MeV/c² (kilogram to MeV/c²)
+    // HEP Value: 510.9989275308524 MeV/c² (kilogram to MeV/c²)
     
-    constexpr double electron_mass = 9.109;
+    constexpr double electron_mass = 9.1093837015e-31;
 
-    // electron_mass_energy_equivalent
-    // SI Value: 8.187 ± 105 J
+    // electron_mass
+    // SI Value: energyequivalent8.1871057769e-14 ± 0.0000000025e-14 J
     
-    // HEP Value: 51099234788838.0 MeV (joule to MeV)
-    
-    constexpr double electron_mass_energy_equivalent = 8.187;
+    constexpr double electron_mass = energyequivalent8.1871057769e-14;
 
     // electron_mass_energy_equivalent_in_MeV
-    // SI Value: 0.510 ± 998 
+    // SI Value: 0.510998950 ± 000.00000000015 MeV
     
-    constexpr double electron_mass_energy_equivalent_in_MeV = 0.510;
+    constexpr double electron_mass_energy_equivalent_in_MeV = 0.510998950;
 
     // electron_mass_in_u
-    // SI Value: 5.485 ± 799 
+    // SI Value: 5.485799 ± 09065e-40.00000000016e-4 u
     
-    constexpr double electron_mass_in_u = 5.485;
+    constexpr double electron_mass_in_u = 5.485799;
 
     // electron_molar_mass
-    // SI Value: 5.485 ± 799 mol^-1
+    // SI Value: 5.4857990888e-7 ± 0.0000000017e-7 kg mol^-1
     
-    // HEP Value: 5.485 1/mol (inverse mole to mole)
+    // HEP Value: 3.077307469840063e+26 MeV/c² (kilogram to MeV/c²)
     
-    constexpr double electron_molar_mass = 5.485;
+    constexpr double electron_molar_mass = 5.4857990888e-7;
+
+    // electron_muon_mag_mom_ratio
+    // SI Value: 206.7669883 ± 0.0000046 
+    
+    constexpr double electron_muon_mag_mom_ratio = 206.7669883;
+
+    // electron_muon_mass_ratio
+    // SI Value: 4.83633169e-3 ± 0.00000011e-3 
+    
+    constexpr double electron_muon_mass_ratio = 4.83633169e-3;
+
+    // electron_neutron_mag_mom_ratio
+    // SI Value: 960.92050 ± 0.00023 
+    
+    constexpr double electron_neutron_mag_mom_ratio = 960.92050;
+
+    // electron_neutron_mass_ratio
+    // SI Value: 5.4386734424e-4 ± 0.0000000026e-4 
+    
+    constexpr double electron_neutron_mass_ratio = 5.4386734424e-4;
+
+    // electron_proton_mag_mom_ratio
+    // SI Value: -658.21068789 ± 0.00000020 
+    
+    constexpr double electron_proton_mag_mom_ratio = -658.21068789;
+
+    // electron_proton_mass_ratio
+    // SI Value: 5.44617021487e-4 ± 0.00000000033e-4 
+    
+    constexpr double electron_proton_mass_ratio = 5.44617021487e-4;
 
     // electron_relative_atomic_mass
-    // SI Value: 5.485 ± 799 
+    // SI Value: 5.485799 ± 09065e-40.00000000016e-4 
     
-    constexpr double electron_relative_atomic_mass = 5.485;
+    constexpr double electron_relative_atomic_mass = 5.485799;
+
+    // electron_tau_mass_ratio
+    // SI Value: 2.87585e-4 ± 0.00019e-4 
+    
+    constexpr double electron_tau_mass_ratio = 2.87585e-4;
 
     // electron_to_alpha_particle_mass_ratio
-    // SI Value: 1.370 ± 933 
+    // SI Value: 1.370933554787e-4 ± 0.000000000045e-4 
     
-    constexpr double electron_to_alpha_particle_mass_ratio = 1.370;
+    constexpr double electron_to_alpha_particle_mass_ratio = 1.370933554787e-4;
+
+    // electron_to_shielded_helion_mag_mom_ratio
+    // SI Value: 864.058257 ± 0.000010 
+    
+    constexpr double electron_to_shielded_helion_mag_mom_ratio = 864.058257;
+
+    // electron_to_shielded_proton_mag_mom_ratio
+    // SI Value: -658.2275971 ± 0.0000072 
+    
+    constexpr double electron_to_shielded_proton_mag_mom_ratio = -658.2275971;
+
+    // electron_triton_mass_ratio
+    // SI Value: 1.819200 ± 062251e-40.000000000090e-4 
+    
+    constexpr double electron_triton_mass_ratio = 1.819200;
 
     // electron_volt
-    // SI Value: 1.602 ± 176 J
+    // SI Value: 1.602176634e-19 ±  (exact) J
     
-    // HEP Value: 9998897536548.0 MeV (joule to MeV)
+    constexpr double electron_volt = 1.602176634e-19;
+
+    // electron_volt_atomic_mass_unit_relationship
+    // SI Value: 1.07354410233e-9 ± 0.00000000032e-9 u
     
-    constexpr double electron_volt = 1.602;
+    constexpr double electron_volt_atomic_mass_unit_relationship = 1.07354410233e-9;
+
+    // electron_volt_hartree_relationship
+    // SI Value: 3.6749322175655e-2 ± 0.0000000000071e-2E_h 
+    
+    constexpr double electron_volt_hartree_relationship = 3.6749322175655e-2;
+
+    // electron_volt_hertz_relationship
+    // SI Value: 2.417989242...e14 ±  (exact) Hz
+    
+    constexpr double electron_volt_hertz_relationship = 2.417989242...e14;
+
+    // electron_volt_inverse_meter_relationship
+    // SI Value: 8.065543937...e5 ±  (exact) m^-1
+    
+    constexpr double electron_volt_inverse_meter_relationship = 8.065543937...e5;
+
+    // electron_volt_joule_relationship
+    // SI Value: 1.602176634e-19 ±  (exact) J
+    
+    constexpr double electron_volt_joule_relationship = 1.602176634e-19;
+
+    // electron_volt_kelvin_relationship
+    // SI Value: 1.160451812...e4 ±  (exact) K
+    
+    constexpr double electron_volt_kelvin_relationship = 1.160451812...e4;
+
+    // electron_volt_kilogram_relationship
+    // SI Value: 1.782661921...e-36 ±  (exact) kg
+    
+    constexpr double electron_volt_kilogram_relationship = 1.782661921...e-36;
 
     // elementary_charge
-    // SI Value: 1.602 ± 176 C
+    // SI Value: 1.602176634e-19 ±  (exact) C
     
-    // HEP Value: 9.998897536548e+18 eplus (coulomb to eplus)
+    constexpr double elementary_charge = 1.602176634e-19;
+
+    // elementary_charge_over_h_bar
+    // SI Value: 1.519267447...e15 ±  (exact) A J^-1
     
-    constexpr double elementary_charge = 1.602;
+    constexpr double elementary_charge_over_h_bar = 1.519267447...e15;
 
     // Faraday_constant
-    // SI Value: 96 ± 485.332 mol^-1
+    // SI Value: 96485.33212... ±  (exact) C mol^-1
     
-    // HEP Value: 96.0 1/mol (inverse mole to mole)
-    
-    constexpr double Faraday_constant = 96;
+    constexpr double Faraday_constant = 96485.33212...;
 
     // Fermi_coupling_constant
-    // SI Value: 1.166 ± 3787 
+    // SI Value: 1.1663787e-5 ± 0.0000006e-5 GeV^-2
     
-    constexpr double Fermi_coupling_constant = 1.166;
+    constexpr double Fermi_coupling_constant = 1.1663787e-5;
+
+    // fine_structure_constant
+    // SI Value: 7.2973525693e-3 ± 0.0000000011e-3 
+    
+    constexpr double fine_structure_constant = 7.2973525693e-3;
 
     // first_radiation_constant
-    // SI Value: 3.741 ± 771 m^2
+    // SI Value: 3.741771852...e-16 ±  (exact) W m^2
     
-    // HEP Value: 3741.0 mm² (meter to millimeter squared)
-    
-    constexpr double first_radiation_constant = 3.741;
+    constexpr double first_radiation_constant = 3.741771852...e-16;
 
     // first_radiation_constant_for_spectral_radiance
-    // SI Value: 1.191 ± 042 sr^-1
+    // SI Value: 1.191042972...e-16 ±  (exact) W m^2 sr^-1
     
-    constexpr double first_radiation_constant_for_spectral_radiance = 1.191;
+    constexpr double first_radiation_constant_for_spectral_radiance = 1.191042972...e-16;
 
-    // Hartree_energy
-    // SI Value: 4.359 ± 744 J
+    // hartree_atomic_mass_unit_relationship
+    // SI Value: 2.92126232205e-8 ± 0.00000000088e-8 u
     
-    // HEP Value: 27206738053566.0 MeV (joule to MeV)
-    
-    constexpr double Hartree_energy = 4.359;
+    constexpr double hartree_atomic_mass_unit_relationship = 2.92126232205e-8;
 
-    // Hartree_energy_in_eV
-    // SI Value: 27.211 ± 386 
+    // hartree_electron_volt_relationship
+    // SI Value: 27.211386245988 ± 0.000000000053eV 
     
-    constexpr double Hartree_energy_in_eV = 27.211;
+    constexpr double hartree_electron_volt_relationship = 27.211386245988;
+
+    // Hartree
+    // SI Value: energy4.3597447222071e-18 ± 0.0000000000085e-18 J
+    
+    constexpr double Hartree = energy4.3597447222071e-18;
+
+    // Hartree_energy_in
+    // SI Value: eV27.211386245988 ± 0.000000000053eV 
+    
+    constexpr double Hartree_energy_in = eV27.211386245988;
+
+    // hartree_hertz_relationship
+    // SI Value: 6.579683920502e15 ± 0.000000000013e15 Hz
+    
+    constexpr double hartree_hertz_relationship = 6.579683920502e15;
+
+    // hartree_inverse_meter_relationship
+    // SI Value: 2.1947463136320e7 ± 0.0000000000043e7 m^-1
+    
+    // HEP Value: 21947.46313632 1/mm (inverse meter to millimeter)
+    
+    constexpr double hartree_inverse_meter_relationship = 2.1947463136320e7;
+
+    // hartree_joule_relationship
+    // SI Value: 4.3597447222071e-18 ± 0.0000000000085e-18 J
+    
+    // HEP Value: 2.7211386243979225e-05 MeV (joule to MeV)
+    
+    constexpr double hartree_joule_relationship = 4.3597447222071e-18;
+
+    // hartree_kelvin_relationship
+    // SI Value: 3.1577502480407e5 ± 0.0000000000061e5 K
+    
+    // HEP Value: 315775.02480407 K (kelvin to kelvin)
+    
+    constexpr double hartree_kelvin_relationship = 3.1577502480407e5;
+
+    // hartree_kilogram_relationship
+    // SI Value: 4.8508702095432e-35 ± 0.0000000000094e-35 kg
+    
+    // HEP Value: 0.02721138504967977 MeV/c² (kilogram to MeV/c²)
+    
+    constexpr double hartree_kilogram_relationship = 4.8508702095432e-35;
+
+    // helion_electron_mass_ratio
+    // SI Value: 5495.885280 ± 070.00000024 
+    
+    constexpr double helion_electron_mass_ratio = 5495.885280;
+
+    // helion_g_factor
+    // SI Value: -4.255250615 ± 0.000000050 
+    
+    constexpr double helion_g_factor = -4.255250615;
+
+    // helion_mag_mom
+    // SI Value: -1.074617532e-26 ± 0.000000013e-26 J T^-1
+    
+    // HEP Value: -6.707235077057485e-14 MeV (joule to MeV)
+    
+    constexpr double helion_mag_mom = -1.074617532e-26;
+
+    // helion_mag_mom_to_Bohr_magneton_ratio
+    // SI Value: -1.158740958e-3 ± 0.000000014e-3 
+    
+    constexpr double helion_mag_mom_to_Bohr_magneton_ratio = -1.158740958e-3;
+
+    // helion_mag_mom_to_nuclear_magneton_ratio
+    // SI Value: -2.127625307 ± 0.000000025 
+    
+    constexpr double helion_mag_mom_to_nuclear_magneton_ratio = -2.127625307;
 
     // helion_mass
-    // SI Value: 5.006 ± 412 kg
+    // SI Value: 5.0064127796e-27 ± 0.0000000015e-27 kg
     
-    // HEP Value: 2.8081599316079126e+33 MeV/c² (kilogram to MeV/c²)
+    // HEP Value: 2808391.483971737 MeV/c² (kilogram to MeV/c²)
     
-    constexpr double helion_mass = 5.006;
+    constexpr double helion_mass = 5.0064127796e-27;
 
-    // helion_mass_energy_equivalent
-    // SI Value: 4.499 ± 539 J
+    // helion_mass
+    // SI Value: energyequivalent4.4995394125e-10 ± 0.0000000014e-10 J
     
-    // HEP Value: 28080549323925.996 MeV (joule to MeV)
-    
-    constexpr double helion_mass_energy_equivalent = 4.499;
+    constexpr double helion_mass = energyequivalent4.4995394125e-10;
 
     // helion_mass_energy_equivalent_in_MeV
-    // SI Value: 2808.391 ± 607 
+    // SI Value: 2808.39160743 ± 0.00000085 MeV
     
-    constexpr double helion_mass_energy_equivalent_in_MeV = 2808.391;
+    constexpr double helion_mass_energy_equivalent_in_MeV = 2808.39160743;
 
     // helion_mass_in_u
-    // SI Value: 3.014 ± 932 
+    // SI Value: 3.014932247175 ± 0.000000000097 u
     
-    constexpr double helion_mass_in_u = 3.014;
+    constexpr double helion_mass_in_u = 3.014932247175;
 
     // helion_molar_mass
-    // SI Value: 3.014 ± 932 mol^-1
+    // SI Value: 3.01493224613e-3 ± 0.00000000091e-3 kg mol^-1
     
-    // HEP Value: 3.014 1/mol (inverse mole to mole)
+    // HEP Value: 1.6912528825599102e+30 MeV/c² (kilogram to MeV/c²)
     
-    constexpr double helion_molar_mass = 3.014;
+    constexpr double helion_molar_mass = 3.01493224613e-3;
+
+    // helion_proton_mass_ratio
+    // SI Value: 2.99315267167 ± 0.00000000013 
+    
+    constexpr double helion_proton_mass_ratio = 2.99315267167;
 
     // helion_relative_atomic_mass
-    // SI Value: 3.014 ± 932 
+    // SI Value: 3.014932247175 ± 0.000000000097 
     
-    constexpr double helion_relative_atomic_mass = 3.014;
+    constexpr double helion_relative_atomic_mass = 3.014932247175;
 
     // helion_shielding_shift
-    // SI Value: 5.996 ± 743 
+    // SI Value: 5.996743e-5 ± 0.000010e-5 
     
-    constexpr double helion_shielding_shift = 5.996;
+    constexpr double helion_shielding_shift = 5.996743e-5;
+
+    // hertz_atomic_mass_unit_relationship
+    // SI Value: 4.4398216652e-24 ± 0.0000000013e-24 u
+    
+    constexpr double hertz_atomic_mass_unit_relationship = 4.4398216652e-24;
+
+    // hertz_electron_volt_relationship_4135_667_696_e_15_exact
+    // SI Value: eV ±  
+    
+    constexpr double hertz_electron_volt_relationship_4135_667_696_e_15_exact = eV;
+
+    // hertz_hartree_relationship
+    // SI Value: 1.5198298460570e-16 ± 0.0000000000029e-16E_h 
+    
+    constexpr double hertz_hartree_relationship = 1.5198298460570e-16;
+
+    // hertz_inverse_meter_relationship
+    // SI Value: 3.335640951...e-9 ±  (exact) m^-1
+    
+    constexpr double hertz_inverse_meter_relationship = 3.335640951...e-9;
+
+    // hertz_joule_relationship
+    // SI Value: 6.62607015e-34 ±  (exact) J
+    
+    constexpr double hertz_joule_relationship = 6.62607015e-34;
+
+    // hertz_kelvin_relationship
+    // SI Value: 4.799243073...e-11 ±  (exact) K
+    
+    constexpr double hertz_kelvin_relationship = 4.799243073...e-11;
+
+    // hertz_kilogram_relationship
+    // SI Value: 7.372497323...e-51 ±  (exact) kg
+    
+    constexpr double hertz_kilogram_relationship = 7.372497323...e-51;
+
+    // hyperfine_transition_frequency_of_Cs_133
+    // SI Value: 9192631770 ±  (exact) Hz
+    
+    constexpr double hyperfine_transition_frequency_of_Cs_133 = 9192631770;
+
+    // inverse_fine_structure_constant
+    // SI Value: 137.035999 ± 0840.000000021 
+    
+    constexpr double inverse_fine_structure_constant = 137.035999;
+
+    // inverse_meter_atomic_mass_unit_relationship
+    // SI Value: 1.331 ± 02505010e-150.00000000040e-15 u
+    
+    constexpr double inverse_meter_atomic_mass_unit_relationship = 1.331;
+
+    // inverse_meter_electron_volt_relationship_1239_841_984_e_6_exact
+    // SI Value: eV ±  
+    
+    constexpr double inverse_meter_electron_volt_relationship_1239_841_984_e_6_exact = eV;
+
+    // inverse_meter_hartree_relationship
+    // SI Value: 4.5563352529120e-8 ± 0.0000000000088e-8E_h 
+    
+    constexpr double inverse_meter_hartree_relationship = 4.5563352529120e-8;
+
+    // inverse_meter_hertz_relationship
+    // SI Value: 299792458 ±  (exact) Hz
+    
+    constexpr double inverse_meter_hertz_relationship = 299792458;
+
+    // inverse_meter_joule_relationship
+    // SI Value: 1.986445857...e-25 ±  (exact) J
+    
+    constexpr double inverse_meter_joule_relationship = 1.986445857...e-25;
+
+    // inverse_meter_kelvin_relationship
+    // SI Value: 1.438776877...e-2 ±  (exact) K
+    
+    constexpr double inverse_meter_kelvin_relationship = 1.438776877...e-2;
+
+    // inverse_meter_kilogram_relationship
+    // SI Value: 2.210219094...e-42 ±  (exact) kg
+    
+    constexpr double inverse_meter_kilogram_relationship = 2.210219094...e-42;
 
     // inverse_of_conductance_quantum
-    // SI Value: 12 ± 906.403 
+    // SI Value: 12906.40372... ±  (exact) ohm
     
-    constexpr double inverse_of_conductance_quantum = 12;
+    constexpr double inverse_of_conductance_quantum = 12906.40372...;
 
     // Josephson_constant
-    // SI Value: 483 ± 597.848 V^-1
+    // SI Value: 483597.8484...e9 ±  (exact) Hz V^-1
     
-    // HEP Value: 0.000483 1/MeV/eplus (inverse volt to MeV/eplus)
+    constexpr double Josephson_constant = 483597.8484...e9;
+
+    // joule_atomic_mass_unit_relationship
+    // SI Value: 6.7005352565e9 ± 0.0000000020e9 u
     
-    constexpr double Josephson_constant = 483;
+    constexpr double joule_atomic_mass_unit_relationship = 6.7005352565e9;
+
+    // joule_electron_volt_relationship_6241_509_074_e18_exact
+    // SI Value: eV ±  
+    
+    constexpr double joule_electron_volt_relationship_6241_509_074_e18_exact = eV;
+
+    // joule_hartree_relationship
+    // SI Value: 2.2937122783963e17 ± 0.0000000000045e17E_h 
+    
+    constexpr double joule_hartree_relationship = 2.2937122783963e17;
+
+    // joule_hertz_relationship
+    // SI Value: 1.509190179...e33 ±  (exact) Hz
+    
+    constexpr double joule_hertz_relationship = 1.509190179...e33;
+
+    // joule_inverse_meter_relationship
+    // SI Value: 5.034116567...e24 ±  (exact) m^-1
+    
+    constexpr double joule_inverse_meter_relationship = 5.034116567...e24;
+
+    // joule_kelvin_relationship
+    // SI Value: 7.242970516...e22 ±  (exact) K
+    
+    constexpr double joule_kelvin_relationship = 7.242970516...e22;
+
+    // joule_kilogram_relationship
+    // SI Value: 1.112650056...e-17 ±  (exact) kg
+    
+    constexpr double joule_kilogram_relationship = 1.112650056...e-17;
+
+    // kelvin_atomic_mass_unit_relationship
+    // SI Value: 9.251 ± 0873014e-140.0000000028e-14 u
+    
+    constexpr double kelvin_atomic_mass_unit_relationship = 9.251;
+
+    // kelvin_electron_volt_relationship_8617_333_262_e_5_exact
+    // SI Value: eV ±  
+    
+    constexpr double kelvin_electron_volt_relationship_8617_333_262_e_5_exact = eV;
+
+    // kelvin_hartree_relationship
+    // SI Value: 3.1668115634556e-6 ± 0.0000000000061e-6E_h 
+    
+    constexpr double kelvin_hartree_relationship = 3.1668115634556e-6;
+
+    // kelvin_hertz_relationship
+    // SI Value: 2.083661912...e10 ±  (exact) Hz
+    
+    constexpr double kelvin_hertz_relationship = 2.083661912...e10;
+
+    // kelvin_inverse_meter_relationship
+    // SI Value: 69.50348004... ±  (exact) m^-1
+    
+    constexpr double kelvin_inverse_meter_relationship = 69.50348004...;
+
+    // kelvin_joule_relationship
+    // SI Value: 1.380649e-23 ±  (exact) J
+    
+    constexpr double kelvin_joule_relationship = 1.380649e-23;
+
+    // kelvin_kilogram_relationship
+    // SI Value: 1.536179187...e-40 ±  (exact) kg
+    
+    constexpr double kelvin_kilogram_relationship = 1.536179187...e-40;
+
+    // kilogram_atomic_mass_unit_relationship
+    // SI Value: 6.0221407621e26 ± 0.0000000018e26 u
+    
+    constexpr double kilogram_atomic_mass_unit_relationship = 6.0221407621e26;
+
+    // kilogram_electron_volt_relationship_5609_588_603_e35_exact
+    // SI Value: eV ±  
+    
+    constexpr double kilogram_electron_volt_relationship_5609_588_603_e35_exact = eV;
+
+    // kilogram_hartree_relationship
+    // SI Value: 2.0614857887409e34 ± 0.0000000000040e34E_h 
+    
+    constexpr double kilogram_hartree_relationship = 2.0614857887409e34;
+
+    // kilogram_hertz_relationship
+    // SI Value: 1.356392489...e50 ±  (exact) Hz
+    
+    constexpr double kilogram_hertz_relationship = 1.356392489...e50;
+
+    // kilogram_inverse_meter_relationship
+    // SI Value: 4.524438335...e41 ±  (exact) m^-1
+    
+    constexpr double kilogram_inverse_meter_relationship = 4.524438335...e41;
+
+    // kilogram_joule_relationship
+    // SI Value: 8.987551787...e16 ±  (exact) J
+    
+    constexpr double kilogram_joule_relationship = 8.987551787...e16;
+
+    // kilogram_kelvin_relationship
+    // SI Value: 6.509657260...e39 ±  (exact) K
+    
+    constexpr double kilogram_kelvin_relationship = 6.509657260...e39;
 
     // lattice_parameter_of_silicon
-    // SI Value: 5.431 ± 020 m
+    // SI Value: 5.431 ± 020511e-100.000000089e-10 m
     
     // HEP Value: 5431.0 mm (meter to millimeter)
     
     constexpr double lattice_parameter_of_silicon = 5.431;
 
+    // lattice_spacing_of_ideal_Si_220
+    // SI Value: 1.920155716e-10 ± 0.000000032e-10 m
+    
+    // HEP Value: 1.920155716e-07 mm (meter to millimeter)
+    
+    constexpr double lattice_spacing_of_ideal_Si_220 = 1.920155716e-10;
+
+    // Loschmidt_constant_27315_K_100_kPa
+    // SI Value: 2.651645804...e25 ±  (exact) m^-3
+    
+    constexpr double Loschmidt_constant_27315_K_100_kPa = 2.651645804...e25;
+
+    // Loschmidt_constant_27315_K_101325_kPa
+    // SI Value: 2.686780111...e25 ±  (exact) m^-3
+    
+    constexpr double Loschmidt_constant_27315_K_101325_kPa = 2.686780111...e25;
+
+    // luminous
+    // SI Value: efficacy683 ±  (exact) lm W^-1
+    
+    constexpr double luminous = efficacy683;
+
+    // mag_flux_quantum
+    // SI Value: 2.067833848...e-15 ±  (exact) Wb
+    
+    constexpr double mag_flux_quantum = 2.067833848...e-15;
+
     // molar_gas_constant
-    // SI Value: 8.314 ± 462 K^-1
+    // SI Value: 8.314462618... ±  (exact) J mol^-1 K^-1
     
-    // HEP Value: 8.314 1/K (inverse kelvin to kelvin)
-    
-    constexpr double molar_gas_constant = 8.314;
+    constexpr double molar_gas_constant = 8.314462618...;
 
     // molar_mass_constant
-    // SI Value: 0.999 ± 999 mol^-1
+    // SI Value: 0.99999999965e-3 ± 0.00000000030e-3 kg mol^-1
     
-    // HEP Value: 0.999 1/mol (inverse mole to mole)
+    // HEP Value: 5.609588355223844e+29 MeV/c² (kilogram to MeV/c²)
     
-    constexpr double molar_mass_constant = 0.999;
+    constexpr double molar_mass_constant = 0.99999999965e-3;
+
+    // molar_mass_of_carbon_12
+    // SI Value: 11.9999999958e-3 ± 0.0000000036e-3 kg mol^-1
+    
+    // HEP Value: 6.731506026268613e+30 MeV/c² (kilogram to MeV/c²)
+    
+    constexpr double molar_mass_of_carbon_12 = 11.9999999958e-3;
 
     // molar_Planck_constant
-    // SI Value: 3.990 ± 312 mol^-1
+    // SI Value: 3.990312712...e-10 ±  (exact) J Hz^-1 mol^-1
     
-    // HEP Value: 3.99 1/mol (inverse mole to mole)
+    constexpr double molar_Planck_constant = 3.990312712...e-10;
+
+    // molar_volume_of_ideal_gas_27315_K_100_kPa
+    // SI Value: 22.71095464...e-3 ±  (exact) m^3 mol^-1
     
-    constexpr double molar_Planck_constant = 3.990;
+    constexpr double molar_volume_of_ideal_gas_27315_K_100_kPa = 22.71095464...e-3;
+
+    // molar_volume_of_ideal_gas_27315_K_101325_kPa
+    // SI Value: 22.41396954...e-3 ±  (exact) m^3 mol^-1
+    
+    constexpr double molar_volume_of_ideal_gas_27315_K_101325_kPa = 22.41396954...e-3;
 
     // molar_volume_of_silicon
-    // SI Value: 1.205 ± 883 mol^-1
+    // SI Value: 1.205883199e-5 ± 0.000000060e-5 m^3 mol^-1
     
-    // HEP Value: 1.205 1/mol (inverse mole to mole)
+    // HEP Value: 0.01205883199 mm (meter to millimeter)
     
-    constexpr double molar_volume_of_silicon = 1.205;
+    constexpr double molar_volume_of_silicon = 1.205883199e-5;
 
     // Molybdenum_x_unit
-    // SI Value: 1.002 ± 099 m
+    // SI Value: 1.002 ± 09952e-130.00000053e-13 m
     
     // HEP Value: 1002.0 mm (meter to millimeter)
     
     constexpr double Molybdenum_x_unit = 1.002;
 
     // muon_Compton_wavelength
-    // SI Value: 1.173 ± 444 m
+    // SI Value: 1.173444110e-14 ± 0.000000026e-14 m
     
-    // HEP Value: 1173.0 mm (meter to millimeter)
+    // HEP Value: 1.17344411e-11 mm (meter to millimeter)
     
-    constexpr double muon_Compton_wavelength = 1.173;
+    constexpr double muon_Compton_wavelength = 1.173444110e-14;
+
+    // muon_electron_mass_ratio
+    // SI Value: 206.7682830 ± 0.0000046 
+    
+    constexpr double muon_electron_mass_ratio = 206.7682830;
+
+    // muon_g_factor
+    // SI Value: -2.0023318418 ± 0.0000000013 
+    
+    constexpr double muon_g_factor = -2.0023318418;
+
+    // muon_mag_mom
+    // SI Value: -4.49044830e-26 ± 0.00000010e-26 J T^-1
+    
+    // HEP Value: -2.8027173810777875e-13 MeV (joule to MeV)
+    
+    constexpr double muon_mag_mom = -4.49044830e-26;
+
+    // muon_mag_mom_anomaly
+    // SI Value: 1.16592089e-3 ± 0.00000063e-3 
+    
+    constexpr double muon_mag_mom_anomaly = 1.16592089e-3;
+
+    // muon_mag_mom_to_Bohr_magneton_ratio
+    // SI Value: -4.84197047e-3 ± 0.00000011e-3 
+    
+    constexpr double muon_mag_mom_to_Bohr_magneton_ratio = -4.84197047e-3;
+
+    // muon_mag_mom_to_nuclear_magneton_ratio
+    // SI Value: -8.890597 ± 030.00000020 
+    
+    constexpr double muon_mag_mom_to_nuclear_magneton_ratio = -8.890597;
 
     // muon_mass
-    // SI Value: 1.883 ± 531 kg
+    // SI Value: 1.883531627e-28 ± 0.000000042e-28 kg
     
-    // HEP Value: 1.0562854876583498e+33 MeV/c² (kilogram to MeV/c²)
+    // HEP Value: 105658.37085213064 MeV/c² (kilogram to MeV/c²)
     
-    constexpr double muon_mass = 1.883;
+    constexpr double muon_mass = 1.883531627e-28;
 
-    // muon_mass_energy_equivalent
-    // SI Value: 1.692 ± 833 J
+    // muon_mass
+    // SI Value: energyequivalent1.692833804e-11 ± 0.000000038e-11 J
     
-    // HEP Value: 10560633353208.0 MeV (joule to MeV)
-    
-    constexpr double muon_mass_energy_equivalent = 1.692;
+    constexpr double muon_mass = energyequivalent1.692833804e-11;
 
     // muon_mass_energy_equivalent_in_MeV
-    // SI Value: 105.658 ± 3755 
+    // SI Value: 105.6583755 ± 0.0000023 MeV
     
-    constexpr double muon_mass_energy_equivalent_in_MeV = 105.658;
+    constexpr double muon_mass_energy_equivalent_in_MeV = 105.6583755;
 
     // muon_mass_in_u
-    // SI Value: 0.113 ± 428 
+    // SI Value: 0.1134289259 ± 0.0000000025 u
     
-    constexpr double muon_mass_in_u = 0.113;
+    constexpr double muon_mass_in_u = 0.1134289259;
 
     // muon_molar_mass
-    // SI Value: 1.134 ± 289 mol^-1
+    // SI Value: 1.134289259e-4 ± 0.000000025e-4 kg mol^-1
     
-    // HEP Value: 1.134 1/mol (inverse mole to mole)
+    // HEP Value: 6.362895820968896e+28 MeV/c² (kilogram to MeV/c²)
     
-    constexpr double muon_molar_mass = 1.134;
+    constexpr double muon_molar_mass = 1.134289259e-4;
+
+    // muon_neutron_mass_ratio
+    // SI Value: 0.1124545170 ± 0.0000000025 
+    
+    constexpr double muon_neutron_mass_ratio = 0.1124545170;
+
+    // muon_proton_mag_mom_ratio
+    // SI Value: -3.183345142 ± 0.000000071 
+    
+    constexpr double muon_proton_mag_mom_ratio = -3.183345142;
+
+    // muon_proton_mass_ratio
+    // SI Value: 0.1126095264 ± 0.0000000025 
+    
+    constexpr double muon_proton_mass_ratio = 0.1126095264;
+
+    // muon_tau_mass_ratio
+    // SI Value: 5.94635e-2 ± 0.00040e-2 
+    
+    constexpr double muon_tau_mass_ratio = 5.94635e-2;
 
     // natural_unit_of_action
-    // SI Value: 1.054 ± 571 s
+    // SI Value: 1.054571817...e-34 ±  (exact) J s
     
-    // HEP Value: 1054000000.0 ns (second to nanosecond)
-    
-    constexpr double natural_unit_of_action = 1.054;
+    constexpr double natural_unit_of_action = 1.054571817...e-34;
 
-    // natural_unit_of_action_in_eV_s
-    // SI Value: 6.582 ± 119 s
+    // natural_unit_of_action_in_eV_s_6582_119_569_e_16_exact
+    // SI Value: eV ±  s
     
-    // HEP Value: 6582000000.0 ns (second to nanosecond)
-    
-    constexpr double natural_unit_of_action_in_eV_s = 6.582;
+    constexpr double natural_unit_of_action_in_eV_s_6582_119_569_e_16_exact = eV;
 
-    // natural_unit_of_energy
-    // SI Value: 8.187 ± 105 J
+    // natural_unit_of
+    // SI Value: energy8.1871057769e-14 ± 0.0000000025e-14 J
     
-    // HEP Value: 51099234788838.0 MeV (joule to MeV)
-    
-    constexpr double natural_unit_of_energy = 8.187;
+    constexpr double natural_unit_of = energy8.1871057769e-14;
 
     // natural_unit_of_energy_in_MeV
-    // SI Value: 0.510 ± 998 
+    // SI Value: 0.510998950 ± 000.00000000015 MeV
     
-    constexpr double natural_unit_of_energy_in_MeV = 0.510;
+    constexpr double natural_unit_of_energy_in_MeV = 0.510998950;
 
     // natural_unit_of_length
-    // SI Value: 3.861 ± 592 m
+    // SI Value: 3.8615926796e-13 ± 0.0000000012e-13 m
     
-    // HEP Value: 3861.0 mm (meter to millimeter)
+    // HEP Value: 3.8615926796e-10 mm (meter to millimeter)
     
-    constexpr double natural_unit_of_length = 3.861;
+    constexpr double natural_unit_of_length = 3.8615926796e-13;
 
     // natural_unit_of_mass
-    // SI Value: 9.109 ± 383 kg
+    // SI Value: 9.1093837015e-31 ± 0.0000000028e-31 kg
     
-    // HEP Value: 5.1097740345618206e+33 MeV/c² (kilogram to MeV/c²)
+    // HEP Value: 510.9989275308524 MeV/c² (kilogram to MeV/c²)
     
-    constexpr double natural_unit_of_mass = 9.109;
+    constexpr double natural_unit_of_mass = 9.1093837015e-31;
 
     // natural_unit_of_momentum
-    // SI Value: 2.730 ± 924 s^-1
+    // SI Value: 2.73092453075e-22 ± 0.00000000082e-22 kg m s^-1
     
-    // HEP Value: 2.7300000000000003e-09 1/ns (inverse second to nanosecond)
+    // HEP Value: 153193624520.52118 MeV/c² (kilogram to MeV/c²)
     
-    constexpr double natural_unit_of_momentum = 2.730;
+    constexpr double natural_unit_of_momentum = 2.73092453075e-22;
+
+    // natural_unit_of_momentum_in_MeVc
+    // SI Value: 0.510998950 ± 000.00000000015 MeV/c
+    
+    constexpr double natural_unit_of_momentum_in_MeVc = 0.510998950;
 
     // natural_unit_of_time
-    // SI Value: 1.288 ± 088 s
+    // SI Value: 1.288 ± 08866819e-210.00000000039e-21 s
     
     // HEP Value: 1288000000.0 ns (second to nanosecond)
     
     constexpr double natural_unit_of_time = 1.288;
 
     // natural_unit_of_velocity
-    // SI Value: 299 ± 792 s^-1
+    // SI Value: 299792458 ±  (exact) m s^-1
     
-    // HEP Value: 2.99e-07 1/ns (inverse second to nanosecond)
-    
-    constexpr double natural_unit_of_velocity = 299;
+    constexpr double natural_unit_of_velocity = 299792458;
 
     // neutron_Compton_wavelength
-    // SI Value: 1.319 ± 590 m
+    // SI Value: 1.31959090581e-15 ± 0.00000000075e-15 m
     
-    // HEP Value: 1319.0 mm (meter to millimeter)
+    // HEP Value: 1.31959090581e-12 mm (meter to millimeter)
     
-    constexpr double neutron_Compton_wavelength = 1.319;
+    constexpr double neutron_Compton_wavelength = 1.31959090581e-15;
+
+    // neutron_electron_mag_mom_ratio
+    // SI Value: 1.04066882e-3 ± 0.00000025e-3 
+    
+    constexpr double neutron_electron_mag_mom_ratio = 1.04066882e-3;
+
+    // neutron_electron_mass_ratio
+    // SI Value: 1838.68366173 ± 0.00000089 
+    
+    constexpr double neutron_electron_mass_ratio = 1838.68366173;
+
+    // neutron_g_factor
+    // SI Value: -3.826 ± 085450.00000090 
+    
+    constexpr double neutron_g_factor = -3.826;
+
+    // neutron_gyromag_ratio
+    // SI Value: 1.83247171e8 ± 0.00000043e8 s^-1 T^-1
+    
+    // HEP Value: 1.83247171e+17 ns (second to nanosecond)
+    
+    constexpr double neutron_gyromag_ratio = 1.83247171e8;
+
+    // neutron_gyromag_ratio_in_MHzT
+    // SI Value: 29.1646931 ± 0.0000069 MHz T^-1
+    
+    constexpr double neutron_gyromag_ratio_in_MHzT = 29.1646931;
+
+    // neutron_mag_mom
+    // SI Value: -9.6623651e-27 ± 0.0000023e-27 J T^-1
+    
+    // HEP Value: -6.030773944795092e-14 MeV (joule to MeV)
+    
+    constexpr double neutron_mag_mom = -9.6623651e-27;
+
+    // neutron_mag_mom_to_Bohr_magneton_ratio
+    // SI Value: -1.04187563e-3 ± 0.00000025e-3 
+    
+    constexpr double neutron_mag_mom_to_Bohr_magneton_ratio = -1.04187563e-3;
+
+    // neutron_mag_mom_to_nuclear_magneton_ratio
+    // SI Value: -1.913 ± 042730.00000045 
+    
+    constexpr double neutron_mag_mom_to_nuclear_magneton_ratio = -1.913;
 
     // neutron_mass
-    // SI Value: 1.674 ± 927 kg
+    // SI Value: 1.67492749804e-27 ± 0.00000000095e-27 kg
     
-    // HEP Value: 9.390450909931372e+32 MeV/c² (kilogram to MeV/c²)
+    // HEP Value: 939565.379213787 MeV/c² (kilogram to MeV/c²)
     
-    constexpr double neutron_mass = 1.674;
+    constexpr double neutron_mass = 1.67492749804e-27;
 
-    // neutron_mass_energy_equivalent
-    // SI Value: 1.505 ± 349 J
+    // neutron_mass
+    // SI Value: energyequivalent1.50534976287e-10 ± 0.00000000086e-10 J
     
-    // HEP Value: 9393471156370.0 MeV (joule to MeV)
-    
-    constexpr double neutron_mass_energy_equivalent = 1.505;
+    constexpr double neutron_mass = energyequivalent1.50534976287e-10;
 
     // neutron_mass_energy_equivalent_in_MeV
-    // SI Value: 939.565 ± 420 
+    // SI Value: 939.56542052 ± 0.00000054 MeV
     
-    constexpr double neutron_mass_energy_equivalent_in_MeV = 939.565;
+    constexpr double neutron_mass_energy_equivalent_in_MeV = 939.56542052;
 
     // neutron_mass_in_u
-    // SI Value: 1.008 ± 664 
+    // SI Value: 1.00866491595 ± 0.00000000049 u
     
-    constexpr double neutron_mass_in_u = 1.008;
+    constexpr double neutron_mass_in_u = 1.00866491595;
 
     // neutron_molar_mass
-    // SI Value: 1.008 ± 664 mol^-1
+    // SI Value: 1.00866491560e-3 ± 0.00000000057e-3 kg mol^-1
     
-    // HEP Value: 1.008 1/mol (inverse mole to mole)
+    // HEP Value: 5.658194966852969e+29 MeV/c² (kilogram to MeV/c²)
     
-    constexpr double neutron_molar_mass = 1.008;
+    constexpr double neutron_molar_mass = 1.00866491560e-3;
+
+    // neutron_muon_mass_ratio
+    // SI Value: 8.892484 ± 060.00000020 
+    
+    constexpr double neutron_muon_mass_ratio = 8.892484;
+
+    // neutron_proton_mag_mom_ratio
+    // SI Value: -0.68497934 ± 0.00000016 
+    
+    constexpr double neutron_proton_mag_mom_ratio = -0.68497934;
+
+    // neutron_proton_mass_difference
+    // SI Value: 2.30557435e-30 ± 0.00000082e-30 kg
+    
+    // HEP Value: 1293.3323030389445 MeV/c² (kilogram to MeV/c²)
+    
+    constexpr double neutron_proton_mass_difference = 2.30557435e-30;
+
+    // neutron_proton_mass_difference
+    // SI Value: energyequivalent2.07214689e-13 ± 0.00000074e-13 J
+    
+    constexpr double neutron_proton_mass_difference = energyequivalent2.07214689e-13;
+
+    // neutron_proton_mass_difference_energy_equivalent_in_MeV
+    // SI Value: 1.29333236 ± 0.00000046 MeV
+    
+    constexpr double neutron_proton_mass_difference_energy_equivalent_in_MeV = 1.29333236;
+
+    // neutron_proton_mass_difference_in_u
+    // SI Value: 1.38844933e-3 ± 0.00000049e-3 u
+    
+    constexpr double neutron_proton_mass_difference_in_u = 1.38844933e-3;
+
+    // neutron_proton_mass_ratio
+    // SI Value: 1.00137841931 ± 0.00000000049 
+    
+    constexpr double neutron_proton_mass_ratio = 1.00137841931;
 
     // neutron_relative_atomic_mass
-    // SI Value: 1.008 ± 664 
+    // SI Value: 1.00866491595 ± 0.00000000049 
     
-    constexpr double neutron_relative_atomic_mass = 1.008;
+    constexpr double neutron_relative_atomic_mass = 1.00866491595;
+
+    // neutron_tau_mass_ratio
+    // SI Value: 0.528779 ± 0.000036 
+    
+    constexpr double neutron_tau_mass_ratio = 0.528779;
+
+    // neutron_to_shielded_proton_mag_mom_ratio
+    // SI Value: -0.68499694 ± 0.00000016 
+    
+    constexpr double neutron_to_shielded_proton_mag_mom_ratio = -0.68499694;
 
     // Newtonian_constant_of_gravitation
-    // SI Value: 6.674 ± 30 s^-2
+    // SI Value: 6.67430e-11 ± 0.00015e-11 m^3 kg^-1 s^-2
     
-    // HEP Value: 6674000000.0 ns (second to nanosecond)
+    // HEP Value: 6.674299999999999e-08 mm (meter to millimeter)
     
-    constexpr double Newtonian_constant_of_gravitation = 6.674;
+    constexpr double Newtonian_constant_of_gravitation = 6.67430e-11;
+
+    // Newtonian_constant_of_gravitation_over_h_bar_c
+    // SI Value: 6.70883e-39 ± 0.00015e-39 (GeV/c^2)^-2
+    
+    constexpr double Newtonian_constant_of_gravitation_over_h_bar_c = 6.70883e-39;
 
     // nuclear_magneton
-    // SI Value: 5.050 ± 783 T^-1
+    // SI Value: 5.0507837461e-27 ± 0.0000000015e-27 J T^-1
     
-    // HEP Value: 5.05e-10 1/MeV/(eplus*mm²) (inverse tesla to MeV/(eplus*mm²))
+    // HEP Value: 3.152451258209487e-14 MeV (joule to MeV)
     
-    constexpr double nuclear_magneton = 5.050;
+    constexpr double nuclear_magneton = 5.0507837461e-27;
+
+    // nuclear_magneton_in
+    // SI Value: eV/T3.15245125844e-8 ± 0.00000000096e-8eV T^-1
+    
+    constexpr double nuclear_magneton_in = eV/T3.15245125844e-8;
 
     // nuclear_magneton_in_inverse_meter_per_tesla
-    // SI Value: 2.542 ± 623 T^-1
+    // SI Value: 2.54262341353e-2 ± 0.00000000078e-2 m^-1 T^-1
     
-    // HEP Value: 2.542e-10 1/MeV/(eplus*mm²) (inverse tesla to MeV/(eplus*mm²))
+    // HEP Value: 25.4262341353 mm (meter to millimeter)
     
-    constexpr double nuclear_magneton_in_inverse_meter_per_tesla = 2.542;
+    constexpr double nuclear_magneton_in_inverse_meter_per_tesla = 2.54262341353e-2;
+
+    // nuclear_magneton_in_KT
+    // SI Value: 3.6582677756e-4 ± 0.0000000011e-4 K T^-1
+    
+    // HEP Value: 0.00036582677756 K (kelvin to kelvin)
+    
+    constexpr double nuclear_magneton_in_KT = 3.6582677756e-4;
+
+    // nuclear_magneton_in_MHzT
+    // SI Value: 7.6225932291 ± 0.0000000023 MHz T^-1
+    
+    constexpr double nuclear_magneton_in_MHzT = 7.6225932291;
 
     // Planck_constant
-    // SI Value: 6.626 ± 070 Hz^-1
+    // SI Value: 6.62607015e-34 ±  (exact) J Hz^-1
     
-    constexpr double Planck_constant = 6.626;
+    constexpr double Planck_constant = 6.62607015e-34;
+
+    // Planck_constant_in_eVHz_4135_667_696_e_15_exact
+    // SI Value: eV ±  Hz^-1
+    
+    constexpr double Planck_constant_in_eVHz_4135_667_696_e_15_exact = eV;
 
     // Planck_length
-    // SI Value: 1.616 ± 255 m
+    // SI Value: 1.616255e-35 ± 0.000018e-35 m
     
-    // HEP Value: 1616.0 mm (meter to millimeter)
+    // HEP Value: 1.616255e-32 mm (meter to millimeter)
     
-    constexpr double Planck_length = 1.616;
+    constexpr double Planck_length = 1.616255e-35;
 
     // Planck_mass
-    // SI Value: 2.176 ± 434 kg
+    // SI Value: 2.176434e-8 ± 0.000024e-8 kg
     
-    // HEP Value: 1.2206464265239348e+33 MeV/c² (kilogram to MeV/c²)
+    // HEP Value: 1.2208898826586367e+25 MeV/c² (kilogram to MeV/c²)
     
-    constexpr double Planck_mass = 2.176;
+    constexpr double Planck_mass = 2.176434e-8;
 
     // Planck_mass_energy_equivalent_in_GeV
-    // SI Value: 1.220 ± 890 
+    // SI Value: 1.220890e19 ± 0.000014e19 GeV
     
-    constexpr double Planck_mass_energy_equivalent_in_GeV = 1.220;
+    constexpr double Planck_mass_energy_equivalent_in_GeV = 1.220890e19;
 
     // Planck_temperature
-    // SI Value: 1.416 ± 784 K
+    // SI Value: 1.416784e32 ± 0.000016e32 K
     
-    // HEP Value: 1.416 K (kelvin to kelvin)
+    // HEP Value: 1.416784e+32 K (kelvin to kelvin)
     
-    constexpr double Planck_temperature = 1.416;
+    constexpr double Planck_temperature = 1.416784e32;
 
     // Planck_time
-    // SI Value: 5.391 ± 247 s
+    // SI Value: 5.391247e-44 ± 0.000060e-44 s
     
-    // HEP Value: 5391000000.0 ns (second to nanosecond)
+    // HEP Value: 5.391247e-35 ns (second to nanosecond)
     
-    constexpr double Planck_time = 5.391;
+    constexpr double Planck_time = 5.391247e-44;
 
     // proton_charge_to_mass_quotient
-    // SI Value: 9.578 ± 833 kg^-1
+    // SI Value: 9.5788331560e7 ± 0.0000000029e7 C kg^-1
     
-    // HEP Value: 1.7074336635999917e-32 1/MeV/c² (inverse kilogram to MeV/c²)
+    // HEP Value: 5.978637406150606e+26 eplus (coulomb to eplus)
     
-    constexpr double proton_charge_to_mass_quotient = 9.578;
+    constexpr double proton_charge_to_mass_quotient = 9.5788331560e7;
 
     // proton_Compton_wavelength
-    // SI Value: 1.321 ± 409 m
+    // SI Value: 1.32140985539e-15 ± 0.00000000040e-15 m
     
-    // HEP Value: 1321.0 mm (meter to millimeter)
+    // HEP Value: 1.32140985539e-12 mm (meter to millimeter)
     
-    constexpr double proton_Compton_wavelength = 1.321;
+    constexpr double proton_Compton_wavelength = 1.32140985539e-15;
+
+    // proton_electron_mass_ratio
+    // SI Value: 1836.15267343 ± 0.00000011 
+    
+    constexpr double proton_electron_mass_ratio = 1836.15267343;
 
     // proton_g_factor
-    // SI Value: 5.585 ± 694 
+    // SI Value: 5.5856946893 ± 0.0000000016 
     
-    constexpr double proton_g_factor = 5.585;
+    constexpr double proton_g_factor = 5.5856946893;
+
+    // proton_gyromag_ratio
+    // SI Value: 2.6752218744e8 ± 0.0000000011e8 s^-1 T^-1
+    
+    // HEP Value: 2.6752218744e+17 ns (second to nanosecond)
+    
+    constexpr double proton_gyromag_ratio = 2.6752218744e8;
+
+    // proton_gyromag_ratio_in_MHzT
+    // SI Value: 42.577478518 ± 0.000000018 MHz T^-1
+    
+    constexpr double proton_gyromag_ratio_in_MHzT = 42.577478518;
+
+    // proton_mag_mom
+    // SI Value: 1.41060679736e-26 ± 0.00000000060e-26 J T^-1
+    
+    // HEP Value: 8.804315125568518e-14 MeV (joule to MeV)
+    
+    constexpr double proton_mag_mom = 1.41060679736e-26;
+
+    // proton_mag_mom_to_Bohr_magneton_ratio
+    // SI Value: 1.521 ± 03220230e-30.00000000046e-3 
+    
+    constexpr double proton_mag_mom_to_Bohr_magneton_ratio = 1.521;
+
+    // proton_mag_mom_to_nuclear_magneton_ratio
+    // SI Value: 2.79284734463 ± 0.00000000082 
+    
+    constexpr double proton_mag_mom_to_nuclear_magneton_ratio = 2.79284734463;
+
+    // proton_mag_shielding_correction
+    // SI Value: 2.5689e-5 ± 0.0011e-5 
+    
+    constexpr double proton_mag_shielding_correction = 2.5689e-5;
 
     // proton_mass
-    // SI Value: 1.672 ± 621 kg
+    // SI Value: 1.67262192369e-27 ± 0.00000000051e-27 kg
     
-    // HEP Value: 9.379231733216997e+32 MeV/c² (kilogram to MeV/c²)
+    // HEP Value: 938272.0469107481 MeV/c² (kilogram to MeV/c²)
     
-    constexpr double proton_mass = 1.672;
+    constexpr double proton_mass = 1.67262192369e-27;
 
-    // proton_mass_energy_equivalent
-    // SI Value: 1.503 ± 277 J
+    // proton_mass
+    // SI Value: energyequivalent1.50327761598e-10 ± 0.00000000046e-10 J
     
-    // HEP Value: 9380988138222.0 MeV (joule to MeV)
-    
-    constexpr double proton_mass_energy_equivalent = 1.503;
+    constexpr double proton_mass = energyequivalent1.50327761598e-10;
 
     // proton_mass_energy_equivalent_in_MeV
-    // SI Value: 938.272 ± 088 
+    // SI Value: 938.272 ± 088160.00000029 MeV
     
     constexpr double proton_mass_energy_equivalent_in_MeV = 938.272;
 
     // proton_mass_in_u
-    // SI Value: 1.007 ± 276 
+    // SI Value: 1.007276466621 ± 0.000000000053 u
     
-    constexpr double proton_mass_in_u = 1.007;
+    constexpr double proton_mass_in_u = 1.007276466621;
 
     // proton_molar_mass
-    // SI Value: 1.007 ± 276 mol^-1
+    // SI Value: 1.00727646627e-3 ± 0.00000000031e-3 kg mol^-1
     
-    // HEP Value: 1.007 1/mol (inverse mole to mole)
+    // HEP Value: 5.650406337656857e+29 MeV/c² (kilogram to MeV/c²)
     
-    constexpr double proton_molar_mass = 1.007;
+    constexpr double proton_molar_mass = 1.00727646627e-3;
+
+    // proton_muon_mass_ratio
+    // SI Value: 8.88024337 ± 0.00000020 
+    
+    constexpr double proton_muon_mass_ratio = 8.88024337;
+
+    // proton_neutron_mag_mom_ratio
+    // SI Value: -1.459898 ± 050.00000034 
+    
+    constexpr double proton_neutron_mag_mom_ratio = -1.459898;
+
+    // proton_neutron_mass_ratio
+    // SI Value: 0.99862347812 ± 0.00000000049 
+    
+    constexpr double proton_neutron_mass_ratio = 0.99862347812;
 
     // proton_relative_atomic_mass
-    // SI Value: 1.007 ± 276 
+    // SI Value: 1.007276466621 ± 0.000000000053 
     
-    constexpr double proton_relative_atomic_mass = 1.007;
+    constexpr double proton_relative_atomic_mass = 1.007276466621;
+
+    // proton_rms_charge_radius
+    // SI Value: 8.414e-16 ± 0.019e-16 m
+    
+    // HEP Value: 8.414e-13 mm (meter to millimeter)
+    
+    constexpr double proton_rms_charge_radius = 8.414e-16;
+
+    // proton_tau_mass_ratio
+    // SI Value: 0.528 ± 0510.000036 
+    
+    constexpr double proton_tau_mass_ratio = 0.528;
 
     // quantum_of_circulation
-    // SI Value: 3.636 ± 947 s^-1
+    // SI Value: 3.6369475516e-4 ± 0.0000000011e-4 m^2 s^-1
     
-    // HEP Value: 3.6360000000000003e-09 1/ns (inverse second to nanosecond)
+    // HEP Value: 0.36369475516 mm (meter to millimeter)
     
-    constexpr double quantum_of_circulation = 3.636;
+    constexpr double quantum_of_circulation = 3.6369475516e-4;
 
     // quantum_of_circulation_times
-    // SI Value: 2 ± 7.273 s^-1
+    // SI Value: 27.2738951032e-4 ± 0.0000000022e-4 m^2 s^-1
     
-    // HEP Value: 2e-09 1/ns (inverse second to nanosecond)
+    // HEP Value: 2.72738951032 mm (meter to millimeter)
     
-    constexpr double quantum_of_circulation_times = 2;
+    constexpr double quantum_of_circulation_times = 27.2738951032e-4;
 
     // reduced_Compton_wavelength
-    // SI Value: 3.861 ± 592 m
+    // SI Value: 3.8615926796e-13 ± 0.0000000012e-13 m
     
-    // HEP Value: 3861.0 mm (meter to millimeter)
+    // HEP Value: 3.8615926796e-10 mm (meter to millimeter)
     
-    constexpr double reduced_Compton_wavelength = 3.861;
+    constexpr double reduced_Compton_wavelength = 3.8615926796e-13;
 
     // reduced_muon_Compton_wavelength
-    // SI Value: 1.867 ± 594 m
+    // SI Value: 1.867594306e-15 ± 0.000000042e-15 m
     
-    // HEP Value: 1867.0 mm (meter to millimeter)
+    // HEP Value: 1.867594306e-12 mm (meter to millimeter)
     
-    constexpr double reduced_muon_Compton_wavelength = 1.867;
+    constexpr double reduced_muon_Compton_wavelength = 1.867594306e-15;
 
     // reduced_neutron_Compton_wavelength
-    // SI Value: 2.100 ± 194 m
+    // SI Value: 2.1001941552e-16 ± 0.0000000012e-16 m
     
-    // HEP Value: 2100.0 mm (meter to millimeter)
+    // HEP Value: 2.1001941552e-13 mm (meter to millimeter)
     
-    constexpr double reduced_neutron_Compton_wavelength = 2.100;
+    constexpr double reduced_neutron_Compton_wavelength = 2.1001941552e-16;
 
     // reduced_Planck_constant
-    // SI Value: 1.054 ± 571 s
+    // SI Value: 1.054571817...e-34 ±  (exact) J s
     
-    // HEP Value: 1054000000.0 ns (second to nanosecond)
-    
-    constexpr double reduced_Planck_constant = 1.054;
+    constexpr double reduced_Planck_constant = 1.054571817...e-34;
 
-    // reduced_Planck_constant_in_eV_s
-    // SI Value: 6.582 ± 119 s
+    // reduced_Planck_constant_in_eV_s_6582_119_569_e_16_exact
+    // SI Value: eV ±  s
     
-    // HEP Value: 6582000000.0 ns (second to nanosecond)
-    
-    constexpr double reduced_Planck_constant_in_eV_s = 6.582;
+    constexpr double reduced_Planck_constant_in_eV_s_6582_119_569_e_16_exact = eV;
 
     // reduced_Planck_constant_times_c_in_MeV_fm
-    // SI Value: 197.326 ± 980 
+    // SI Value: 197.3269804... ±  (exact) MeV fm
     
-    constexpr double reduced_Planck_constant_times_c_in_MeV_fm = 197.326;
+    constexpr double reduced_Planck_constant_times_c_in_MeV_fm = 197.3269804...;
 
     // reduced_proton_Compton_wavelength
-    // SI Value: 2.103 ± 089 m
+    // SI Value: 2.103 ± 08910336e-160.00000000064e-16 m
     
     // HEP Value: 2103.0 mm (meter to millimeter)
     
     constexpr double reduced_proton_Compton_wavelength = 2.103;
 
     // reduced_tau_Compton_wavelength
-    // SI Value: 1.110 ± 538 m
+    // SI Value: 1.110538e-16 ± 0.000075e-16 m
     
-    // HEP Value: 1110.0 mm (meter to millimeter)
+    // HEP Value: 1.110538e-13 mm (meter to millimeter)
     
-    constexpr double reduced_tau_Compton_wavelength = 1.110;
+    constexpr double reduced_tau_Compton_wavelength = 1.110538e-16;
 
     // Rydberg_constant
-    // SI Value: 10 ± 973 m^-1
+    // SI Value: 10973731.568160 ± 0.000021 m^-1
     
-    // HEP Value: 0.01 1/mm (inverse meter to millimeter)
+    // HEP Value: 10973.73156816 1/mm (inverse meter to millimeter)
     
-    constexpr double Rydberg_constant = 10;
+    constexpr double Rydberg_constant = 10973731.568160;
 
     // Rydberg_constant_times_c_in_Hz
-    // SI Value: 3.289 ± 841 
+    // SI Value: 3.2898419602508e15 ± 0.0000000000064e15 Hz
     
-    constexpr double Rydberg_constant_times_c_in_Hz = 3.289;
+    constexpr double Rydberg_constant_times_c_in_Hz = 3.2898419602508e15;
 
-    // Rydberg_constant_times_hc_in_eV
-    // SI Value: 13.605 ± 693 
+    // Rydberg_constant_times_hc_in
+    // SI Value: eV13.605693122994 ± 0.000000000026eV 
     
-    constexpr double Rydberg_constant_times_hc_in_eV = 13.605;
+    constexpr double Rydberg_constant_times_hc_in = eV13.605693122994;
 
     // Rydberg_constant_times_hc_in_J
-    // SI Value: 2.179 ± 872 J
+    // SI Value: 2.1798723611035e-18 ± 0.0000000000042e-18 J
     
-    // HEP Value: 13600248272245.998 MeV (joule to MeV)
+    // HEP Value: 1.3605693121989299e-05 MeV (joule to MeV)
     
-    constexpr double Rydberg_constant_times_hc_in_J = 2.179;
+    constexpr double Rydberg_constant_times_hc_in_J = 2.1798723611035e-18;
+
+    // Sackur_Tetrode_constant_1_K_100_kPa
+    // SI Value: -1.151707537 ± 060.00000000045 
+    
+    constexpr double Sackur_Tetrode_constant_1_K_100_kPa = -1.151707537;
+
+    // Sackur_Tetrode_constant_1_K_101325_kPa
+    // SI Value: -1.16487052358 ± 0.00000000045 
+    
+    constexpr double Sackur_Tetrode_constant_1_K_101325_kPa = -1.16487052358;
 
     // second_radiation_constant
-    // SI Value: 1.438 ± 776 K
+    // SI Value: 1.438776877...e-2 ±  (exact) m K
     
-    // HEP Value: 1.438 K (kelvin to kelvin)
+    constexpr double second_radiation_constant = 1.438776877...e-2;
+
+    // shielded_helion_gyromag_ratio
+    // SI Value: 2.037894569e8 ± 0.000000024e8 s^-1 T^-1
     
-    constexpr double second_radiation_constant = 1.438;
+    // HEP Value: 2.037894569e+17 ns (second to nanosecond)
+    
+    constexpr double shielded_helion_gyromag_ratio = 2.037894569e8;
+
+    // shielded_helion_gyromag_ratio_in_MHzT
+    // SI Value: 32.434 ± 099420.00000038 MHz T^-1
+    
+    constexpr double shielded_helion_gyromag_ratio_in_MHzT = 32.434;
+
+    // shielded_helion_mag_mom
+    // SI Value: -1.074553090e-26 ± 0.000000013e-26 J T^-1
+    
+    // HEP Value: -6.706832861729739e-14 MeV (joule to MeV)
+    
+    constexpr double shielded_helion_mag_mom = -1.074553090e-26;
+
+    // shielded_helion_mag_mom_to_Bohr_magneton_ratio
+    // SI Value: -1.158671471e-3 ± 0.000000014e-3 
+    
+    constexpr double shielded_helion_mag_mom_to_Bohr_magneton_ratio = -1.158671471e-3;
+
+    // shielded_helion_mag_mom_to_nuclear_magneton_ratio
+    // SI Value: -2.127497719 ± 0.000000025 
+    
+    constexpr double shielded_helion_mag_mom_to_nuclear_magneton_ratio = -2.127497719;
+
+    // shielded_helion_to_proton_mag_mom_ratio
+    // SI Value: -0.7617665618 ± 0.0000000089 
+    
+    constexpr double shielded_helion_to_proton_mag_mom_ratio = -0.7617665618;
+
+    // shielded_helion_to_shielded_proton_mag_mom_ratio
+    // SI Value: -0.7617861313 ± 0.0000000033 
+    
+    constexpr double shielded_helion_to_shielded_proton_mag_mom_ratio = -0.7617861313;
+
+    // shielded_proton_gyromag_ratio
+    // SI Value: 2.675153151e8 ± 0.000000029e8 s^-1 T^-1
+    
+    // HEP Value: 2.675153151e+17 ns (second to nanosecond)
+    
+    constexpr double shielded_proton_gyromag_ratio = 2.675153151e8;
+
+    // shielded_proton_gyromag_ratio_in_MHzT
+    // SI Value: 42.57638474 ± 0.00000046 MHz T^-1
+    
+    constexpr double shielded_proton_gyromag_ratio_in_MHzT = 42.57638474;
+
+    // shielded_proton_mag_mom
+    // SI Value: 1.410570560e-26 ± 0.000000015e-26 J T^-1
+    
+    // HEP Value: 8.804088949757262e-14 MeV (joule to MeV)
+    
+    constexpr double shielded_proton_mag_mom = 1.410570560e-26;
+
+    // shielded_proton_mag_mom_to_Bohr_magneton_ratio
+    // SI Value: 1.520993128e-3 ± 0.000000017e-3 
+    
+    constexpr double shielded_proton_mag_mom_to_Bohr_magneton_ratio = 1.520993128e-3;
+
+    // shielded_proton_mag_mom_to_nuclear_magneton_ratio
+    // SI Value: 2.792775599 ± 0.000000030 
+    
+    constexpr double shielded_proton_mag_mom_to_nuclear_magneton_ratio = 2.792775599;
+
+    // shielding_difference_of_d_and_p_in_HD
+    // SI Value: 2.0200e-8 ± 0.0020e-8 
+    
+    constexpr double shielding_difference_of_d_and_p_in_HD = 2.0200e-8;
+
+    // shielding_difference_of_t_and_p_in_HT
+    // SI Value: 2.4140e-8 ± 0.0020e-8 
+    
+    constexpr double shielding_difference_of_t_and_p_in_HT = 2.4140e-8;
 
     // speed_of_light_in_vacuum
-    // SI Value: 299 ± 792 s^-1
+    // SI Value: 299792458 ±  (exact) m s^-1
     
-    // HEP Value: 2.99e-07 1/ns (inverse second to nanosecond)
-    
-    constexpr double speed_of_light_in_vacuum = 299;
+    constexpr double speed_of_light_in_vacuum = 299792458;
 
     // standard_acceleration_of_gravity
-    // SI Value: 9.806 ± 65 s^-2
+    // SI Value: 9.80665 ±  (exact) m s^-2
     
-    // HEP Value: 9806000000.0 ns (second to nanosecond)
-    
-    constexpr double standard_acceleration_of_gravity = 9.806;
+    constexpr double standard_acceleration_of_gravity = 9.80665;
 
     // standard_atmosphere
-    // SI Value: 101 ± 325 
+    // SI Value: 101325 ±  (exact) Pa
     
-    constexpr double standard_atmosphere = 101;
+    constexpr double standard_atmosphere = 101325;
+
+    // standard_state_pressure
+    // SI Value: 100000 ±  (exact) Pa
+    
+    constexpr double standard_state_pressure = 100000;
+
+    // Stefan_Boltzmann_constant
+    // SI Value: 5.670374419...e-8 ±  (exact) W m^-2 K^-4
+    
+    constexpr double Stefan_Boltzmann_constant = 5.670374419...e-8;
 
     // tau_Compton_wavelength
-    // SI Value: 6.977 ± 71 m
+    // SI Value: 6.97771e-16 ± 0.00047e-16 m
     
-    // HEP Value: 6977.0 mm (meter to millimeter)
+    // HEP Value: 6.97771e-13 mm (meter to millimeter)
     
-    constexpr double tau_Compton_wavelength = 6.977;
+    constexpr double tau_Compton_wavelength = 6.97771e-16;
 
-    // tau_energy_equivalent
-    // SI Value: 1776.86 ± 0.12 
+    // tau_electron_mass_ratio
+    // SI Value: 3477.23 ± 0.23 
     
-    constexpr double tau_energy_equivalent = 1776.86;
+    constexpr double tau_electron_mass_ratio = 3477.23;
+
+    // tau
+    // SI Value: energyequivalent1776.86 ± 0.12 MeV
+    
+    constexpr double tau = energyequivalent1776.86;
 
     // tau_mass
-    // SI Value: 3.167 ± 54 kg
+    // SI Value: 3.16754e-27 ± 0.00021e-27 kg
     
-    // HEP Value: 1.7765566327211862e+33 MeV/c² (kilogram to MeV/c²)
+    // HEP Value: 1776859.5504924743 MeV/c² (kilogram to MeV/c²)
     
-    constexpr double tau_mass = 3.167;
+    constexpr double tau_mass = 3.16754e-27;
 
-    // tau_mass_energy_equivalent
-    // SI Value: 2.846 ± 84 J
+    // tau_mass
+    // SI Value: energyequivalent2.84684e-10 ± 0.00019e-10 J
     
-    // HEP Value: 17763334824604.0 MeV (joule to MeV)
-    
-    constexpr double tau_mass_energy_equivalent = 2.846;
+    constexpr double tau_mass = energyequivalent2.84684e-10;
 
     // tau_mass_in_u
-    // SI Value: 1.907 ± 54 
+    // SI Value: 1.90754 ± 0.00013 u
     
-    constexpr double tau_mass_in_u = 1.907;
+    constexpr double tau_mass_in_u = 1.90754;
 
     // tau_molar_mass
-    // SI Value: 1.907 ± 54 mol^-1
+    // SI Value: 1.90754e-3 ± 0.00013e-3 kg mol^-1
     
-    // HEP Value: 1.907 1/mol (inverse mole to mole)
+    // HEP Value: 1.0700514174868871e+30 MeV/c² (kilogram to MeV/c²)
     
-    constexpr double tau_molar_mass = 1.907;
+    constexpr double tau_molar_mass = 1.90754e-3;
+
+    // tau_muon_mass_ratio
+    // SI Value: 16.8170 ± 0.0011 
+    
+    constexpr double tau_muon_mass_ratio = 16.8170;
+
+    // tau_neutron_mass_ratio
+    // SI Value: 1.89115 ± 0.00013 
+    
+    constexpr double tau_neutron_mass_ratio = 1.89115;
+
+    // tau_proton_mass_ratio
+    // SI Value: 1.89376 ± 0.00013 
+    
+    constexpr double tau_proton_mass_ratio = 1.89376;
 
     // Thomson_cross_section
-    // SI Value: 6.652 ± 458 m^2
+    // SI Value: 6.6524587321e-29 ± 0.0000000060e-29 m^2
     
-    // HEP Value: 6652.0 mm² (meter to millimeter squared)
+    // HEP Value: 6.652458732100001e-26 mm² (meter to millimeter squared)
     
-    constexpr double Thomson_cross_section = 6.652;
+    constexpr double Thomson_cross_section = 6.6524587321e-29;
+
+    // triton_electron_mass_ratio
+    // SI Value: 5496.92153573 ± 0.00000027 
+    
+    constexpr double triton_electron_mass_ratio = 5496.92153573;
 
     // triton_g_factor
-    // SI Value: 5.957 ± 924 
+    // SI Value: 5.957924931 ± 0.000000012 
     
-    constexpr double triton_g_factor = 5.957;
+    constexpr double triton_g_factor = 5.957924931;
+
+    // triton_mag_mom
+    // SI Value: 1.5046095202e-26 ± 0.0000000030e-26 J T^-1
+    
+    // HEP Value: 9.391033973155086e-14 MeV (joule to MeV)
+    
+    constexpr double triton_mag_mom = 1.5046095202e-26;
+
+    // triton_mag_mom_to_Bohr_magneton_ratio
+    // SI Value: 1.6223936651e-3 ± 0.0000000032e-3 
+    
+    constexpr double triton_mag_mom_to_Bohr_magneton_ratio = 1.6223936651e-3;
+
+    // triton_mag_mom_to_nuclear_magneton_ratio
+    // SI Value: 2.9789624656 ± 0.0000000059 
+    
+    constexpr double triton_mag_mom_to_nuclear_magneton_ratio = 2.9789624656;
 
     // triton_mass
-    // SI Value: 5.007 ± 356 kg
+    // SI Value: 5.0073567446e-27 ± 0.0000000015e-27 kg
     
-    // HEP Value: 2.808720890443631e+33 MeV/c² (kilogram to MeV/c²)
+    // HEP Value: 2808921.009479096 MeV/c² (kilogram to MeV/c²)
     
-    constexpr double triton_mass = 5.007;
+    constexpr double triton_mass = 5.0073567446e-27;
 
-    // triton_mass_energy_equivalent
-    // SI Value: 4.500 ± 387 J
+    // triton_mass
+    // SI Value: energyequivalent4.5003878060e-10 ± 0.0000000014e-10 J
     
-    // HEP Value: 28086790833000.0 MeV (joule to MeV)
-    
-    constexpr double triton_mass_energy_equivalent = 4.500;
+    constexpr double triton_mass = energyequivalent4.5003878060e-10;
 
     // triton_mass_energy_equivalent_in_MeV
-    // SI Value: 2808.921 ± 132 
+    // SI Value: 2808.92113298 ± 0.00000085 MeV
     
-    constexpr double triton_mass_energy_equivalent_in_MeV = 2808.921;
+    constexpr double triton_mass_energy_equivalent_in_MeV = 2808.92113298;
 
     // triton_mass_in_u
-    // SI Value: 3.015 ± 500 
+    // SI Value: 3.01550071621 ± 0.00000000012 u
     
-    constexpr double triton_mass_in_u = 3.015;
+    constexpr double triton_mass_in_u = 3.01550071621;
 
     // triton_molar_mass
-    // SI Value: 3.015 ± 500 mol^-1
+    // SI Value: 3.01550071517e-3 ± 0.00000000092e-3 kg mol^-1
     
-    // HEP Value: 3.015 1/mol (inverse mole to mole)
+    // HEP Value: 1.6915717702907308e+30 MeV/c² (kilogram to MeV/c²)
     
-    constexpr double triton_molar_mass = 3.015;
+    constexpr double triton_molar_mass = 3.01550071517e-3;
+
+    // triton_proton_mass_ratio
+    // SI Value: 2.993717 ± 034140.00000000015 
+    
+    constexpr double triton_proton_mass_ratio = 2.993717;
 
     // triton_relative_atomic_mass
-    // SI Value: 3.015 ± 500 
+    // SI Value: 3.01550071621 ± 0.00000000012 
     
-    constexpr double triton_relative_atomic_mass = 3.015;
+    constexpr double triton_relative_atomic_mass = 3.01550071621;
+
+    // triton_to_proton_mag_mom_ratio
+    // SI Value: 1.0666399191 ± 0.0000000021 
+    
+    constexpr double triton_to_proton_mag_mom_ratio = 1.0666399191;
 
     // unified_atomic_mass_unit
-    // SI Value: 1.660 ± 539 kg
+    // SI Value: 1.660539 ± 06660e-270.00000000050e-27 kg
     
-    // HEP Value: 9.311916672930751e+32 MeV/c² (kilogram to MeV/c²)
+    // HEP Value: 9.314940241055276e+32 MeV/c² (kilogram to MeV/c²)
     
-    constexpr double unified_atomic_mass_unit = 1.660;
+    constexpr double unified_atomic_mass_unit = 1.660539;
 
     // vacuum_electric_permittivity
-    // SI Value: 8.854 ± 187 m^-1
+    // SI Value: 8.8541878128e-12 ± 0.0000000013e-12 F m^-1
     
-    // HEP Value: 0.008853999999999999 1/mm (inverse meter to millimeter)
+    constexpr double vacuum_electric_permittivity = 8.8541878128e-12;
+
+    // vacuum_mag_permeability
+    // SI Value: 1.256637 ± 06212e-60.00000000019e-6 N A^-2
     
-    constexpr double vacuum_electric_permittivity = 8.854;
+    constexpr double vacuum_mag_permeability = 1.256637;
 
     // von_Klitzing_constant
-    // SI Value: 25 ± 812.807 
+    // SI Value: 25812.80745... ±  (exact) ohm
     
-    constexpr double von_Klitzing_constant = 25;
+    constexpr double von_Klitzing_constant = 25812.80745...;
 
     // weak_mixing_angle
-    // SI Value: 0.222 ± 90 
+    // SI Value: 0.22290 ± 0.00030 
     
-    constexpr double weak_mixing_angle = 0.222;
+    constexpr double weak_mixing_angle = 0.22290;
 
     // Wien_frequency_displacement_law_constant
-    // SI Value: 5.878 ± 925 K^-1
+    // SI Value: 5.878925757...e10 ±  (exact) Hz K^-1
     
-    // HEP Value: 5.878 1/K (inverse kelvin to kelvin)
-    
-    constexpr double Wien_frequency_displacement_law_constant = 5.878;
+    constexpr double Wien_frequency_displacement_law_constant = 5.878925757...e10;
 
     // Wien_wavelength_displacement_law_constant
-    // SI Value: 2.897 ± 771 K
+    // SI Value: 2.897771955...e-3 ±  (exact) m K
     
-    // HEP Value: 2.897 K (kelvin to kelvin)
-    
-    constexpr double Wien_wavelength_displacement_law_constant = 2.897;
+    constexpr double Wien_wavelength_displacement_law_constant = 2.897771955...e-3;
 
     // W_to_Z_mass_ratio
-    // SI Value: 0.881 ± 53 
+    // SI Value: 0.88153 ± 0.00017 
     
-    constexpr double W_to_Z_mass_ratio = 0.881;
+    constexpr double W_to_Z_mass_ratio = 0.88153;
 
 
 } // namespace codata2018

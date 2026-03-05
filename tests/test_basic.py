@@ -28,10 +28,14 @@ Planck_constant 6.62607015e-34 0
         # Parse the file
         constants = parse_codata_file(Path(temp_file))
         
-        # Verify results
+        # Verify results (new format includes unit and hep_unit)
         assert len(constants) == 2
-        assert constants[0] == ('speed_of_light', '299792458', '0')
-        assert constants[1] == ('Planck_constant', '6.62607015e-34', '0')
+        assert constants[0][0] == 'speed_of_light'
+        assert constants[0][1] == '299792458'
+        assert constants[0][2] == '0'
+        assert constants[1][0] == 'Planck_constant'
+        assert constants[1][1] == '6.62607015e-34'
+        assert constants[1][2] == '0'
         
         print("✓ parse_codata_file test passed")
         
@@ -63,7 +67,7 @@ constexpr double {{ name }} = {{ value }};
     
     try:
         # Generate header
-        generate_cpp_header(constants, Path(template_file), Path(output_file))
+        generate_cpp_header(constants, Path(template_file), Path(output_file), "2010")
         
         # Read and verify output
         with open(output_file, 'r') as f:

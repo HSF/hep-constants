@@ -33,38 +33,111 @@ def parse_codata_file(file_path: Path) -> List[Tuple[str, str, str, Optional[str
             if 'Quantity' in line or 'Value' in line or 'Unit' in line:
                 continue
             
-            # Parse the line - CODATA format has name followed by value and uncertainty
-            # The name is the first sequence of non-whitespace characters
+            # CODATA format: name, then value (space-separated digits), then uncertainty (space-separated digits), then unit
+            # Example: "alpha particle mass                                         6.644 656 75 e-27        0.000 000 29 e-27        kg"
+            
+            # Use a more robust approach to parse CODATA format
+            # The format is: name, value (space-separated digits), uncertainty (space-separated digits), unit
+            
+            # Split the line into parts
             parts = line.split()
-            if len(parts) >= 3:
-                # Extract name (may contain spaces, so we need to be careful)
-                # Look for the pattern: name followed by numeric values
-                name_match = re.match(r'^([\w\s]+?)\s+([\d\.]+)\s+([\d\.]+)', line)
-                if name_match:
-                    name = name_match.group(1).strip()
-                    value = name_match.group(2)
-                    uncertainty = name_match.group(3)
+            
+            # Find where numeric data ends and unit begins
+            # Work backwards to find the last numeric part
+            last_numeric_idx = -1
+            for i in range(len(parts)-1, -1, -1):
+                if re.match(r'^\d|\.|\+|-|e|E', parts[i]):
+                    last_numeric_idx = i
+                    break
+            
+            if last_numeric_idx == -1:
+                continue
+            
+            # The unit starts after the last numeric part
+            unit_parts = parts[last_numeric_idx + 1:]
+            numeric_parts = parts[:last_numeric_idx + 1]
+            
+            # Find where the numeric data actually starts (separate from name)
+            # Work backwards through numeric_parts to find the start of numeric data
+            numeric_start = 0
+            for i in range(len(numeric_parts)-1, -1, -1):
+                if not re.match(r'^\d|\.|\+|-|e|E', numeric_parts[i]):
+                    numeric_start = i + 1
+                    break
+            
+            if numeric_start >= len(numeric_parts):
+                continue
+            
+            # Extract components
+            name_parts = numeric_parts[:numeric_start]
+            numeric_data = numeric_parts[numeric_start:]
+            unit = ' '.join(unit_parts) if unit_parts else None
+            name = ' '.join(name_parts).strip()
+            
+            # Find where value ends and uncertainty begins
+            # The uncertainty typically starts with "0." and has many zeros
+            split_idx = len(numeric_data)
+            
+            # First, check if this might be an exact value (no uncertainty)
+            # If the unit contains "(exact)" or similar, there might be no uncertainty
+            if unit and any(word in unit.lower() for word in ['(exact)', 'exact', '(defined)']):
+                # For exact values, all numeric data is the value
+                split_idx = len(numeric_data)
+            else:
+                for i in range(1, len(numeric_data)):
+                    # Look for the pattern that indicates uncertainty start
+                    if re.match(r'^0\.0+', numeric_data[i]):
+                        split_idx = i
+                        break
+                    # If we see "e" followed by digits, that's part of the exponent
+                    if i > 0 and re.match(r'^e|E', numeric_data[i]) and re.match(r'^\d', numeric_data[i-1]):
+                        continue
+                    # Improved heuristic: look for patterns that indicate uncertainty
+                    # Uncertainty often starts with a single digit or has many leading zeros
+                    if (len(numeric_data[i]) == 1 and re.match(r'^\d', numeric_data[i])) or \
+                       (len(numeric_data[i]) <= 3 and re.match(r'^0+', numeric_data[i])):
+                        # But make sure this isn't part of an exponent or middle of a number
+                        if i == len(numeric_data) - 1 or not re.match(r'^\d', numeric_data[i+1]):
+                            continue
+                        split_idx = i
+                        break
+                
+                if split_idx == len(numeric_data):
+                    # If we couldn't find a good split, try to find where the pattern changes
+                    # Look for the first occurrence of "0." pattern or "("
+                    for i in range(1, len(numeric_data)):
+                        if numeric_data[i].startswith('0') or numeric_data[i].startswith('('):
+                            split_idx = i
+                            break
                     
-                    # Extract unit from the line
-                    unit = parse_unit_from_codata_line(line)
-                    
-                    # Convert to HEP units if possible
-                    hep_unit_info = None
-                    if unit:
-                        try:
-                            si_value = float(value.replace(' ', ''))
-                            hep_conversion = convert_si_to_hep(si_value, unit)
-                            if hep_conversion:
-                                hep_value, hep_unit, conversion_desc = hep_conversion
-                                hep_unit_info = f"{hep_value} {hep_unit} ({conversion_desc})"
-                        except ValueError:
-                            pass
-                    
-                    # Clean up name by replacing spaces and special characters
-                    name = re.sub(r'[\s\-]', '_', name)
-                    name = re.sub(r'[^\w]', '', name)
-                    
-                    constants.append((name, value, uncertainty, unit, hep_unit_info))
+                    if split_idx == len(numeric_data):
+                        # Last resort: use a simple heuristic but avoid splitting too early
+                        split_idx = max(2, len(numeric_data) // 2)
+            
+            # Reconstruct value and uncertainty by removing spaces
+            value_parts = numeric_data[:split_idx]
+            uncertainty_parts = numeric_data[split_idx:]
+            
+            value = ''.join(value_parts)
+            uncertainty = ''.join(uncertainty_parts)
+            
+            # Clean up name
+            name = re.sub(r'[\s\-]', '_', name)
+            name = re.sub(r'[^\w]', '', name)
+            
+            # Convert to HEP units if possible
+            hep_unit_info = None
+            if unit:
+                try:
+                    si_value = float(value)
+                    hep_conversion = convert_si_to_hep(si_value, unit)
+                    if hep_conversion:
+                        hep_value, hep_unit, conversion_desc = hep_conversion
+                        hep_unit_info = f"{hep_value} {hep_unit} ({conversion_desc})"
+                except ValueError:
+                    pass
+            
+            constants.append((name, value, uncertainty, unit, hep_unit_info))
     
     return constants
 
