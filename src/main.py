@@ -48,32 +48,30 @@ def parse_codata_file(file_path: Path) -> List[Tuple[str, str, str, Optional[str
             # Each piece is separated **by at least 2 spaces** which is the key to the regexp
             # match below
             # Example: "alpha particle mass                                         6.644 656 75 e-27        0.000 000 29 e-27        kg"
-            pieces = re.match(r"(?P<quantity>[\w\.\/\-\{\}\(\)\, ]+?)\s{2,}(?P<value>[e\d\-\. ]+?)\s{2,}(?P<uncertainty>[\d\-\.e ]+?|\(exact\))\s{2,}(?P<units>[\w\-\.\^\(\)/ ]+?)?\s*$", line)
-            if pieces == None:
-                logging.error(f"Failed to parse this CODATA line:\n{line}")
+            pieces = re.split(r"\s{2,}", line)
+            if len(pieces) < 3 or len(pieces) > 4:
+                logging.warning(f"Got an unexpected number of splits from this CODATA line:\n{line}")
                 continue
 
             # Convert the name into a valid C++ identifier
             # Remove spaces and underscores
-            codata_cpp_name = re.sub(r'[\s\-]', '_', pieces.group("quantity")).strip()
+            codata_cpp_name = re.sub(r'[\s\-]', '_', pieces[0]).strip()
             # Remove non-word characters
             codata_cpp_name = re.sub(r'[^\w_]', '', codata_cpp_name)
 
             # Change the value into a valid C++ numerical value
-            codata_value = re.sub(r'\s', '', pieces.group("value"))
+            codata_value = re.sub(r'\s', '', pieces[1])
             # Remove training ellipsis
-            codata_value = codata_value.rstrip(".")
+            codata_value = re.sub(r"\.\.\.", "", codata_value)
 
             # Uncertainty
-            codata_uncertainty = re.sub(r'\s', '', pieces.group("uncertainty"))
-            if re.search(r"\s", codata_uncertainty):
-                logging.warning(f"CODATA uncertainty still has spaces: '{codata_uncertainty}'")
+            codata_uncertainty = re.sub(r'\s', '', pieces[2])
 
             # Units
-            if pieces.group("units"):
-                codata_units = pieces.group("units").strip()
+            if len(pieces) == 4:
+                codata_units = pieces[3]
             else:
-                codata_units = "none"
+                codata_units = ""
             
             # Convert to HEP units if possible
             hep_unit_info = None
@@ -90,7 +88,7 @@ def parse_codata_file(file_path: Path) -> List[Tuple[str, str, str, Optional[str
             # print(f":{codata_uncertainty}:")
             constants.append((codata_cpp_name, codata_value, codata_uncertainty, codata_units, hep_unit_info))
     
-    print(constants)
+    # print(constants)
     return constants
 
 

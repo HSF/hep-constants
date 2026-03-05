@@ -9,7 +9,7 @@ namespace {{ namespace }} {
 
 {% for name, value, uncertainty, unit, hep_unit in constants %}
     // {{ name }}
-    // CODATA Value: {{ value }} ± {{ uncertainty -}} {{- unit if unit else '' }}
+    // CODATA Value: {{ value }} ± {{ uncertainty }} {{ unit if unit else '' }}
     constexpr double {{ name }} = {{ value }};
 {% endfor %}
 

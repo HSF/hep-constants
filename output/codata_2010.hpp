@@ -9,1343 +9,1343 @@ namespace codata2010 {
 
 
     // 220_lattice_spacing_of_silicon
-    // CODATA Value: 192.0155714e-12 ± 0.0000032e-12m
+    // CODATA Value: 192.0155714e-12 ± 0.0000032e-12 m
     constexpr double 220_lattice_spacing_of_silicon = 192.0155714e-12;
 
     // alpha_particle_electron_mass_ratio
-    // CODATA Value: 7294.2995361 ± 0.000 0029
+    // CODATA Value: 7294.2995361 ± 0.0000029 
     constexpr double alpha_particle_electron_mass_ratio = 7294.2995361;
 
     // alpha_particle_mass
-    // CODATA Value: 6.64465675e-27 ± 0.00000029e-27kg
+    // CODATA Value: 6.64465675e-27 ± 0.00000029e-27 kg
     constexpr double alpha_particle_mass = 6.64465675e-27;
 
     // alpha_particle_mass_energy_equivalent
-    // CODATA Value: 5.97191967e-10 ± 0.00000026e-10J
+    // CODATA Value: 5.97191967e-10 ± 0.00000026e-10 J
     constexpr double alpha_particle_mass_energy_equivalent = 5.97191967e-10;
 
     // alpha_particle_mass_energy_equivalent_in_MeV
-    // CODATA Value: 3727.379240 ± 0.000082MeV
+    // CODATA Value: 3727.379240 ± 0.000082 MeV
     constexpr double alpha_particle_mass_energy_equivalent_in_MeV = 3727.379240;
 
     // alpha_particle_mass_in_u
-    // CODATA Value: 4.001506179125 ± 0.000000000062u
+    // CODATA Value: 4.001506179125 ± 0.000000000062 u
     constexpr double alpha_particle_mass_in_u = 4.001506179125;
 
     // alpha_particle_molar_mass
-    // CODATA Value: 4.001506179125e-3 ± 0.000000000062e-3kg mol^-1
+    // CODATA Value: 4.001506179125e-3 ± 0.000000000062e-3 kg mol^-1
     constexpr double alpha_particle_molar_mass = 4.001506179125e-3;
 
     // alpha_particle_proton_mass_ratio
-    // CODATA Value: 3.97259968933 ± 0.000 000 000 36
+    // CODATA Value: 3.97259968933 ± 0.00000000036 
     constexpr double alpha_particle_proton_mass_ratio = 3.97259968933;
 
     // Angstrom_star
-    // CODATA Value: 1.00001495e-10 ± 0.00000090e-10m
+    // CODATA Value: 1.00001495e-10 ± 0.00000090e-10 m
     constexpr double Angstrom_star = 1.00001495e-10;
 
     // atomic_mass_constant
-    // CODATA Value: 1.660538921e-27 ± 0.000000073e-27kg
+    // CODATA Value: 1.660538921e-27 ± 0.000000073e-27 kg
     constexpr double atomic_mass_constant = 1.660538921e-27;
 
     // atomic_mass_constant_energy_equivalent
-    // CODATA Value: 1.492417954e-10 ± 0.000000066e-10J
+    // CODATA Value: 1.492417954e-10 ± 0.000000066e-10 J
     constexpr double atomic_mass_constant_energy_equivalent = 1.492417954e-10;
 
     // atomic_mass_constant_energy_equivalent_in_MeV
-    // CODATA Value: 931.494061 ± 0.000021MeV
+    // CODATA Value: 931.494061 ± 0.000021 MeV
     constexpr double atomic_mass_constant_energy_equivalent_in_MeV = 931.494061;
 
     // atomic_mass_unit_electron_volt_relationship
-    // CODATA Value: 931.494061e6 ± 0.000021e6eV
+    // CODATA Value: 931.494061e6 ± 0.000021e6 eV
     constexpr double atomic_mass_unit_electron_volt_relationship = 931.494061e6;
 
     // atomic_mass_unit_hartree_relationship
-    // CODATA Value: 3.4231776845e7 ± 0.0000000024e7E_h
+    // CODATA Value: 3.4231776845e7 ± 0.0000000024e7 E_h
     constexpr double atomic_mass_unit_hartree_relationship = 3.4231776845e7;
 
     // atomic_mass_unit_hertz_relationship
-    // CODATA Value: 2.2523427168e23 ± 0.0000000016e23Hz
+    // CODATA Value: 2.2523427168e23 ± 0.0000000016e23 Hz
     constexpr double atomic_mass_unit_hertz_relationship = 2.2523427168e23;
 
     // atomic_mass_unit_inverse_meter_relationship
-    // CODATA Value: 7.5130066042e14 ± 0.0000000053e14m^-1
+    // CODATA Value: 7.5130066042e14 ± 0.0000000053e14 m^-1
     constexpr double atomic_mass_unit_inverse_meter_relationship = 7.5130066042e14;
 
     // atomic_mass_unit_joule_relationship
-    // CODATA Value: 1.492417954e-10 ± 0.000000066e-10J
+    // CODATA Value: 1.492417954e-10 ± 0.000000066e-10 J
     constexpr double atomic_mass_unit_joule_relationship = 1.492417954e-10;
 
     // atomic_mass_unit_kelvin_relationship
-    // CODATA Value: 1.08095408e13 ± 0.00000098e13K
+    // CODATA Value: 1.08095408e13 ± 0.00000098e13 K
     constexpr double atomic_mass_unit_kelvin_relationship = 1.08095408e13;
 
     // atomic_mass_unit_kilogram_relationship
-    // CODATA Value: 1.660538921e-27 ± 0.000000073e-27kg
+    // CODATA Value: 1.660538921e-27 ± 0.000000073e-27 kg
     constexpr double atomic_mass_unit_kilogram_relationship = 1.660538921e-27;
 
     // atomic_unit_of_1st_hyperpolarizability
-    // CODATA Value: 3.206361449e-53 ± 0.000000071e-53C^3 m^3 J^-2
+    // CODATA Value: 3.206361449e-53 ± 0.000000071e-53 C^3 m^3 J^-2
     constexpr double atomic_unit_of_1st_hyperpolarizability = 3.206361449e-53;
 
     // atomic_unit_of_2nd_hyperpolarizability
-    // CODATA Value: 6.23538054e-65 ± 0.00000028e-65C^4 m^4 J^-3
+    // CODATA Value: 6.23538054e-65 ± 0.00000028e-65 C^4 m^4 J^-3
     constexpr double atomic_unit_of_2nd_hyperpolarizability = 6.23538054e-65;
 
     // atomic_unit_of_action
-    // CODATA Value: 1.054571726e-34 ± 0.000000047e-34J s
+    // CODATA Value: 1.054571726e-34 ± 0.000000047e-34 J s
     constexpr double atomic_unit_of_action = 1.054571726e-34;
 
     // atomic_unit_of_charge
-    // CODATA Value: 1.602176565e-19 ± 0.000000035e-19C
+    // CODATA Value: 1.602176565e-19 ± 0.000000035e-19 C
     constexpr double atomic_unit_of_charge = 1.602176565e-19;
 
     // atomic_unit_of_charge_density
-    // CODATA Value: 1.081202338e12 ± 0.000000024e12C m^-3
+    // CODATA Value: 1.081202338e12 ± 0.000000024e12 C m^-3
     constexpr double atomic_unit_of_charge_density = 1.081202338e12;
 
     // atomic_unit_of_current
-    // CODATA Value: 6.62361795e-3 ± 0.00000015e-3A
+    // CODATA Value: 6.62361795e-3 ± 0.00000015e-3 A
     constexpr double atomic_unit_of_current = 6.62361795e-3;
 
     // atomic_unit_of_electric_dipole_mom
-    // CODATA Value: 8.47835326e-30 ± 0.00000019e-30C m
+    // CODATA Value: 8.47835326e-30 ± 0.00000019e-30 C m
     constexpr double atomic_unit_of_electric_dipole_mom = 8.47835326e-30;
 
     // atomic_unit_of_electric_field
-    // CODATA Value: 5.14220652e11 ± 0.00000011e11V m^-1
+    // CODATA Value: 5.14220652e11 ± 0.00000011e11 V m^-1
     constexpr double atomic_unit_of_electric_field = 5.14220652e11;
 
     // atomic_unit_of_electric_field_gradient
-    // CODATA Value: 9.71736200e21 ± 0.00000021e21V m^-2
+    // CODATA Value: 9.71736200e21 ± 0.00000021e21 V m^-2
     constexpr double atomic_unit_of_electric_field_gradient = 9.71736200e21;
 
     // atomic_unit_of_electric_polarizability
-    // CODATA Value: 1.6487772754e-41 ± 0.0000000016e-41C^2 m^2 J^-1
+    // CODATA Value: 1.6487772754e-41 ± 0.0000000016e-41 C^2 m^2 J^-1
     constexpr double atomic_unit_of_electric_polarizability = 1.6487772754e-41;
 
     // atomic_unit_of_electric_potential
-    // CODATA Value: 27.21138505 ± 0.00000060V
+    // CODATA Value: 27.21138505 ± 0.00000060 V
     constexpr double atomic_unit_of_electric_potential = 27.21138505;
 
     // atomic_unit_of_electric_quadrupole_mom
-    // CODATA Value: 4.486551331e-40 ± 0.000000099e-40C m^2
+    // CODATA Value: 4.486551331e-40 ± 0.000000099e-40 C m^2
     constexpr double atomic_unit_of_electric_quadrupole_mom = 4.486551331e-40;
 
     // atomic_unit_of_energy
-    // CODATA Value: 4.35974434e-18 ± 0.00000019e-18J
+    // CODATA Value: 4.35974434e-18 ± 0.00000019e-18 J
     constexpr double atomic_unit_of_energy = 4.35974434e-18;
 
     // atomic_unit_of_force
-    // CODATA Value: 8.23872278e-8 ± 0.00000036e-8N
+    // CODATA Value: 8.23872278e-8 ± 0.00000036e-8 N
     constexpr double atomic_unit_of_force = 8.23872278e-8;
 
     // atomic_unit_of_length
-    // CODATA Value: 0.52917721092e-10 ± 0.00000000017e-10m
+    // CODATA Value: 0.52917721092e-10 ± 0.00000000017e-10 m
     constexpr double atomic_unit_of_length = 0.52917721092e-10;
 
     // atomic_unit_of_mag_dipole_mom
-    // CODATA Value: 1.854801936e-23 ± 0.000000041e-23J T^-1
+    // CODATA Value: 1.854801936e-23 ± 0.000000041e-23 J T^-1
     constexpr double atomic_unit_of_mag_dipole_mom = 1.854801936e-23;
 
     // atomic_unit_of_mag_flux_density
-    // CODATA Value: 2.350517464e5 ± 0.000000052e5T
+    // CODATA Value: 2.350517464e5 ± 0.000000052e5 T
     constexpr double atomic_unit_of_mag_flux_density = 2.350517464e5;
 
     // atomic_unit_of_magnetizability
-    // CODATA Value: 7.891036607e-29 ± 0.000000013e-29J T^-2
+    // CODATA Value: 7.891036607e-29 ± 0.000000013e-29 J T^-2
     constexpr double atomic_unit_of_magnetizability = 7.891036607e-29;
 
     // atomic_unit_of_mass
-    // CODATA Value: 9.10938291e-31 ± 0.00000040e-31kg
+    // CODATA Value: 9.10938291e-31 ± 0.00000040e-31 kg
     constexpr double atomic_unit_of_mass = 9.10938291e-31;
 
     // atomic_unit_of_momum
-    // CODATA Value: 1.992851740e-24 ± 0.000000088e-24kg m s^-1
+    // CODATA Value: 1.992851740e-24 ± 0.000000088e-24 kg m s^-1
     constexpr double atomic_unit_of_momum = 1.992851740e-24;
 
     // atomic_unit_of_permittivity
-    // CODATA Value: 1.112650056...e-10 ± (exact)F m^-1
-    constexpr double atomic_unit_of_permittivity = 1.112650056...e-10;
+    // CODATA Value: 1.112650056e-10 ± (exact) F m^-1
+    constexpr double atomic_unit_of_permittivity = 1.112650056e-10;
 
     // atomic_unit_of_time
-    // CODATA Value: 2.418884326502e-17 ± 0.000000000012e-17s
+    // CODATA Value: 2.418884326502e-17 ± 0.000000000012e-17 s
     constexpr double atomic_unit_of_time = 2.418884326502e-17;
 
     // atomic_unit_of_velocity
-    // CODATA Value: 2.18769126379e6 ± 0.00000000071e6m s^-1
+    // CODATA Value: 2.18769126379e6 ± 0.00000000071e6 m s^-1
     constexpr double atomic_unit_of_velocity = 2.18769126379e6;
 
     // Avogadro_constant
-    // CODATA Value: 6.02214129e23 ± 0.00000027e23mol^-1
+    // CODATA Value: 6.02214129e23 ± 0.00000027e23 mol^-1
     constexpr double Avogadro_constant = 6.02214129e23;
 
     // Bohr_magneton
-    // CODATA Value: 927.400968e-26 ± 0.000020e-26J T^-1
+    // CODATA Value: 927.400968e-26 ± 0.000020e-26 J T^-1
     constexpr double Bohr_magneton = 927.400968e-26;
 
     // Bohr_magneton_in_eVT
-    // CODATA Value: 5.7883818066e-5 ± 0.0000000038e-5eV T^-1
+    // CODATA Value: 5.7883818066e-5 ± 0.0000000038e-5 eV T^-1
     constexpr double Bohr_magneton_in_eVT = 5.7883818066e-5;
 
     // Bohr_magneton_in_HzT
-    // CODATA Value: 13.99624555e9 ± 0.00000031e9Hz T^-1
+    // CODATA Value: 13.99624555e9 ± 0.00000031e9 Hz T^-1
     constexpr double Bohr_magneton_in_HzT = 13.99624555e9;
 
     // Bohr_magneton_in_inverse_meters_per_tesla
-    // CODATA Value: 46.6864498 ± 0.0000010m^-1 T^-1
+    // CODATA Value: 46.6864498 ± 0.0000010 m^-1 T^-1
     constexpr double Bohr_magneton_in_inverse_meters_per_tesla = 46.6864498;
 
     // Bohr_magneton_in_KT
-    // CODATA Value: 0.67171388 ± 0.00000061K T^-1
+    // CODATA Value: 0.67171388 ± 0.00000061 K T^-1
     constexpr double Bohr_magneton_in_KT = 0.67171388;
 
     // Bohr_radius
-    // CODATA Value: 0.52917721092e-10 ± 0.00000000017e-10m
+    // CODATA Value: 0.52917721092e-10 ± 0.00000000017e-10 m
     constexpr double Bohr_radius = 0.52917721092e-10;
 
     // Boltzmann_constant
-    // CODATA Value: 1.3806488e-23 ± 0.0000013e-23J K^-1
+    // CODATA Value: 1.3806488e-23 ± 0.0000013e-23 J K^-1
     constexpr double Boltzmann_constant = 1.3806488e-23;
 
     // Boltzmann_constant_in_eVK
-    // CODATA Value: 8.6173324e-5 ± 0.0000078e-5eV K^-1
+    // CODATA Value: 8.6173324e-5 ± 0.0000078e-5 eV K^-1
     constexpr double Boltzmann_constant_in_eVK = 8.6173324e-5;
 
     // Boltzmann_constant_in_HzK
-    // CODATA Value: 2.0836618e10 ± 0.0000019e10Hz K^-1
+    // CODATA Value: 2.0836618e10 ± 0.0000019e10 Hz K^-1
     constexpr double Boltzmann_constant_in_HzK = 2.0836618e10;
 
     // Boltzmann_constant_in_inverse_meters_per_kelvin
-    // CODATA Value: 69.503476 ± 0.000063m^-1 K^-1
+    // CODATA Value: 69.503476 ± 0.000063 m^-1 K^-1
     constexpr double Boltzmann_constant_in_inverse_meters_per_kelvin = 69.503476;
 
     // characteristic_impedance_of_vacuum
-    // CODATA Value: 376.730313461 ± (exact)ohm
+    // CODATA Value: 376.730313461 ± (exact) ohm
     constexpr double characteristic_impedance_of_vacuum = 376.730313461;
 
     // classical_electron_radius
-    // CODATA Value: 2.8179403267e-15 ± 0.0000000027e-15m
+    // CODATA Value: 2.8179403267e-15 ± 0.0000000027e-15 m
     constexpr double classical_electron_radius = 2.8179403267e-15;
 
     // Compton_wavelength
-    // CODATA Value: 2.4263102389e-12 ± 0.0000000016e-12m
+    // CODATA Value: 2.4263102389e-12 ± 0.0000000016e-12 m
     constexpr double Compton_wavelength = 2.4263102389e-12;
 
     // Compton_wavelength_over_2_pi
-    // CODATA Value: 386.15926800e-15 ± 0.00000025e-15m
+    // CODATA Value: 386.15926800e-15 ± 0.00000025e-15 m
     constexpr double Compton_wavelength_over_2_pi = 386.15926800e-15;
 
     // conductance_quantum
-    // CODATA Value: 7.7480917346e-5 ± 0.0000000025e-5S
+    // CODATA Value: 7.7480917346e-5 ± 0.0000000025e-5 S
     constexpr double conductance_quantum = 7.7480917346e-5;
 
     // conventional_value_of_Josephson_constant
-    // CODATA Value: 483597.9e9 ± (exact)Hz V^-1
+    // CODATA Value: 483597.9e9 ± (exact) Hz V^-1
     constexpr double conventional_value_of_Josephson_constant = 483597.9e9;
 
     // conventional_value_of_von_Klitzing_constant
-    // CODATA Value: 25812.807 ± (exact)ohm
+    // CODATA Value: 25812.807 ± (exact) ohm
     constexpr double conventional_value_of_von_Klitzing_constant = 25812.807;
 
     // Cu_x_unit
-    // CODATA Value: 1.00207697e-13 ± 0.00000028e-13m
+    // CODATA Value: 1.00207697e-13 ± 0.00000028e-13 m
     constexpr double Cu_x_unit = 1.00207697e-13;
 
     // deuteron_electron_mag_mom_ratio
-    // CODATA Value: -4.664345537e-4 ± 0.000 000 039 e-4
+    // CODATA Value: -4.664345537e-4 ± 0.000000039e-4 
     constexpr double deuteron_electron_mag_mom_ratio = -4.664345537e-4;
 
     // deuteron_electron_mass_ratio
-    // CODATA Value: 3670.4829652 ± 0.000 0015
+    // CODATA Value: 3670.4829652 ± 0.0000015 
     constexpr double deuteron_electron_mass_ratio = 3670.4829652;
 
     // deuteron_g_factor
-    // CODATA Value: 0.8574382308 ± 0.000 000 0072
+    // CODATA Value: 0.8574382308 ± 0.0000000072 
     constexpr double deuteron_g_factor = 0.8574382308;
 
     // deuteron_mag_mom
-    // CODATA Value: 0.433073489e-26 ± 0.000000010e-26J T^-1
+    // CODATA Value: 0.433073489e-26 ± 0.000000010e-26 J T^-1
     constexpr double deuteron_mag_mom = 0.433073489e-26;
 
     // deuteron_mag_mom_to_Bohr_magneton_ratio
-    // CODATA Value: 0.4669754556e-3 ± 0.000 000 0039 e-3
+    // CODATA Value: 0.4669754556e-3 ± 0.0000000039e-3 
     constexpr double deuteron_mag_mom_to_Bohr_magneton_ratio = 0.4669754556e-3;
 
     // deuteron_mag_mom_to_nuclear_magneton_ratio
-    // CODATA Value: 0.8574382308 ± 0.000 000 0072
+    // CODATA Value: 0.8574382308 ± 0.0000000072 
     constexpr double deuteron_mag_mom_to_nuclear_magneton_ratio = 0.8574382308;
 
     // deuteron_mass
-    // CODATA Value: 3.34358348e-27 ± 0.00000015e-27kg
+    // CODATA Value: 3.34358348e-27 ± 0.00000015e-27 kg
     constexpr double deuteron_mass = 3.34358348e-27;
 
     // deuteron_mass_energy_equivalent
-    // CODATA Value: 3.00506297e-10 ± 0.00000013e-10J
+    // CODATA Value: 3.00506297e-10 ± 0.00000013e-10 J
     constexpr double deuteron_mass_energy_equivalent = 3.00506297e-10;
 
     // deuteron_mass_energy_equivalent_in_MeV
-    // CODATA Value: 1875.612859 ± 0.000041MeV
+    // CODATA Value: 1875.612859 ± 0.000041 MeV
     constexpr double deuteron_mass_energy_equivalent_in_MeV = 1875.612859;
 
     // deuteron_mass_in_u
-    // CODATA Value: 2.013553212712 ± 0.000000000077u
+    // CODATA Value: 2.013553212712 ± 0.000000000077 u
     constexpr double deuteron_mass_in_u = 2.013553212712;
 
     // deuteron_molar_mass
-    // CODATA Value: 2.013553212712e-3 ± 0.000000000077e-3kg mol^-1
+    // CODATA Value: 2.013553212712e-3 ± 0.000000000077e-3 kg mol^-1
     constexpr double deuteron_molar_mass = 2.013553212712e-3;
 
     // deuteron_neutron_mag_mom_ratio
-    // CODATA Value: -0.44820652 ± 0.000 000 11
+    // CODATA Value: -0.44820652 ± 0.00000011 
     constexpr double deuteron_neutron_mag_mom_ratio = -0.44820652;
 
     // deuteron_proton_mag_mom_ratio
-    // CODATA Value: 0.3070122070 ± 0.000 000 0024
+    // CODATA Value: 0.3070122070 ± 0.0000000024 
     constexpr double deuteron_proton_mag_mom_ratio = 0.3070122070;
 
     // deuteron_proton_mass_ratio
-    // CODATA Value: 1.99900750097 ± 0.000 000 000 18
+    // CODATA Value: 1.99900750097 ± 0.00000000018 
     constexpr double deuteron_proton_mass_ratio = 1.99900750097;
 
     // deuteron_rms_charge_radius
-    // CODATA Value: 2.1424e-15 ± 0.0021e-15m
+    // CODATA Value: 2.1424e-15 ± 0.0021e-15 m
     constexpr double deuteron_rms_charge_radius = 2.1424e-15;
 
     // electric_constant
-    // CODATA Value: 8.854187817...e-12 ± (exact)F m^-1
-    constexpr double electric_constant = 8.854187817...e-12;
+    // CODATA Value: 8.854187817e-12 ± (exact) F m^-1
+    constexpr double electric_constant = 8.854187817e-12;
 
     // electron_charge_to_mass_quotient
-    // CODATA Value: -1.758820088e11 ± 0.000000039e11C kg^-1
+    // CODATA Value: -1.758820088e11 ± 0.000000039e11 C kg^-1
     constexpr double electron_charge_to_mass_quotient = -1.758820088e11;
 
     // electron_deuteron_mag_mom_ratio
-    // CODATA Value: -2143.923498 ± 0.000 018
+    // CODATA Value: -2143.923498 ± 0.000018 
     constexpr double electron_deuteron_mag_mom_ratio = -2143.923498;
 
     // electron_deuteron_mass_ratio
-    // CODATA Value: 2.7244371095e-4 ± 0.000 000 0011 e-4
+    // CODATA Value: 2.7244371095e-4 ± 0.0000000011e-4 
     constexpr double electron_deuteron_mass_ratio = 2.7244371095e-4;
 
     // electron_g_factor
-    // CODATA Value:  ± -2.002319304361530.000 000 000 000 53
-    constexpr double electron_g_factor = ;
+    // CODATA Value: -2.00231930436153 ± 0.00000000000053 
+    constexpr double electron_g_factor = -2.00231930436153;
 
     // electron_gyromag_ratio
-    // CODATA Value: 1.760859708e11 ± 0.000000039e11s^-1 T^-1
+    // CODATA Value: 1.760859708e11 ± 0.000000039e11 s^-1 T^-1
     constexpr double electron_gyromag_ratio = 1.760859708e11;
 
     // electron_gyromag_ratio_over_2_pi
-    // CODATA Value: 28024.95266 ± 0.00062MHz T^-1
+    // CODATA Value: 28024.95266 ± 0.00062 MHz T^-1
     constexpr double electron_gyromag_ratio_over_2_pi = 28024.95266;
 
     // electron_helion_mass_ratio
-    // CODATA Value: 1.8195430761e-4 ± 0.000 000 0017 e-4
+    // CODATA Value: 1.8195430761e-4 ± 0.0000000017e-4 
     constexpr double electron_helion_mass_ratio = 1.8195430761e-4;
 
     // electron_mag_mom
-    // CODATA Value: -928.476430e-26 ± 0.000021e-26J T^-1
+    // CODATA Value: -928.476430e-26 ± 0.000021e-26 J T^-1
     constexpr double electron_mag_mom = -928.476430e-26;
 
     // electron_mag_mom_anomaly
-    // CODATA Value: 1.15965218076e-3 ± 0.000 000 000 27 e-3
+    // CODATA Value: 1.15965218076e-3 ± 0.00000000027e-3 
     constexpr double electron_mag_mom_anomaly = 1.15965218076e-3;
 
     // electron_mag_mom_to_Bohr_magneton_ratio
-    // CODATA Value:  ± -1.001159652180760.000 000 000 000 27
-    constexpr double electron_mag_mom_to_Bohr_magneton_ratio = ;
+    // CODATA Value: -1.00115965218076 ± 0.00000000000027 
+    constexpr double electron_mag_mom_to_Bohr_magneton_ratio = -1.00115965218076;
 
     // electron_mag_mom_to_nuclear_magneton_ratio
-    // CODATA Value: -1838.28197090 ± 0.000 000 75
+    // CODATA Value: -1838.28197090 ± 0.00000075 
     constexpr double electron_mag_mom_to_nuclear_magneton_ratio = -1838.28197090;
 
     // electron_mass
-    // CODATA Value: 9.10938291e-31 ± 0.00000040e-31kg
+    // CODATA Value: 9.10938291e-31 ± 0.00000040e-31 kg
     constexpr double electron_mass = 9.10938291e-31;
 
     // electron_mass_energy_equivalent
-    // CODATA Value: 8.18710506e-14 ± 0.00000036e-14J
+    // CODATA Value: 8.18710506e-14 ± 0.00000036e-14 J
     constexpr double electron_mass_energy_equivalent = 8.18710506e-14;
 
     // electron_mass_energy_equivalent_in_MeV
-    // CODATA Value: 0.510998928 ± 0.000000011MeV
+    // CODATA Value: 0.510998928 ± 0.000000011 MeV
     constexpr double electron_mass_energy_equivalent_in_MeV = 0.510998928;
 
     // electron_mass_in_u
-    // CODATA Value: 5.4857990946e-4 ± 0.0000000022e-4u
+    // CODATA Value: 5.4857990946e-4 ± 0.0000000022e-4 u
     constexpr double electron_mass_in_u = 5.4857990946e-4;
 
     // electron_molar_mass
-    // CODATA Value: 5.4857990946e-7 ± 0.0000000022e-7kg mol^-1
+    // CODATA Value: 5.4857990946e-7 ± 0.0000000022e-7 kg mol^-1
     constexpr double electron_molar_mass = 5.4857990946e-7;
 
     // electron_muon_mag_mom_ratio
-    // CODATA Value: 206.7669896 ± 0.000 0052
+    // CODATA Value: 206.7669896 ± 0.0000052 
     constexpr double electron_muon_mag_mom_ratio = 206.7669896;
 
     // electron_muon_mass_ratio
-    // CODATA Value: 4.83633166e-3 ± 0.000 000 12 e-3
+    // CODATA Value: 4.83633166e-3 ± 0.00000012e-3 
     constexpr double electron_muon_mass_ratio = 4.83633166e-3;
 
     // electron_neutron_mag_mom_ratio
-    // CODATA Value: 960.92050 ± 0.000 23
+    // CODATA Value: 960.92050 ± 0.00023 
     constexpr double electron_neutron_mag_mom_ratio = 960.92050;
 
     // electron_neutron_mass_ratio
-    // CODATA Value: 5.4386734461e-4 ± 0.000 000 0032 e-4
+    // CODATA Value: 5.4386734461e-4 ± 0.0000000032e-4 
     constexpr double electron_neutron_mass_ratio = 5.4386734461e-4;
 
     // electron_proton_mag_mom_ratio
-    // CODATA Value: -658.2106848 ± 0.000 0054
+    // CODATA Value: -658.2106848 ± 0.0000054 
     constexpr double electron_proton_mag_mom_ratio = -658.2106848;
 
     // electron_proton_mass_ratio
-    // CODATA Value: 5.4461702178e-4 ± 0.000 000 0022 e-4
+    // CODATA Value: 5.4461702178e-4 ± 0.0000000022e-4 
     constexpr double electron_proton_mass_ratio = 5.4461702178e-4;
 
     // electron_tau_mass_ratio
-    // CODATA Value: 2.87592e-4 ± 0.000 26 e-4
+    // CODATA Value: 2.87592e-4 ± 0.00026e-4 
     constexpr double electron_tau_mass_ratio = 2.87592e-4;
 
     // electron_to_alpha_particle_mass_ratio
-    // CODATA Value: 1.37093355578e-4 ± 0.000 000 000 55 e-4
+    // CODATA Value: 1.37093355578e-4 ± 0.00000000055e-4 
     constexpr double electron_to_alpha_particle_mass_ratio = 1.37093355578e-4;
 
     // electron_to_shielded_helion_mag_mom_ratio
-    // CODATA Value: 864.058257 ± 0.000 010
+    // CODATA Value: 864.058257 ± 0.000010 
     constexpr double electron_to_shielded_helion_mag_mom_ratio = 864.058257;
 
     // electron_to_shielded_proton_mag_mom_ratio
-    // CODATA Value: -658.2275971 ± 0.000 0072
+    // CODATA Value: -658.2275971 ± 0.0000072 
     constexpr double electron_to_shielded_proton_mag_mom_ratio = -658.2275971;
 
     // electron_triton_mass_ratio
-    // CODATA Value: 1.8192000653e-4 ± 0.000 000 0017 e-4
+    // CODATA Value: 1.8192000653e-4 ± 0.0000000017e-4 
     constexpr double electron_triton_mass_ratio = 1.8192000653e-4;
 
     // electron_volt
-    // CODATA Value: 1.602176565e-19 ± 0.000000035e-19J
+    // CODATA Value: 1.602176565e-19 ± 0.000000035e-19 J
     constexpr double electron_volt = 1.602176565e-19;
 
     // electron_volt_atomic_mass_unit_relationship
-    // CODATA Value: 1.073544150e-9 ± 0.000000024e-9u
+    // CODATA Value: 1.073544150e-9 ± 0.000000024e-9 u
     constexpr double electron_volt_atomic_mass_unit_relationship = 1.073544150e-9;
 
     // electron_volt_hartree_relationship
-    // CODATA Value: 3.674932379e-2 ± 0.000000081e-2E_h
+    // CODATA Value: 3.674932379e-2 ± 0.000000081e-2 E_h
     constexpr double electron_volt_hartree_relationship = 3.674932379e-2;
 
     // electron_volt_hertz_relationship
-    // CODATA Value: 2.417989348e14 ± 0.000000053e14Hz
+    // CODATA Value: 2.417989348e14 ± 0.000000053e14 Hz
     constexpr double electron_volt_hertz_relationship = 2.417989348e14;
 
     // electron_volt_inverse_meter_relationship
-    // CODATA Value: 8.06554429e5 ± 0.00000018e5m^-1
+    // CODATA Value: 8.06554429e5 ± 0.00000018e5 m^-1
     constexpr double electron_volt_inverse_meter_relationship = 8.06554429e5;
 
     // electron_volt_joule_relationship
-    // CODATA Value: 1.602176565e-19 ± 0.000000035e-19J
+    // CODATA Value: 1.602176565e-19 ± 0.000000035e-19 J
     constexpr double electron_volt_joule_relationship = 1.602176565e-19;
 
     // electron_volt_kelvin_relationship
-    // CODATA Value: 1.1604519e4 ± 0.0000011e4K
+    // CODATA Value: 1.1604519e4 ± 0.0000011e4 K
     constexpr double electron_volt_kelvin_relationship = 1.1604519e4;
 
     // electron_volt_kilogram_relationship
-    // CODATA Value: 1.782661845e-36 ± 0.000000039e-36kg
+    // CODATA Value: 1.782661845e-36 ± 0.000000039e-36 kg
     constexpr double electron_volt_kilogram_relationship = 1.782661845e-36;
 
     // elementary_charge
-    // CODATA Value: 1.602176565e-19 ± 0.000000035e-19C
+    // CODATA Value: 1.602176565e-19 ± 0.000000035e-19 C
     constexpr double elementary_charge = 1.602176565e-19;
 
     // elementary_charge_over_h
-    // CODATA Value: 2.417989348e14 ± 0.000000053e14A J^-1
+    // CODATA Value: 2.417989348e14 ± 0.000000053e14 A J^-1
     constexpr double elementary_charge_over_h = 2.417989348e14;
 
     // Faraday_constant
-    // CODATA Value: 96485.3365 ± 0.0021C mol^-1
+    // CODATA Value: 96485.3365 ± 0.0021 C mol^-1
     constexpr double Faraday_constant = 96485.3365;
 
     // Faraday_constant_for_conventional_electric_current
-    // CODATA Value: 96485.3321 ± 0.0043C_90 mol^-1
+    // CODATA Value: 96485.3321 ± 0.0043 C_90 mol^-1
     constexpr double Faraday_constant_for_conventional_electric_current = 96485.3321;
 
     // Fermi_coupling_constant
-    // CODATA Value: 1.166364e-5 ± 0.000005e-5GeV^-2
+    // CODATA Value: 1.166364e-5 ± 0.000005e-5 GeV^-2
     constexpr double Fermi_coupling_constant = 1.166364e-5;
 
     // fine_structure_constant
-    // CODATA Value: 7.2973525698e-3 ± 0.000 000 0024 e-3
+    // CODATA Value: 7.2973525698e-3 ± 0.0000000024e-3 
     constexpr double fine_structure_constant = 7.2973525698e-3;
 
     // first_radiation_constant
-    // CODATA Value: 3.74177153e-16 ± 0.00000017e-16W m^2
+    // CODATA Value: 3.74177153e-16 ± 0.00000017e-16 W m^2
     constexpr double first_radiation_constant = 3.74177153e-16;
 
     // first_radiation_constant_for_spectral_radiance
-    // CODATA Value: 1.191042869e-16 ± 0.000000053e-16W m^2 sr^-1
+    // CODATA Value: 1.191042869e-16 ± 0.000000053e-16 W m^2 sr^-1
     constexpr double first_radiation_constant_for_spectral_radiance = 1.191042869e-16;
 
     // hartree_atomic_mass_unit_relationship
-    // CODATA Value: 2.9212623246e-8 ± 0.0000000021e-8u
+    // CODATA Value: 2.9212623246e-8 ± 0.0000000021e-8 u
     constexpr double hartree_atomic_mass_unit_relationship = 2.9212623246e-8;
 
     // hartree_electron_volt_relationship
-    // CODATA Value: 27.21138505 ± 0.00000060eV
+    // CODATA Value: 27.21138505 ± 0.00000060 eV
     constexpr double hartree_electron_volt_relationship = 27.21138505;
 
     // Hartree_energy
-    // CODATA Value: 4.35974434e-18 ± 0.00000019e-18J
+    // CODATA Value: 4.35974434e-18 ± 0.00000019e-18 J
     constexpr double Hartree_energy = 4.35974434e-18;
 
     // Hartree_energy_in_eV
-    // CODATA Value: 27.21138505 ± 0.00000060eV
+    // CODATA Value: 27.21138505 ± 0.00000060 eV
     constexpr double Hartree_energy_in_eV = 27.21138505;
 
     // hartree_hertz_relationship
-    // CODATA Value: 6.579683920729e15 ± 0.000000000033e15Hz
+    // CODATA Value: 6.579683920729e15 ± 0.000000000033e15 Hz
     constexpr double hartree_hertz_relationship = 6.579683920729e15;
 
     // hartree_inverse_meter_relationship
-    // CODATA Value: 2.194746313708e7 ± 0.000000000011e7m^-1
+    // CODATA Value: 2.194746313708e7 ± 0.000000000011e7 m^-1
     constexpr double hartree_inverse_meter_relationship = 2.194746313708e7;
 
     // hartree_joule_relationship
-    // CODATA Value: 4.35974434e-18 ± 0.00000019e-18J
+    // CODATA Value: 4.35974434e-18 ± 0.00000019e-18 J
     constexpr double hartree_joule_relationship = 4.35974434e-18;
 
     // hartree_kelvin_relationship
-    // CODATA Value: 3.1577504e5 ± 0.0000029e5K
+    // CODATA Value: 3.1577504e5 ± 0.0000029e5 K
     constexpr double hartree_kelvin_relationship = 3.1577504e5;
 
     // hartree_kilogram_relationship
-    // CODATA Value: 4.85086979e-35 ± 0.00000021e-35kg
+    // CODATA Value: 4.85086979e-35 ± 0.00000021e-35 kg
     constexpr double hartree_kilogram_relationship = 4.85086979e-35;
 
     // helion_electron_mass_ratio
-    // CODATA Value: 5495.8852754 ± 0.000 0050
+    // CODATA Value: 5495.8852754 ± 0.0000050 
     constexpr double helion_electron_mass_ratio = 5495.8852754;
 
     // helion_g_factor
-    // CODATA Value: -4.255250613 ± 0.000 000 050
+    // CODATA Value: -4.255250613 ± 0.000000050 
     constexpr double helion_g_factor = -4.255250613;
 
     // helion_mag_mom
-    // CODATA Value: -1.074617486e-26 ± 0.000000027e-26J T^-1
+    // CODATA Value: -1.074617486e-26 ± 0.000000027e-26 J T^-1
     constexpr double helion_mag_mom = -1.074617486e-26;
 
     // helion_mag_mom_to_Bohr_magneton_ratio
-    // CODATA Value: -1.158740958e-3 ± 0.000 000 014 e-3
+    // CODATA Value: -1.158740958e-3 ± 0.000000014e-3 
     constexpr double helion_mag_mom_to_Bohr_magneton_ratio = -1.158740958e-3;
 
     // helion_mag_mom_to_nuclear_magneton_ratio
-    // CODATA Value: -2.127625306 ± 0.000 000 025
+    // CODATA Value: -2.127625306 ± 0.000000025 
     constexpr double helion_mag_mom_to_nuclear_magneton_ratio = -2.127625306;
 
     // helion_mass
-    // CODATA Value: 5.00641234e-27 ± 0.00000022e-27kg
+    // CODATA Value: 5.00641234e-27 ± 0.00000022e-27 kg
     constexpr double helion_mass = 5.00641234e-27;
 
     // helion_mass_energy_equivalent
-    // CODATA Value: 4.49953902e-10 ± 0.00000020e-10J
+    // CODATA Value: 4.49953902e-10 ± 0.00000020e-10 J
     constexpr double helion_mass_energy_equivalent = 4.49953902e-10;
 
     // helion_mass_energy_equivalent_in_MeV
-    // CODATA Value: 2808.391482 ± 0.000062MeV
+    // CODATA Value: 2808.391482 ± 0.000062 MeV
     constexpr double helion_mass_energy_equivalent_in_MeV = 2808.391482;
 
     // helion_mass_in_u
-    // CODATA Value: 3.0149322468 ± 0.0000000025u
+    // CODATA Value: 3.0149322468 ± 0.0000000025 u
     constexpr double helion_mass_in_u = 3.0149322468;
 
     // helion_molar_mass
-    // CODATA Value: 3.0149322468e-3 ± 0.0000000025e-3kg mol^-1
+    // CODATA Value: 3.0149322468e-3 ± 0.0000000025e-3 kg mol^-1
     constexpr double helion_molar_mass = 3.0149322468e-3;
 
     // helion_proton_mass_ratio
-    // CODATA Value: 2.9931526707 ± 0.000 000 0025
+    // CODATA Value: 2.9931526707 ± 0.0000000025 
     constexpr double helion_proton_mass_ratio = 2.9931526707;
 
     // hertz_atomic_mass_unit_relationship
-    // CODATA Value: 4.4398216689e-24 ± 0.0000000031e-24u
+    // CODATA Value: 4.4398216689e-24 ± 0.0000000031e-24 u
     constexpr double hertz_atomic_mass_unit_relationship = 4.4398216689e-24;
 
     // hertz_electron_volt_relationship
-    // CODATA Value: 4.135667516e-15 ± 0.000000091e-15eV
+    // CODATA Value: 4.135667516e-15 ± 0.000000091e-15 eV
     constexpr double hertz_electron_volt_relationship = 4.135667516e-15;
 
     // hertz_hartree_relationship
-    // CODATA Value: 1.5198298460045e-16 ± 0.0000000000076e-16E_h
+    // CODATA Value: 1.5198298460045e-16 ± 0.0000000000076e-16 E_h
     constexpr double hertz_hartree_relationship = 1.5198298460045e-16;
 
     // hertz_inverse_meter_relationship
-    // CODATA Value: 3.335640951...e-9 ± (exact)m^-1
-    constexpr double hertz_inverse_meter_relationship = 3.335640951...e-9;
+    // CODATA Value: 3.335640951e-9 ± (exact) m^-1
+    constexpr double hertz_inverse_meter_relationship = 3.335640951e-9;
 
     // hertz_joule_relationship
-    // CODATA Value: 6.62606957e-34 ± 0.00000029e-34J
+    // CODATA Value: 6.62606957e-34 ± 0.00000029e-34 J
     constexpr double hertz_joule_relationship = 6.62606957e-34;
 
     // hertz_kelvin_relationship
-    // CODATA Value: 4.7992434e-11 ± 0.0000044e-11K
+    // CODATA Value: 4.7992434e-11 ± 0.0000044e-11 K
     constexpr double hertz_kelvin_relationship = 4.7992434e-11;
 
     // hertz_kilogram_relationship
-    // CODATA Value: 7.37249668e-51 ± 0.00000033e-51kg
+    // CODATA Value: 7.37249668e-51 ± 0.00000033e-51 kg
     constexpr double hertz_kilogram_relationship = 7.37249668e-51;
 
     // inverse_fine_structure_constant
-    // CODATA Value: 137.035999074 ± 0.000 000 044
+    // CODATA Value: 137.035999074 ± 0.000000044 
     constexpr double inverse_fine_structure_constant = 137.035999074;
 
     // inverse_meter_atomic_mass_unit_relationship
-    // CODATA Value: 1.33102505120e-15 ± 0.00000000094e-15u
+    // CODATA Value: 1.33102505120e-15 ± 0.00000000094e-15 u
     constexpr double inverse_meter_atomic_mass_unit_relationship = 1.33102505120e-15;
 
     // inverse_meter_electron_volt_relationship
-    // CODATA Value: 1.239841930e-6 ± 0.000000027e-6eV
+    // CODATA Value: 1.239841930e-6 ± 0.000000027e-6 eV
     constexpr double inverse_meter_electron_volt_relationship = 1.239841930e-6;
 
     // inverse_meter_hartree_relationship
-    // CODATA Value: 4.556335252755e-8 ± 0.000000000023e-8E_h
+    // CODATA Value: 4.556335252755e-8 ± 0.000000000023e-8 E_h
     constexpr double inverse_meter_hartree_relationship = 4.556335252755e-8;
 
     // inverse_meter_hertz_relationship
-    // CODATA Value: 299792458 ± (exact)Hz
+    // CODATA Value: 299792458 ± (exact) Hz
     constexpr double inverse_meter_hertz_relationship = 299792458;
 
     // inverse_meter_joule_relationship
-    // CODATA Value: 1.986445684e-25 ± 0.000000088e-25J
+    // CODATA Value: 1.986445684e-25 ± 0.000000088e-25 J
     constexpr double inverse_meter_joule_relationship = 1.986445684e-25;
 
     // inverse_meter_kelvin_relationship
-    // CODATA Value: 1.4387770e-2 ± 0.0000013e-2K
+    // CODATA Value: 1.4387770e-2 ± 0.0000013e-2 K
     constexpr double inverse_meter_kelvin_relationship = 1.4387770e-2;
 
     // inverse_meter_kilogram_relationship
-    // CODATA Value: 2.210218902e-42 ± 0.000000098e-42kg
+    // CODATA Value: 2.210218902e-42 ± 0.000000098e-42 kg
     constexpr double inverse_meter_kilogram_relationship = 2.210218902e-42;
 
     // inverse_of_conductance_quantum
-    // CODATA Value: 12906.4037217 ± 0.0000042ohm
+    // CODATA Value: 12906.4037217 ± 0.0000042 ohm
     constexpr double inverse_of_conductance_quantum = 12906.4037217;
 
     // Josephson_constant
-    // CODATA Value: 483597.870e9 ± 0.011e9Hz V^-1
+    // CODATA Value: 483597.870e9 ± 0.011e9 Hz V^-1
     constexpr double Josephson_constant = 483597.870e9;
 
     // joule_atomic_mass_unit_relationship
-    // CODATA Value: 6.70053585e9 ± 0.00000030e9u
+    // CODATA Value: 6.70053585e9 ± 0.00000030e9 u
     constexpr double joule_atomic_mass_unit_relationship = 6.70053585e9;
 
     // joule_electron_volt_relationship
-    // CODATA Value: 6.24150934e18 ± 0.00000014e18eV
+    // CODATA Value: 6.24150934e18 ± 0.00000014e18 eV
     constexpr double joule_electron_volt_relationship = 6.24150934e18;
 
     // joule_hartree_relationship
-    // CODATA Value: 2.29371248e17 ± 0.00000010e17E_h
+    // CODATA Value: 2.29371248e17 ± 0.00000010e17 E_h
     constexpr double joule_hartree_relationship = 2.29371248e17;
 
     // joule_hertz_relationship
-    // CODATA Value: 1.509190311e33 ± 0.000000067e33Hz
+    // CODATA Value: 1.509190311e33 ± 0.000000067e33 Hz
     constexpr double joule_hertz_relationship = 1.509190311e33;
 
     // joule_inverse_meter_relationship
-    // CODATA Value: 5.03411701e24 ± 0.00000022e24m^-1
+    // CODATA Value: 5.03411701e24 ± 0.00000022e24 m^-1
     constexpr double joule_inverse_meter_relationship = 5.03411701e24;
 
     // joule_kelvin_relationship
-    // CODATA Value: 7.2429716e22 ± 0.0000066e22K
+    // CODATA Value: 7.2429716e22 ± 0.0000066e22 K
     constexpr double joule_kelvin_relationship = 7.2429716e22;
 
     // joule_kilogram_relationship
-    // CODATA Value: 1.112650056...e-17 ± (exact)kg
-    constexpr double joule_kilogram_relationship = 1.112650056...e-17;
+    // CODATA Value: 1.112650056e-17 ± (exact) kg
+    constexpr double joule_kilogram_relationship = 1.112650056e-17;
 
     // kelvin_atomic_mass_unit_relationship
-    // CODATA Value: 9.2510868e-14 ± 0.0000084e-14u
+    // CODATA Value: 9.2510868e-14 ± 0.0000084e-14 u
     constexpr double kelvin_atomic_mass_unit_relationship = 9.2510868e-14;
 
     // kelvin_electron_volt_relationship
-    // CODATA Value: 8.6173324e-5 ± 0.0000078e-5eV
+    // CODATA Value: 8.6173324e-5 ± 0.0000078e-5 eV
     constexpr double kelvin_electron_volt_relationship = 8.6173324e-5;
 
     // kelvin_hartree_relationship
-    // CODATA Value: 3.1668114e-6 ± 0.0000029e-6E_h
+    // CODATA Value: 3.1668114e-6 ± 0.0000029e-6 E_h
     constexpr double kelvin_hartree_relationship = 3.1668114e-6;
 
     // kelvin_hertz_relationship
-    // CODATA Value: 2.0836618e10 ± 0.0000019e10Hz
+    // CODATA Value: 2.0836618e10 ± 0.0000019e10 Hz
     constexpr double kelvin_hertz_relationship = 2.0836618e10;
 
     // kelvin_inverse_meter_relationship
-    // CODATA Value: 69.503476 ± 0.000063m^-1
+    // CODATA Value: 69.503476 ± 0.000063 m^-1
     constexpr double kelvin_inverse_meter_relationship = 69.503476;
 
     // kelvin_joule_relationship
-    // CODATA Value: 1.3806488e-23 ± 0.0000013e-23J
+    // CODATA Value: 1.3806488e-23 ± 0.0000013e-23 J
     constexpr double kelvin_joule_relationship = 1.3806488e-23;
 
     // kelvin_kilogram_relationship
-    // CODATA Value: 1.5361790e-40 ± 0.0000014e-40kg
+    // CODATA Value: 1.5361790e-40 ± 0.0000014e-40 kg
     constexpr double kelvin_kilogram_relationship = 1.5361790e-40;
 
     // kilogram_atomic_mass_unit_relationship
-    // CODATA Value: 6.02214129e26 ± 0.00000027e26u
+    // CODATA Value: 6.02214129e26 ± 0.00000027e26 u
     constexpr double kilogram_atomic_mass_unit_relationship = 6.02214129e26;
 
     // kilogram_electron_volt_relationship
-    // CODATA Value: 5.60958885e35 ± 0.00000012e35eV
+    // CODATA Value: 5.60958885e35 ± 0.00000012e35 eV
     constexpr double kilogram_electron_volt_relationship = 5.60958885e35;
 
     // kilogram_hartree_relationship
-    // CODATA Value: 2.061485968e34 ± 0.000000091e34E_h
+    // CODATA Value: 2.061485968e34 ± 0.000000091e34 E_h
     constexpr double kilogram_hartree_relationship = 2.061485968e34;
 
     // kilogram_hertz_relationship
-    // CODATA Value: 1.356392608e50 ± 0.000000060e50Hz
+    // CODATA Value: 1.356392608e50 ± 0.000000060e50 Hz
     constexpr double kilogram_hertz_relationship = 1.356392608e50;
 
     // kilogram_inverse_meter_relationship
-    // CODATA Value: 4.52443873e41 ± 0.00000020e41m^-1
+    // CODATA Value: 4.52443873e41 ± 0.00000020e41 m^-1
     constexpr double kilogram_inverse_meter_relationship = 4.52443873e41;
 
     // kilogram_joule_relationship
-    // CODATA Value: 8.987551787...e16 ± (exact)J
-    constexpr double kilogram_joule_relationship = 8.987551787...e16;
+    // CODATA Value: 8.987551787e16 ± (exact) J
+    constexpr double kilogram_joule_relationship = 8.987551787e16;
 
     // kilogram_kelvin_relationship
-    // CODATA Value: 6.5096582e39 ± 0.0000059e39K
+    // CODATA Value: 6.5096582e39 ± 0.0000059e39 K
     constexpr double kilogram_kelvin_relationship = 6.5096582e39;
 
     // lattice_parameter_of_silicon
-    // CODATA Value: 543.1020504e-12 ± 0.0000089e-12m
+    // CODATA Value: 543.1020504e-12 ± 0.0000089e-12 m
     constexpr double lattice_parameter_of_silicon = 543.1020504e-12;
 
     // Loschmidt_constant_27315_K_100_kPa
-    // CODATA Value: 2.6516462e25 ± 0.0000024e25m^-3
+    // CODATA Value: 2.6516462e25 ± 0.0000024e25 m^-3
     constexpr double Loschmidt_constant_27315_K_100_kPa = 2.6516462e25;
 
     // Loschmidt_constant_27315_K_101325_kPa
-    // CODATA Value: 2.6867805e25 ± 0.0000024e25m^-3
+    // CODATA Value: 2.6867805e25 ± 0.0000024e25 m^-3
     constexpr double Loschmidt_constant_27315_K_101325_kPa = 2.6867805e25;
 
     // mag_constant
-    // CODATA Value: 12.566370614...e-7 ± (exact)N A^-2
-    constexpr double mag_constant = 12.566370614...e-7;
+    // CODATA Value: 12.566370614e-7 ± (exact) N A^-2
+    constexpr double mag_constant = 12.566370614e-7;
 
     // mag_flux_quantum
-    // CODATA Value: 2.067833758e-15 ± 0.000000046e-15Wb
+    // CODATA Value: 2.067833758e-15 ± 0.000000046e-15 Wb
     constexpr double mag_flux_quantum = 2.067833758e-15;
 
     // molar_gas_constant
-    // CODATA Value: 8.3144621 ± 0.0000075J mol^-1 K^-1
+    // CODATA Value: 8.3144621 ± 0.0000075 J mol^-1 K^-1
     constexpr double molar_gas_constant = 8.3144621;
 
     // molar_mass_constant
-    // CODATA Value: 1e-3 ± (exact)kg mol^-1
+    // CODATA Value: 1e-3 ± (exact) kg mol^-1
     constexpr double molar_mass_constant = 1e-3;
 
     // molar_mass_of_carbon_12
-    // CODATA Value: 12e-3 ± (exact)kg mol^-1
+    // CODATA Value: 12e-3 ± (exact) kg mol^-1
     constexpr double molar_mass_of_carbon_12 = 12e-3;
 
     // molar_Planck_constant
-    // CODATA Value: 3.9903127176e-10 ± 0.0000000028e-10J s mol^-1
+    // CODATA Value: 3.9903127176e-10 ± 0.0000000028e-10 J s mol^-1
     constexpr double molar_Planck_constant = 3.9903127176e-10;
 
     // molar_Planck_constant_times_c
-    // CODATA Value: 0.119626565779 ± 0.000000000084J m mol^-1
+    // CODATA Value: 0.119626565779 ± 0.000000000084 J m mol^-1
     constexpr double molar_Planck_constant_times_c = 0.119626565779;
 
     // molar_volume_of_ideal_gas_27315_K_100_kPa
-    // CODATA Value: 22.710953e-3 ± 0.000021e-3m^3 mol^-1
+    // CODATA Value: 22.710953e-3 ± 0.000021e-3 m^3 mol^-1
     constexpr double molar_volume_of_ideal_gas_27315_K_100_kPa = 22.710953e-3;
 
     // molar_volume_of_ideal_gas_27315_K_101325_kPa
-    // CODATA Value: 22.413968e-3 ± 0.000020e-3m^3 mol^-1
+    // CODATA Value: 22.413968e-3 ± 0.000020e-3 m^3 mol^-1
     constexpr double molar_volume_of_ideal_gas_27315_K_101325_kPa = 22.413968e-3;
 
     // molar_volume_of_silicon
-    // CODATA Value: 12.05883301e-6 ± 0.00000080e-6m^3 mol^-1
+    // CODATA Value: 12.05883301e-6 ± 0.00000080e-6 m^3 mol^-1
     constexpr double molar_volume_of_silicon = 12.05883301e-6;
 
     // Mo_x_unit
-    // CODATA Value: 1.00209952e-13 ± 0.00000053e-13m
+    // CODATA Value: 1.00209952e-13 ± 0.00000053e-13 m
     constexpr double Mo_x_unit = 1.00209952e-13;
 
     // muon_Compton_wavelength
-    // CODATA Value: 11.73444103e-15 ± 0.00000030e-15m
+    // CODATA Value: 11.73444103e-15 ± 0.00000030e-15 m
     constexpr double muon_Compton_wavelength = 11.73444103e-15;
 
     // muon_Compton_wavelength_over_2_pi
-    // CODATA Value: 1.867594294e-15 ± 0.000000047e-15m
+    // CODATA Value: 1.867594294e-15 ± 0.000000047e-15 m
     constexpr double muon_Compton_wavelength_over_2_pi = 1.867594294e-15;
 
     // muon_electron_mass_ratio
-    // CODATA Value: 206.7682843 ± 0.000 0052
+    // CODATA Value: 206.7682843 ± 0.0000052 
     constexpr double muon_electron_mass_ratio = 206.7682843;
 
     // muon_g_factor
-    // CODATA Value: -2.0023318418 ± 0.000 000 0013
+    // CODATA Value: -2.0023318418 ± 0.0000000013 
     constexpr double muon_g_factor = -2.0023318418;
 
     // muon_mag_mom
-    // CODATA Value: -4.49044807e-26 ± 0.00000015e-26J T^-1
+    // CODATA Value: -4.49044807e-26 ± 0.00000015e-26 J T^-1
     constexpr double muon_mag_mom = -4.49044807e-26;
 
     // muon_mag_mom_anomaly
-    // CODATA Value: 1.16592091e-3 ± 0.000 000 63 e-3
+    // CODATA Value: 1.16592091e-3 ± 0.00000063e-3 
     constexpr double muon_mag_mom_anomaly = 1.16592091e-3;
 
     // muon_mag_mom_to_Bohr_magneton_ratio
-    // CODATA Value: -4.84197044e-3 ± 0.000 000 12 e-3
+    // CODATA Value: -4.84197044e-3 ± 0.00000012e-3 
     constexpr double muon_mag_mom_to_Bohr_magneton_ratio = -4.84197044e-3;
 
     // muon_mag_mom_to_nuclear_magneton_ratio
-    // CODATA Value: -8.89059697 ± 0.000 000 22
+    // CODATA Value: -8.89059697 ± 0.00000022 
     constexpr double muon_mag_mom_to_nuclear_magneton_ratio = -8.89059697;
 
     // muon_mass
-    // CODATA Value: 1.883531475e-28 ± 0.000000096e-28kg
+    // CODATA Value: 1.883531475e-28 ± 0.000000096e-28 kg
     constexpr double muon_mass = 1.883531475e-28;
 
     // muon_mass_energy_equivalent
-    // CODATA Value: 1.692833667e-11 ± 0.000000086e-11J
+    // CODATA Value: 1.692833667e-11 ± 0.000000086e-11 J
     constexpr double muon_mass_energy_equivalent = 1.692833667e-11;
 
     // muon_mass_energy_equivalent_in_MeV
-    // CODATA Value: 105.6583715 ± 0.0000035MeV
+    // CODATA Value: 105.6583715 ± 0.0000035 MeV
     constexpr double muon_mass_energy_equivalent_in_MeV = 105.6583715;
 
     // muon_mass_in_u
-    // CODATA Value: 0.1134289267 ± 0.0000000029u
+    // CODATA Value: 0.1134289267 ± 0.0000000029 u
     constexpr double muon_mass_in_u = 0.1134289267;
 
     // muon_molar_mass
-    // CODATA Value: 0.1134289267e-3 ± 0.0000000029e-3kg mol^-1
+    // CODATA Value: 0.1134289267e-3 ± 0.0000000029e-3 kg mol^-1
     constexpr double muon_molar_mass = 0.1134289267e-3;
 
     // muon_neutron_mass_ratio
-    // CODATA Value: 0.1124545177 ± 0.000 000 0028
+    // CODATA Value: 0.1124545177 ± 0.0000000028 
     constexpr double muon_neutron_mass_ratio = 0.1124545177;
 
     // muon_proton_mag_mom_ratio
-    // CODATA Value: -3.183345107 ± 0.000 000 084
+    // CODATA Value: -3.183345107 ± 0.000000084 
     constexpr double muon_proton_mag_mom_ratio = -3.183345107;
 
     // muon_proton_mass_ratio
-    // CODATA Value: 0.1126095272 ± 0.000 000 0028
+    // CODATA Value: 0.1126095272 ± 0.0000000028 
     constexpr double muon_proton_mass_ratio = 0.1126095272;
 
     // muon_tau_mass_ratio
-    // CODATA Value: 5.94649e-2 ± 0.000 54 e-2
+    // CODATA Value: 5.94649e-2 ± 0.00054e-2 
     constexpr double muon_tau_mass_ratio = 5.94649e-2;
 
     // natural_unit_of_action
-    // CODATA Value: 1.054571726e-34 ± 0.000000047e-34J s
+    // CODATA Value: 1.054571726e-34 ± 0.000000047e-34 J s
     constexpr double natural_unit_of_action = 1.054571726e-34;
 
     // natural_unit_of_action_in_eV_s
-    // CODATA Value: 6.58211928e-16 ± 0.00000015e-16eV s
+    // CODATA Value: 6.58211928e-16 ± 0.00000015e-16 eV s
     constexpr double natural_unit_of_action_in_eV_s = 6.58211928e-16;
 
     // natural_unit_of_energy
-    // CODATA Value: 8.18710506e-14 ± 0.00000036e-14J
+    // CODATA Value: 8.18710506e-14 ± 0.00000036e-14 J
     constexpr double natural_unit_of_energy = 8.18710506e-14;
 
     // natural_unit_of_energy_in_MeV
-    // CODATA Value: 0.510998928 ± 0.000000011MeV
+    // CODATA Value: 0.510998928 ± 0.000000011 MeV
     constexpr double natural_unit_of_energy_in_MeV = 0.510998928;
 
     // natural_unit_of_length
-    // CODATA Value: 386.15926800e-15 ± 0.00000025e-15m
+    // CODATA Value: 386.15926800e-15 ± 0.00000025e-15 m
     constexpr double natural_unit_of_length = 386.15926800e-15;
 
     // natural_unit_of_mass
-    // CODATA Value: 9.10938291e-31 ± 0.00000040e-31kg
+    // CODATA Value: 9.10938291e-31 ± 0.00000040e-31 kg
     constexpr double natural_unit_of_mass = 9.10938291e-31;
 
     // natural_unit_of_momum
-    // CODATA Value: 2.73092429e-22 ± 0.00000012e-22kg m s^-1
+    // CODATA Value: 2.73092429e-22 ± 0.00000012e-22 kg m s^-1
     constexpr double natural_unit_of_momum = 2.73092429e-22;
 
     // natural_unit_of_momum_in_MeVc
-    // CODATA Value: 0.510998928 ± 0.000000011MeV/c
+    // CODATA Value: 0.510998928 ± 0.000000011 MeV/c
     constexpr double natural_unit_of_momum_in_MeVc = 0.510998928;
 
     // natural_unit_of_time
-    // CODATA Value: 1.28808866833e-21 ± 0.00000000083e-21s
+    // CODATA Value: 1.28808866833e-21 ± 0.00000000083e-21 s
     constexpr double natural_unit_of_time = 1.28808866833e-21;
 
     // natural_unit_of_velocity
-    // CODATA Value: 299792458 ± (exact)m s^-1
+    // CODATA Value: 299792458 ± (exact) m s^-1
     constexpr double natural_unit_of_velocity = 299792458;
 
     // neutron_Compton_wavelength
-    // CODATA Value: 1.3195909068e-15 ± 0.0000000011e-15m
+    // CODATA Value: 1.3195909068e-15 ± 0.0000000011e-15 m
     constexpr double neutron_Compton_wavelength = 1.3195909068e-15;
 
     // neutron_Compton_wavelength_over_2_pi
-    // CODATA Value: 0.21001941568e-15 ± 0.00000000017e-15m
+    // CODATA Value: 0.21001941568e-15 ± 0.00000000017e-15 m
     constexpr double neutron_Compton_wavelength_over_2_pi = 0.21001941568e-15;
 
     // neutron_electron_mag_mom_ratio
-    // CODATA Value: 1.04066882e-3 ± 0.000 000 25 e-3
+    // CODATA Value: 1.04066882e-3 ± 0.00000025e-3 
     constexpr double neutron_electron_mag_mom_ratio = 1.04066882e-3;
 
     // neutron_electron_mass_ratio
-    // CODATA Value: 1838.6836605 ± 0.000 0011
+    // CODATA Value: 1838.6836605 ± 0.0000011 
     constexpr double neutron_electron_mass_ratio = 1838.6836605;
 
     // neutron_g_factor
-    // CODATA Value: -3.82608545 ± 0.000 000 90
+    // CODATA Value: -3.82608545 ± 0.00000090 
     constexpr double neutron_g_factor = -3.82608545;
 
     // neutron_gyromag_ratio
-    // CODATA Value: 1.83247179e8 ± 0.00000043e8s^-1 T^-1
+    // CODATA Value: 1.83247179e8 ± 0.00000043e8 s^-1 T^-1
     constexpr double neutron_gyromag_ratio = 1.83247179e8;
 
     // neutron_gyromag_ratio_over_2_pi
-    // CODATA Value: 29.1646943 ± 0.0000069MHz T^-1
+    // CODATA Value: 29.1646943 ± 0.0000069 MHz T^-1
     constexpr double neutron_gyromag_ratio_over_2_pi = 29.1646943;
 
     // neutron_mag_mom
-    // CODATA Value: -0.96623647e-26 ± 0.00000023e-26J T^-1
+    // CODATA Value: -0.96623647e-26 ± 0.00000023e-26 J T^-1
     constexpr double neutron_mag_mom = -0.96623647e-26;
 
     // neutron_mag_mom_to_Bohr_magneton_ratio
-    // CODATA Value: -1.04187563e-3 ± 0.000 000 25 e-3
+    // CODATA Value: -1.04187563e-3 ± 0.00000025e-3 
     constexpr double neutron_mag_mom_to_Bohr_magneton_ratio = -1.04187563e-3;
 
     // neutron_mag_mom_to_nuclear_magneton_ratio
-    // CODATA Value: -1.91304272 ± 0.000 000 45
+    // CODATA Value: -1.91304272 ± 0.00000045 
     constexpr double neutron_mag_mom_to_nuclear_magneton_ratio = -1.91304272;
 
     // neutron_mass
-    // CODATA Value: 1.674927351e-27 ± 0.000000074e-27kg
+    // CODATA Value: 1.674927351e-27 ± 0.000000074e-27 kg
     constexpr double neutron_mass = 1.674927351e-27;
 
     // neutron_mass_energy_equivalent
-    // CODATA Value: 1.505349631e-10 ± 0.000000066e-10J
+    // CODATA Value: 1.505349631e-10 ± 0.000000066e-10 J
     constexpr double neutron_mass_energy_equivalent = 1.505349631e-10;
 
     // neutron_mass_energy_equivalent_in_MeV
-    // CODATA Value: 939.565379 ± 0.000021MeV
+    // CODATA Value: 939.565379 ± 0.000021 MeV
     constexpr double neutron_mass_energy_equivalent_in_MeV = 939.565379;
 
     // neutron_mass_in_u
-    // CODATA Value: 1.00866491600 ± 0.00000000043u
+    // CODATA Value: 1.00866491600 ± 0.00000000043 u
     constexpr double neutron_mass_in_u = 1.00866491600;
 
     // neutron_molar_mass
-    // CODATA Value: 1.00866491600e-3 ± 0.00000000043e-3kg mol^-1
+    // CODATA Value: 1.00866491600e-3 ± 0.00000000043e-3 kg mol^-1
     constexpr double neutron_molar_mass = 1.00866491600e-3;
 
     // neutron_muon_mass_ratio
-    // CODATA Value: 8.89248400 ± 0.000 000 22
+    // CODATA Value: 8.89248400 ± 0.00000022 
     constexpr double neutron_muon_mass_ratio = 8.89248400;
 
     // neutron_proton_mag_mom_ratio
-    // CODATA Value: -0.68497934 ± 0.000 000 16
+    // CODATA Value: -0.68497934 ± 0.00000016 
     constexpr double neutron_proton_mag_mom_ratio = -0.68497934;
 
     // neutron_proton_mass_difference
-    // CODATA Value: 2.30557392e-30 ± 0.000 000 76 e-30
+    // CODATA Value: 2.30557392e-30 ± 0.00000076e-30 
     constexpr double neutron_proton_mass_difference = 2.30557392e-30;
 
     // neutron_proton_mass_difference_energy_equivalent
-    // CODATA Value: 2.07214650e-13 ± 0.000 000 68 e-13
+    // CODATA Value: 2.07214650e-13 ± 0.00000068e-13 
     constexpr double neutron_proton_mass_difference_energy_equivalent = 2.07214650e-13;
 
     // neutron_proton_mass_difference_energy_equivalent_in_MeV
-    // CODATA Value: 1.29333217 ± 0.000 000 42
+    // CODATA Value: 1.29333217 ± 0.00000042 
     constexpr double neutron_proton_mass_difference_energy_equivalent_in_MeV = 1.29333217;
 
     // neutron_proton_mass_difference_in_u
-    // CODATA Value: 0.00138844919 ± 0.000 000 000 45
+    // CODATA Value: 0.00138844919 ± 0.00000000045 
     constexpr double neutron_proton_mass_difference_in_u = 0.00138844919;
 
     // neutron_proton_mass_ratio
-    // CODATA Value: 1.00137841917 ± 0.000 000 000 45
+    // CODATA Value: 1.00137841917 ± 0.00000000045 
     constexpr double neutron_proton_mass_ratio = 1.00137841917;
 
     // neutron_tau_mass_ratio
-    // CODATA Value: 0.528790 ± 0.000 048
+    // CODATA Value: 0.528790 ± 0.000048 
     constexpr double neutron_tau_mass_ratio = 0.528790;
 
     // neutron_to_shielded_proton_mag_mom_ratio
-    // CODATA Value: -0.68499694 ± 0.000 000 16
+    // CODATA Value: -0.68499694 ± 0.00000016 
     constexpr double neutron_to_shielded_proton_mag_mom_ratio = -0.68499694;
 
     // Newtonian_constant_of_gravitation
-    // CODATA Value: 6.67384e-11 ± 0.00080e-11m^3 kg^-1 s^-2
+    // CODATA Value: 6.67384e-11 ± 0.00080e-11 m^3 kg^-1 s^-2
     constexpr double Newtonian_constant_of_gravitation = 6.67384e-11;
 
     // Newtonian_constant_of_gravitation_over_h_bar_c
-    // CODATA Value: 6.70837e-39 ± 0.00080e-39(GeV/c^2)^-2
+    // CODATA Value: 6.70837e-39 ± 0.00080e-39 (GeV/c^2)^-2
     constexpr double Newtonian_constant_of_gravitation_over_h_bar_c = 6.70837e-39;
 
     // nuclear_magneton
-    // CODATA Value: 5.05078353e-27 ± 0.00000011e-27J T^-1
+    // CODATA Value: 5.05078353e-27 ± 0.00000011e-27 J T^-1
     constexpr double nuclear_magneton = 5.05078353e-27;
 
     // nuclear_magneton_in_eVT
-    // CODATA Value: 3.1524512605e-8 ± 0.0000000022e-8eV T^-1
+    // CODATA Value: 3.1524512605e-8 ± 0.0000000022e-8 eV T^-1
     constexpr double nuclear_magneton_in_eVT = 3.1524512605e-8;
 
     // nuclear_magneton_in_inverse_meters_per_tesla
-    // CODATA Value: 2.542623527e-2 ± 0.000000056e-2m^-1 T^-1
+    // CODATA Value: 2.542623527e-2 ± 0.000000056e-2 m^-1 T^-1
     constexpr double nuclear_magneton_in_inverse_meters_per_tesla = 2.542623527e-2;
 
     // nuclear_magneton_in_KT
-    // CODATA Value: 3.6582682e-4 ± 0.0000033e-4K T^-1
+    // CODATA Value: 3.6582682e-4 ± 0.0000033e-4 K T^-1
     constexpr double nuclear_magneton_in_KT = 3.6582682e-4;
 
     // nuclear_magneton_in_MHzT
-    // CODATA Value: 7.62259357 ± 0.00000017MHz T^-1
+    // CODATA Value: 7.62259357 ± 0.00000017 MHz T^-1
     constexpr double nuclear_magneton_in_MHzT = 7.62259357;
 
     // Planck_constant
-    // CODATA Value: 6.62606957e-34 ± 0.00000029e-34J s
+    // CODATA Value: 6.62606957e-34 ± 0.00000029e-34 J s
     constexpr double Planck_constant = 6.62606957e-34;
 
     // Planck_constant_in_eV_s
-    // CODATA Value: 4.135667516e-15 ± 0.000000091e-15eV s
+    // CODATA Value: 4.135667516e-15 ± 0.000000091e-15 eV s
     constexpr double Planck_constant_in_eV_s = 4.135667516e-15;
 
     // Planck_constant_over_2_pi
-    // CODATA Value: 1.054571726e-34 ± 0.000000047e-34J s
+    // CODATA Value: 1.054571726e-34 ± 0.000000047e-34 J s
     constexpr double Planck_constant_over_2_pi = 1.054571726e-34;
 
     // Planck_constant_over_2_pi_in_eV_s
-    // CODATA Value: 6.58211928e-16 ± 0.00000015e-16eV s
+    // CODATA Value: 6.58211928e-16 ± 0.00000015e-16 eV s
     constexpr double Planck_constant_over_2_pi_in_eV_s = 6.58211928e-16;
 
     // Planck_constant_over_2_pi_times_c_in_MeV_fm
-    // CODATA Value: 197.3269718 ± 0.0000044MeV fm
+    // CODATA Value: 197.3269718 ± 0.0000044 MeV fm
     constexpr double Planck_constant_over_2_pi_times_c_in_MeV_fm = 197.3269718;
 
     // Planck_length
-    // CODATA Value: 1.616199e-35 ± 0.000097e-35m
+    // CODATA Value: 1.616199e-35 ± 0.000097e-35 m
     constexpr double Planck_length = 1.616199e-35;
 
     // Planck_mass
-    // CODATA Value: 2.17651e-8 ± 0.00013e-8kg
+    // CODATA Value: 2.17651e-8 ± 0.00013e-8 kg
     constexpr double Planck_mass = 2.17651e-8;
 
     // Planck_mass_energy_equivalent_in_GeV
-    // CODATA Value: 1.220932e19 ± 0.000073e19GeV
+    // CODATA Value: 1.220932e19 ± 0.000073e19 GeV
     constexpr double Planck_mass_energy_equivalent_in_GeV = 1.220932e19;
 
     // Planck_temperature
-    // CODATA Value: 1.416833e32 ± 0.000085e32K
+    // CODATA Value: 1.416833e32 ± 0.000085e32 K
     constexpr double Planck_temperature = 1.416833e32;
 
     // Planck_time
-    // CODATA Value: 5.39106e-44 ± 0.00032e-44s
+    // CODATA Value: 5.39106e-44 ± 0.00032e-44 s
     constexpr double Planck_time = 5.39106e-44;
 
     // proton_charge_to_mass_quotient
-    // CODATA Value: 9.57883358e7 ± 0.00000021e7C kg^-1
+    // CODATA Value: 9.57883358e7 ± 0.00000021e7 C kg^-1
     constexpr double proton_charge_to_mass_quotient = 9.57883358e7;
 
     // proton_Compton_wavelength
-    // CODATA Value: 1.32140985623e-15 ± 0.00000000094e-15m
+    // CODATA Value: 1.32140985623e-15 ± 0.00000000094e-15 m
     constexpr double proton_Compton_wavelength = 1.32140985623e-15;
 
     // proton_Compton_wavelength_over_2_pi
-    // CODATA Value: 0.21030891047e-15 ± 0.00000000015e-15m
+    // CODATA Value: 0.21030891047e-15 ± 0.00000000015e-15 m
     constexpr double proton_Compton_wavelength_over_2_pi = 0.21030891047e-15;
 
     // proton_electron_mass_ratio
-    // CODATA Value: 1836.15267245 ± 0.000 000 75
+    // CODATA Value: 1836.15267245 ± 0.00000075 
     constexpr double proton_electron_mass_ratio = 1836.15267245;
 
     // proton_g_factor
-    // CODATA Value: 5.585694713 ± 0.000 000 046
+    // CODATA Value: 5.585694713 ± 0.000000046 
     constexpr double proton_g_factor = 5.585694713;
 
     // proton_gyromag_ratio
-    // CODATA Value: 2.675222005e8 ± 0.000000063e8s^-1 T^-1
+    // CODATA Value: 2.675222005e8 ± 0.000000063e8 s^-1 T^-1
     constexpr double proton_gyromag_ratio = 2.675222005e8;
 
     // proton_gyromag_ratio_over_2_pi
-    // CODATA Value: 42.5774806 ± 0.0000010MHz T^-1
+    // CODATA Value: 42.5774806 ± 0.0000010 MHz T^-1
     constexpr double proton_gyromag_ratio_over_2_pi = 42.5774806;
 
     // proton_mag_mom
-    // CODATA Value: 1.410606743e-26 ± 0.000000033e-26J T^-1
+    // CODATA Value: 1.410606743e-26 ± 0.000000033e-26 J T^-1
     constexpr double proton_mag_mom = 1.410606743e-26;
 
     // proton_mag_mom_to_Bohr_magneton_ratio
-    // CODATA Value: 1.521032210e-3 ± 0.000 000 012 e-3
+    // CODATA Value: 1.521032210e-3 ± 0.000000012e-3 
     constexpr double proton_mag_mom_to_Bohr_magneton_ratio = 1.521032210e-3;
 
     // proton_mag_mom_to_nuclear_magneton_ratio
-    // CODATA Value: 2.792847356 ± 0.000 000 023
+    // CODATA Value: 2.792847356 ± 0.000000023 
     constexpr double proton_mag_mom_to_nuclear_magneton_ratio = 2.792847356;
 
     // proton_mag_shielding_correction
-    // CODATA Value: 25.694e-6 ± 0.014 e-6
+    // CODATA Value: 25.694e-6 ± 0.014e-6 
     constexpr double proton_mag_shielding_correction = 25.694e-6;
 
     // proton_mass
-    // CODATA Value: 1.672621777e-27 ± 0.000000074e-27kg
+    // CODATA Value: 1.672621777e-27 ± 0.000000074e-27 kg
     constexpr double proton_mass = 1.672621777e-27;
 
     // proton_mass_energy_equivalent
-    // CODATA Value: 1.503277484e-10 ± 0.000000066e-10J
+    // CODATA Value: 1.503277484e-10 ± 0.000000066e-10 J
     constexpr double proton_mass_energy_equivalent = 1.503277484e-10;
 
     // proton_mass_energy_equivalent_in_MeV
-    // CODATA Value: 938.272046 ± 0.000021MeV
+    // CODATA Value: 938.272046 ± 0.000021 MeV
     constexpr double proton_mass_energy_equivalent_in_MeV = 938.272046;
 
     // proton_mass_in_u
-    // CODATA Value: 1.007276466812 ± 0.000000000090u
+    // CODATA Value: 1.007276466812 ± 0.000000000090 u
     constexpr double proton_mass_in_u = 1.007276466812;
 
     // proton_molar_mass
-    // CODATA Value: 1.007276466812e-3 ± 0.000000000090e-3kg mol^-1
+    // CODATA Value: 1.007276466812e-3 ± 0.000000000090e-3 kg mol^-1
     constexpr double proton_molar_mass = 1.007276466812e-3;
 
     // proton_muon_mass_ratio
-    // CODATA Value: 8.88024331 ± 0.000 000 22
+    // CODATA Value: 8.88024331 ± 0.00000022 
     constexpr double proton_muon_mass_ratio = 8.88024331;
 
     // proton_neutron_mag_mom_ratio
-    // CODATA Value: -1.45989806 ± 0.000 000 34
+    // CODATA Value: -1.45989806 ± 0.00000034 
     constexpr double proton_neutron_mag_mom_ratio = -1.45989806;
 
     // proton_neutron_mass_ratio
-    // CODATA Value: 0.99862347826 ± 0.000 000 000 45
+    // CODATA Value: 0.99862347826 ± 0.00000000045 
     constexpr double proton_neutron_mass_ratio = 0.99862347826;
 
     // proton_rms_charge_radius
-    // CODATA Value: 0.8775e-15 ± 0.0051e-15m
+    // CODATA Value: 0.8775e-15 ± 0.0051e-15 m
     constexpr double proton_rms_charge_radius = 0.8775e-15;
 
     // proton_tau_mass_ratio
-    // CODATA Value: 0.528063 ± 0.000 048
+    // CODATA Value: 0.528063 ± 0.000048 
     constexpr double proton_tau_mass_ratio = 0.528063;
 
     // quantum_of_circulation
-    // CODATA Value: 3.6369475520e-4 ± 0.0000000024e-4m^2 s^-1
+    // CODATA Value: 3.6369475520e-4 ± 0.0000000024e-4 m^2 s^-1
     constexpr double quantum_of_circulation = 3.6369475520e-4;
 
     // quantum_of_circulation_times_2
-    // CODATA Value: 7.2738951040e-4 ± 0.0000000047e-4m^2 s^-1
+    // CODATA Value: 7.2738951040e-4 ± 0.0000000047e-4 m^2 s^-1
     constexpr double quantum_of_circulation_times_2 = 7.2738951040e-4;
 
     // Rydberg_constant
-    // CODATA Value: 10973731.568539 ± 0.000055m^-1
+    // CODATA Value: 10973731.568539 ± 0.000055 m^-1
     constexpr double Rydberg_constant = 10973731.568539;
 
     // Rydberg_constant_times_c_in_Hz
-    // CODATA Value: 3.289841960364e15 ± 0.000000000017e15Hz
+    // CODATA Value: 3.289841960364e15 ± 0.000000000017e15 Hz
     constexpr double Rydberg_constant_times_c_in_Hz = 3.289841960364e15;
 
     // Rydberg_constant_times_hc_in_eV
-    // CODATA Value: 13.60569253 ± 0.00000030eV
+    // CODATA Value: 13.60569253 ± 0.00000030 eV
     constexpr double Rydberg_constant_times_hc_in_eV = 13.60569253;
 
     // Rydberg_constant_times_hc_in_J
-    // CODATA Value: 2.179872171e-18 ± 0.000000096e-18J
+    // CODATA Value: 2.179872171e-18 ± 0.000000096e-18 J
     constexpr double Rydberg_constant_times_hc_in_J = 2.179872171e-18;
 
     // Sackur_Tetrode_constant_1_K_100_kPa
-    // CODATA Value: -1.1517078 ± 0.000 0023
+    // CODATA Value: -1.1517078 ± 0.0000023 
     constexpr double Sackur_Tetrode_constant_1_K_100_kPa = -1.1517078;
 
     // Sackur_Tetrode_constant_1_K_101325_kPa
-    // CODATA Value: -1.1648708 ± 0.000 0023
+    // CODATA Value: -1.1648708 ± 0.0000023 
     constexpr double Sackur_Tetrode_constant_1_K_101325_kPa = -1.1648708;
 
     // second_radiation_constant
-    // CODATA Value: 1.4387770e-2 ± 0.0000013e-2m K
+    // CODATA Value: 1.4387770e-2 ± 0.0000013e-2 m K
     constexpr double second_radiation_constant = 1.4387770e-2;
 
     // shielded_helion_gyromag_ratio
-    // CODATA Value: 2.037894659e8 ± 0.000000051e8s^-1 T^-1
+    // CODATA Value: 2.037894659e8 ± 0.000000051e8 s^-1 T^-1
     constexpr double shielded_helion_gyromag_ratio = 2.037894659e8;
 
     // shielded_helion_gyromag_ratio_over_2_pi
-    // CODATA Value: 32.43410084 ± 0.00000081MHz T^-1
+    // CODATA Value: 32.43410084 ± 0.00000081 MHz T^-1
     constexpr double shielded_helion_gyromag_ratio_over_2_pi = 32.43410084;
 
     // shielded_helion_mag_mom
-    // CODATA Value: -1.074553044e-26 ± 0.000000027e-26J T^-1
+    // CODATA Value: -1.074553044e-26 ± 0.000000027e-26 J T^-1
     constexpr double shielded_helion_mag_mom = -1.074553044e-26;
 
     // shielded_helion_mag_mom_to_Bohr_magneton_ratio
-    // CODATA Value: -1.158671471e-3 ± 0.000 000 014 e-3
+    // CODATA Value: -1.158671471e-3 ± 0.000000014e-3 
     constexpr double shielded_helion_mag_mom_to_Bohr_magneton_ratio = -1.158671471e-3;
 
     // shielded_helion_mag_mom_to_nuclear_magneton_ratio
-    // CODATA Value: -2.127497718 ± 0.000 000 025
+    // CODATA Value: -2.127497718 ± 0.000000025 
     constexpr double shielded_helion_mag_mom_to_nuclear_magneton_ratio = -2.127497718;
 
     // shielded_helion_to_proton_mag_mom_ratio
-    // CODATA Value: -0.761766558 ± 0.000 000 011
+    // CODATA Value: -0.761766558 ± 0.000000011 
     constexpr double shielded_helion_to_proton_mag_mom_ratio = -0.761766558;
 
     // shielded_helion_to_shielded_proton_mag_mom_ratio
-    // CODATA Value: -0.7617861313 ± 0.000 000 0033
+    // CODATA Value: -0.7617861313 ± 0.0000000033 
     constexpr double shielded_helion_to_shielded_proton_mag_mom_ratio = -0.7617861313;
 
     // shielded_proton_gyromag_ratio
-    // CODATA Value: 2.675153268e8 ± 0.000000066e8s^-1 T^-1
+    // CODATA Value: 2.675153268e8 ± 0.000000066e8 s^-1 T^-1
     constexpr double shielded_proton_gyromag_ratio = 2.675153268e8;
 
     // shielded_proton_gyromag_ratio_over_2_pi
-    // CODATA Value: 42.5763866 ± 0.0000010MHz T^-1
+    // CODATA Value: 42.5763866 ± 0.0000010 MHz T^-1
     constexpr double shielded_proton_gyromag_ratio_over_2_pi = 42.5763866;
 
     // shielded_proton_mag_mom
-    // CODATA Value: 1.410570499e-26 ± 0.000000035e-26J T^-1
+    // CODATA Value: 1.410570499e-26 ± 0.000000035e-26 J T^-1
     constexpr double shielded_proton_mag_mom = 1.410570499e-26;
 
     // shielded_proton_mag_mom_to_Bohr_magneton_ratio
-    // CODATA Value: 1.520993128e-3 ± 0.000 000 017 e-3
+    // CODATA Value: 1.520993128e-3 ± 0.000000017e-3 
     constexpr double shielded_proton_mag_mom_to_Bohr_magneton_ratio = 1.520993128e-3;
 
     // shielded_proton_mag_mom_to_nuclear_magneton_ratio
-    // CODATA Value: 2.792775598 ± 0.000 000 030
+    // CODATA Value: 2.792775598 ± 0.000000030 
     constexpr double shielded_proton_mag_mom_to_nuclear_magneton_ratio = 2.792775598;
 
     // speed_of_light_in_vacuum
-    // CODATA Value: 299792458 ± (exact)m s^-1
+    // CODATA Value: 299792458 ± (exact) m s^-1
     constexpr double speed_of_light_in_vacuum = 299792458;
 
     // standard_acceleration_of_gravity
-    // CODATA Value: 9.80665 ± (exact)m s^-2
+    // CODATA Value: 9.80665 ± (exact) m s^-2
     constexpr double standard_acceleration_of_gravity = 9.80665;
 
     // standard_atmosphere
-    // CODATA Value: 101325 ± (exact)Pa
+    // CODATA Value: 101325 ± (exact) Pa
     constexpr double standard_atmosphere = 101325;
 
     // standard_state_pressure
-    // CODATA Value: 100000 ± (exact)Pa
+    // CODATA Value: 100000 ± (exact) Pa
     constexpr double standard_state_pressure = 100000;
 
     // Stefan_Boltzmann_constant
-    // CODATA Value: 5.670373e-8 ± 0.000021e-8W m^-2 K^-4
+    // CODATA Value: 5.670373e-8 ± 0.000021e-8 W m^-2 K^-4
     constexpr double Stefan_Boltzmann_constant = 5.670373e-8;
 
     // tau_Compton_wavelength
-    // CODATA Value: 0.697787e-15 ± 0.000063e-15m
+    // CODATA Value: 0.697787e-15 ± 0.000063e-15 m
     constexpr double tau_Compton_wavelength = 0.697787e-15;
 
     // tau_Compton_wavelength_over_2_pi
-    // CODATA Value: 0.111056e-15 ± 0.000010e-15m
+    // CODATA Value: 0.111056e-15 ± 0.000010e-15 m
     constexpr double tau_Compton_wavelength_over_2_pi = 0.111056e-15;
 
     // tau_electron_mass_ratio
-    // CODATA Value: 3477.15 ± 0.31
+    // CODATA Value: 3477.15 ± 0.31 
     constexpr double tau_electron_mass_ratio = 3477.15;
 
     // tau_mass
-    // CODATA Value: 3.16747e-27 ± 0.00029e-27kg
+    // CODATA Value: 3.16747e-27 ± 0.00029e-27 kg
     constexpr double tau_mass = 3.16747e-27;
 
     // tau_mass_energy_equivalent
-    // CODATA Value: 2.84678e-10 ± 0.00026e-10J
+    // CODATA Value: 2.84678e-10 ± 0.00026e-10 J
     constexpr double tau_mass_energy_equivalent = 2.84678e-10;
 
     // tau_mass_energy_equivalent_in_MeV
-    // CODATA Value: 1776.82 ± 0.16MeV
+    // CODATA Value: 1776.82 ± 0.16 MeV
     constexpr double tau_mass_energy_equivalent_in_MeV = 1776.82;
 
     // tau_mass_in_u
-    // CODATA Value: 1.90749 ± 0.00017u
+    // CODATA Value: 1.90749 ± 0.00017 u
     constexpr double tau_mass_in_u = 1.90749;
 
     // tau_molar_mass
-    // CODATA Value: 1.90749e-3 ± 0.00017e-3kg mol^-1
+    // CODATA Value: 1.90749e-3 ± 0.00017e-3 kg mol^-1
     constexpr double tau_molar_mass = 1.90749e-3;
 
     // tau_muon_mass_ratio
-    // CODATA Value: 16.8167 ± 0.0015
+    // CODATA Value: 16.8167 ± 0.0015 
     constexpr double tau_muon_mass_ratio = 16.8167;
 
     // tau_neutron_mass_ratio
-    // CODATA Value: 1.89111 ± 0.000 17
+    // CODATA Value: 1.89111 ± 0.00017 
     constexpr double tau_neutron_mass_ratio = 1.89111;
 
     // tau_proton_mass_ratio
-    // CODATA Value: 1.89372 ± 0.000 17
+    // CODATA Value: 1.89372 ± 0.00017 
     constexpr double tau_proton_mass_ratio = 1.89372;
 
     // Thomson_cross_section
-    // CODATA Value: 0.6652458734e-28 ± 0.0000000013e-28m^2
+    // CODATA Value: 0.6652458734e-28 ± 0.0000000013e-28 m^2
     constexpr double Thomson_cross_section = 0.6652458734e-28;
 
     // triton_electron_mass_ratio
-    // CODATA Value: 5496.9215267 ± 0.000 0050
+    // CODATA Value: 5496.9215267 ± 0.0000050 
     constexpr double triton_electron_mass_ratio = 5496.9215267;
 
     // triton_g_factor
-    // CODATA Value: 5.957924896 ± 0.000 000 076
+    // CODATA Value: 5.957924896 ± 0.000000076 
     constexpr double triton_g_factor = 5.957924896;
 
     // triton_mag_mom
-    // CODATA Value: 1.504609447e-26 ± 0.000000038e-26J T^-1
+    // CODATA Value: 1.504609447e-26 ± 0.000000038e-26 J T^-1
     constexpr double triton_mag_mom = 1.504609447e-26;
 
     // triton_mag_mom_to_Bohr_magneton_ratio
-    // CODATA Value: 1.622393657e-3 ± 0.000 000 021 e-3
+    // CODATA Value: 1.622393657e-3 ± 0.000000021e-3 
     constexpr double triton_mag_mom_to_Bohr_magneton_ratio = 1.622393657e-3;
 
     // triton_mag_mom_to_nuclear_magneton_ratio
-    // CODATA Value: 2.978962448 ± 0.000 000 038
+    // CODATA Value: 2.978962448 ± 0.000000038 
     constexpr double triton_mag_mom_to_nuclear_magneton_ratio = 2.978962448;
 
     // triton_mass
-    // CODATA Value: 5.00735630e-27 ± 0.00000022e-27kg
+    // CODATA Value: 5.00735630e-27 ± 0.00000022e-27 kg
     constexpr double triton_mass = 5.00735630e-27;
 
     // triton_mass_energy_equivalent
-    // CODATA Value: 4.50038741e-10 ± 0.00000020e-10J
+    // CODATA Value: 4.50038741e-10 ± 0.00000020e-10 J
     constexpr double triton_mass_energy_equivalent = 4.50038741e-10;
 
     // triton_mass_energy_equivalent_in_MeV
-    // CODATA Value: 2808.921005 ± 0.000062MeV
+    // CODATA Value: 2808.921005 ± 0.000062 MeV
     constexpr double triton_mass_energy_equivalent_in_MeV = 2808.921005;
 
     // triton_mass_in_u
-    // CODATA Value: 3.0155007134 ± 0.0000000025u
+    // CODATA Value: 3.0155007134 ± 0.0000000025 u
     constexpr double triton_mass_in_u = 3.0155007134;
 
     // triton_molar_mass
-    // CODATA Value: 3.0155007134e-3 ± 0.0000000025e-3kg mol^-1
+    // CODATA Value: 3.0155007134e-3 ± 0.0000000025e-3 kg mol^-1
     constexpr double triton_molar_mass = 3.0155007134e-3;
 
     // triton_proton_mass_ratio
-    // CODATA Value: 2.9937170308 ± 0.000 000 0025
+    // CODATA Value: 2.9937170308 ± 0.0000000025 
     constexpr double triton_proton_mass_ratio = 2.9937170308;
 
     // unified_atomic_mass_unit
-    // CODATA Value: 1.660538921e-27 ± 0.000000073e-27kg
+    // CODATA Value: 1.660538921e-27 ± 0.000000073e-27 kg
     constexpr double unified_atomic_mass_unit = 1.660538921e-27;
 
     // von_Klitzing_constant
-    // CODATA Value: 25812.8074434 ± 0.0000084ohm
+    // CODATA Value: 25812.8074434 ± 0.0000084 ohm
     constexpr double von_Klitzing_constant = 25812.8074434;
 
     // weak_mixing_angle
-    // CODATA Value: 0.2223 ± 0.0021
+    // CODATA Value: 0.2223 ± 0.0021 
     constexpr double weak_mixing_angle = 0.2223;
 
     // Wien_frequency_displacement_law_constant
-    // CODATA Value: 5.8789254e10 ± 0.0000053e10Hz K^-1
+    // CODATA Value: 5.8789254e10 ± 0.0000053e10 Hz K^-1
     constexpr double Wien_frequency_displacement_law_constant = 5.8789254e10;
 
     // Wien_wavelength_displacement_law_constant
-    // CODATA Value: 2.8977721e-3 ± 0.0000026e-3m K
+    // CODATA Value: 2.8977721e-3 ± 0.0000026e-3 m K
     constexpr double Wien_wavelength_displacement_law_constant = 2.8977721e-3;
 
 
