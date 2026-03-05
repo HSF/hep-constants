@@ -278,6 +278,8 @@ def main():
                        help='Path to Jinja2 template file')
     parser.add_argument('--output_dir', type=Path, default=Path('output'),
                        help='Directory for output C++ headers')
+    parser.add_argument('--prefixes', action='store_true',
+                       help='Also generate SI prefixes header')
     
     args = parser.parse_args()
     
@@ -285,6 +287,12 @@ def main():
     process_codata_directory(args.input_dir, args.template, args.output_dir)
     
     print(f"Processing complete. Headers generated in {args.output_dir}")
+    
+    # Generate prefixes header if requested
+    if args.prefixes:
+        from generate_prefixes import generate_prefixes_header
+        generate_prefixes_header(args.output_dir / 'prefixes.hpp')
+        print("Also generated prefixes.hpp")
 
 
 if __name__ == '__main__':
