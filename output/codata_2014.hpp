@@ -8,9 +8,9 @@ namespace physicalconstants {
 namespace codata2014 {
 
 
-    // 220_lattice_spacing_of_silicon
+    // _220_lattice_spacing_of_silicon
     // CODATA Value: 192.0155714e-12 ± 0.0000032e-12 m
-    constexpr double 220_lattice_spacing_of_silicon = 192.0155714e-12;
+    constexpr double _220_lattice_spacing_of_silicon = 192.0155714e-12;
 
     // alpha_particle_electron_mass_ratio
     // CODATA Value: 7294.29954136 ± 0.00000024 

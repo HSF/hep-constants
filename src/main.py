@@ -58,6 +58,9 @@ def parse_codata_file(file_path: Path) -> List[Tuple[str, str, str, Optional[str
             codata_cpp_name = re.sub(r'[\s\-]', '_', pieces[0]).strip()
             # Remove non-word characters
             codata_cpp_name = re.sub(r'[^\w_]', '', codata_cpp_name)
+            # Some CODATA constants could end up starting with a number...
+            if re.match(r"\d", codata_cpp_name):
+                codata_cpp_name = "_" + codata_cpp_name
 
             # Change the value into a valid C++ numerical value
             codata_value = re.sub(r'\s', '', pieces[1])
@@ -85,10 +88,8 @@ def parse_codata_file(file_path: Path) -> List[Tuple[str, str, str, Optional[str
             #     except ValueError:
             #         pass
             
-            # print(f":{codata_uncertainty}:")
             constants.append((codata_cpp_name, codata_value, codata_uncertainty, codata_units, hep_unit_info))
     
-    # print(constants)
     return constants
 
 
