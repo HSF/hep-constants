@@ -1,10 +1,10 @@
-[project]
+[workspace]
 name = "hep-constants"
 version = "0.1.0"
 authors = ["Graeme <graeme@example.com>"]
 description = "Parse CODATA ASCII files and generate C++ headers with constexpr constants"
 channels = ["conda-forge"]
-platforms = ["osx-arm64"]
+platforms = ["osx-arm64", "linux-64", "linux-aarch64"]
 
 [dependencies]
 python = ">=3.14.3,<3.15"
