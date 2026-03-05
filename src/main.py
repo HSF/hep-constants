@@ -87,9 +87,14 @@ def parse_codata_file(file_path: Path) -> List[Tuple[str, str, str, Optional[str
                     if i + 1 < len(numeric_parts) and re.match(r'^\d', numeric_parts[i+1]):
                         is_numeric = True
                 elif re.match(r'^e|E', part):  # Scientific notation exponent
-                    # Check if previous part ends with digit
-                    if i > 0 and re.match(r'\d$', numeric_parts[i-1]):
-                        is_numeric = True
+                    # Check if previous part ends with digit (or is a decimal point)
+                    if i > 0:
+                        prev_part = numeric_parts[i-1]
+                        # Check if previous part ends with digit or is a decimal point
+                        ends_with_digit = prev_part[-1].isdigit() if prev_part else False
+                        is_decimal_point = (prev_part == '.')
+                        if ends_with_digit or is_decimal_point:
+                            is_numeric = True
                 
                 if not is_numeric:
                     numeric_start = i + 1
@@ -116,40 +121,38 @@ def parse_codata_file(file_path: Path) -> List[Tuple[str, str, str, Optional[str
             else:
                 for i in range(1, len(numeric_data)):
                     # Look for the pattern that indicates uncertainty start
-                    if re.match(r'^0\.0+', numeric_data[i]):
+                    if re.match(r'^0\.0*', numeric_data[i]):
                         split_idx = i
                         break
                     # If we see "e" followed by digits, that's part of the exponent
                     if i > 0 and re.match(r'^e|E', numeric_data[i]) and re.match(r'^\d', numeric_data[i-1]):
                         continue
-                    # Improved heuristic: look for patterns that indicate uncertainty
-                    # Uncertainty often starts with a single digit or has many leading zeros
-                    if (len(numeric_data[i]) == 1 and re.match(r'^\d', numeric_data[i])) or \
-                       (len(numeric_data[i]) <= 3 and re.match(r'^0+', numeric_data[i])):
-                        # But make sure this isn't part of an exponent or middle of a number
-                        if i == len(numeric_data) - 1 or not re.match(r'^\d', numeric_data[i+1]):
-                            continue
-                        split_idx = i
-                        break
+                    # Removed the heuristic that was causing incorrect splits
+                    # We now rely only on the 0. pattern which is more reliable
                 
                 if split_idx == len(numeric_data):
                     # If we couldn't find a good split, try to find where the pattern changes
-                    # Look for the first occurrence of "0." pattern or "("
+                    # Look for the first occurrence of "0." pattern (most reliable indicator)
                     for i in range(1, len(numeric_data)):
-                        if numeric_data[i].startswith('0') or numeric_data[i].startswith('('):
+                        if re.match(r'^0\.', numeric_data[i]):
                             split_idx = i
                             break
                     
-                    if split_idx == len(numeric_data):
-                        # Last resort: use a simple heuristic but avoid splitting too early
-                        split_idx = max(2, len(numeric_data) // 2)
+                    # If still no split found, leave split_idx at len(numeric_data)
+                    # This means no uncertainty was detected, so all numeric data is the value
             
             # Reconstruct value and uncertainty by removing spaces
-            value_parts = numeric_data[:split_idx]
-            uncertainty_parts = numeric_data[split_idx:]
-            
-            value = ''.join(value_parts)
-            uncertainty = ''.join(uncertainty_parts)
+            if split_idx == len(numeric_data):
+                # No uncertainty detected - all numeric data is the value
+                value_parts = numeric_data
+                uncertainty_parts = []
+                value = ''.join(value_parts)
+                uncertainty = ""
+            else:
+                value_parts = numeric_data[:split_idx]
+                uncertainty_parts = numeric_data[split_idx:]
+                value = ''.join(value_parts)
+                uncertainty = ''.join(uncertainty_parts)
             
             # Clean up trailing dots (ellipsis) that would cause compilation errors
             value = re.sub(r'\.+$', '', value)  # Remove trailing dots
