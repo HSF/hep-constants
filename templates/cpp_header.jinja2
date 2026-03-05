@@ -9,11 +9,8 @@ namespace {{ namespace }} {
 
 {% for name, value, uncertainty, unit, hep_unit in constants %}
     // {{ name }}
-    // SI Value: {{ value }} ± {{ uncertainty }} {{ unit if unit else '' }}
-    {% if hep_unit %}
-    // HEP Value: {{ hep_unit }}
-    {% endif %}
-    constexpr double {{ name|replace('-', '_') }} = {{ value }};
+    // CODATA Value: {{ value }} ± {{ uncertainty -}} {{- unit if unit else '' }}
+    constexpr double {{ name }} = {{ value }};
 {% endfor %}
 
 } // namespace {{ namespace }}

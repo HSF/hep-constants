@@ -2,6 +2,7 @@
 """Parse CODATA ASCII files and generate C++ headers with constexpr constants."""
 
 import argparse
+import logging
 import os
 import re
 from pathlib import Path
@@ -37,151 +38,59 @@ def parse_codata_file(file_path: Path) -> List[Tuple[str, str, str, Optional[str
             if not data_section:
                 continue
             
-            # Skip empty lines and comment lines
-            if not line or line.startswith('{'):
-                continue
-            
-            # Skip header lines
-            if 'Quantity' in line or 'Value' in line or 'Unit' in line:
-                continue
-            
-            # CODATA format: name, then value (space-separated digits), then uncertainty (space-separated digits), then unit
+            # Modern CODATA files have the structure 
+            # NAME    VALUE     UNCERTAINTY    [UNITS]
+            # Each of the pieces can have spaces, and UNITS are optional
+            # Subtleties:
+            # - UNCERTAINTY can be "(exact)" for defined values
+            # - VALUE can have a trailing ellipsis
+            #
+            # Each piece is separated **by at least 2 spaces** which is the key to the regexp
+            # match below
             # Example: "alpha particle mass                                         6.644 656 75 e-27        0.000 000 29 e-27        kg"
-            
-            # Use a more robust approach to parse CODATA format
-            # The format is: name, value (space-separated digits), uncertainty (space-separated digits), unit
-            
-            # Split the line into parts
-            parts = line.split()
-            
-            # Find where numeric data ends and unit begins
-            # Work backwards to find the last numeric part
-            last_numeric_idx = -1
-            for i in range(len(parts)-1, -1, -1):
-                if re.match(r'^\d|\.|\+|-|e|E', parts[i]):
-                    last_numeric_idx = i
-                    break
-            
-            if last_numeric_idx == -1:
+            pieces = re.match(r"(?P<quantity>[\w\.\/\-\{\}\(\)\, ]+?)\s{2,}(?P<value>[e\d\-\. ]+?)\s{2,}(?P<uncertainty>[\d\-\.e ]+?|\(exact\))\s{2,}(?P<units>[\w\-\.\^\(\)/ ]+?)?\s*$", line)
+            if pieces == None:
+                logging.error(f"Failed to parse this CODATA line:\n{line}")
                 continue
-            
-            # The unit starts after the last numeric part
-            unit_parts = parts[last_numeric_idx + 1:]
-            numeric_parts = parts[:last_numeric_idx + 1]
-            
-            # Find where the numeric data actually starts (separate from name)
-            # Work backwards through numeric_parts to find the start of numeric data
-            # A part is numeric if it looks like a number (digits, decimal point, scientific notation)
-            numeric_start = 0
-            for i in range(len(numeric_parts)-1, -1, -1):
-                part = numeric_parts[i]
-                # Check if this part looks like a number
-                # It should either start with a digit, or be a scientific notation exponent
-                is_numeric = False
-                if re.match(r'^\d', part):  # Starts with digit
-                    is_numeric = True
-                elif re.match(r'^\.', part):  # Starts with decimal point
-                    is_numeric = True
-                elif re.match(r'^\+|^-', part):  # Starts with sign
-                    # Check if next part is numeric
-                    if i + 1 < len(numeric_parts) and re.match(r'^\d', numeric_parts[i+1]):
-                        is_numeric = True
-                elif re.match(r'^e|E', part):  # Scientific notation exponent
-                    # Check if previous part ends with digit (or is a decimal point)
-                    if i > 0:
-                        prev_part = numeric_parts[i-1]
-                        # Check if previous part ends with digit or is a decimal point
-                        ends_with_digit = prev_part[-1].isdigit() if prev_part else False
-                        is_decimal_point = (prev_part == '.')
-                        if ends_with_digit or is_decimal_point:
-                            is_numeric = True
-                
-                if not is_numeric:
-                    numeric_start = i + 1
-                    break
-            
-            if numeric_start >= len(numeric_parts):
-                continue
-            
-            # Extract components
-            name_parts = numeric_parts[:numeric_start]
-            numeric_data = numeric_parts[numeric_start:]
-            unit = ' '.join(unit_parts) if unit_parts else None
-            name = ' '.join(name_parts).strip()
-            
-            # Find where value ends and uncertainty begins
-            # The uncertainty typically starts with "0." and has many zeros
-            split_idx = len(numeric_data)
-            
-            # First, check if this might be an exact value (no uncertainty)
-            # If the unit contains "(exact)" or similar, there might be no uncertainty
-            if unit and any(word in unit.lower() for word in ['(exact)', 'exact', '(defined)']):
-                # For exact values, all numeric data is the value
-                split_idx = len(numeric_data)
+
+            # Convert the name into a valid C++ identifier
+            # Remove spaces and underscores
+            codata_cpp_name = re.sub(r'[\s\-]', '_', pieces.group("quantity")).strip()
+            # Remove non-word characters
+            codata_cpp_name = re.sub(r'[^\w_]', '', codata_cpp_name)
+
+            # Change the value into a valid C++ numerical value
+            codata_value = re.sub(r'\s', '', pieces.group("value"))
+            # Remove training ellipsis
+            codata_value = codata_value.rstrip(".")
+
+            # Uncertainty
+            codata_uncertainty = re.sub(r'\s', '', pieces.group("uncertainty"))
+            if re.search(r"\s", codata_uncertainty):
+                logging.warning(f"CODATA uncertainty still has spaces: '{codata_uncertainty}'")
+
+            # Units
+            if pieces.group("units"):
+                codata_units = pieces.group("units").strip()
             else:
-                for i in range(1, len(numeric_data)):
-                    # Look for the pattern that indicates uncertainty start
-                    if re.match(r'^0\.0*', numeric_data[i]):
-                        split_idx = i
-                        break
-                    # If we see "e" followed by digits, that's part of the exponent
-                    if i > 0 and re.match(r'^e|E', numeric_data[i]) and re.match(r'^\d', numeric_data[i-1]):
-                        continue
-                    # Removed the heuristic that was causing incorrect splits
-                    # We now rely only on the 0. pattern which is more reliable
-                
-                if split_idx == len(numeric_data):
-                    # If we couldn't find a good split, try to find where the pattern changes
-                    # Look for the first occurrence of "0." pattern (most reliable indicator)
-                    for i in range(1, len(numeric_data)):
-                        if re.match(r'^0\.', numeric_data[i]):
-                            split_idx = i
-                            break
-                    
-                    # If still no split found, leave split_idx at len(numeric_data)
-                    # This means no uncertainty was detected, so all numeric data is the value
-            
-            # Reconstruct value and uncertainty by removing spaces
-            if split_idx == len(numeric_data):
-                # No uncertainty detected - all numeric data is the value
-                value_parts = numeric_data
-                uncertainty_parts = []
-                value = ''.join(value_parts)
-                uncertainty = ""
-            else:
-                value_parts = numeric_data[:split_idx]
-                uncertainty_parts = numeric_data[split_idx:]
-                value = ''.join(value_parts)
-                uncertainty = ''.join(uncertainty_parts)
-            
-            # Clean up trailing dots (ellipsis) that would cause compilation errors
-            value = re.sub(r'\.+$', '', value)  # Remove trailing dots
-            uncertainty = re.sub(r'\.+$', '', uncertainty)  # Remove trailing dots
-            
-            # Clean up name - be more careful to preserve meaningful parts
-            # First convert spaces and hyphens to underscores
-            name = re.sub(r'[\s\-]', '_', name)
-            # Remove only problematic characters, but preserve underscores that separate words
-            name = re.sub(r'[^\w_]', '', name)  # Keep underscores
-            # Remove duplicate underscores
-            name = re.sub(r'_+', '_', name)
-            # Remove leading/trailing underscores
-            name = name.strip('_')
+                codata_units = "none"
             
             # Convert to HEP units if possible
             hep_unit_info = None
-            if unit:
-                try:
-                    si_value = float(value)
-                    hep_conversion = convert_si_to_hep(si_value, unit)
-                    if hep_conversion:
-                        hep_value, hep_unit, conversion_desc = hep_conversion
-                        hep_unit_info = f"{hep_value} {hep_unit} ({conversion_desc})"
-                except ValueError:
-                    pass
+            # if unit:
+            #     try:
+            #         si_value = float(value)
+            #         hep_conversion = convert_si_to_hep(si_value, unit)
+            #         if hep_conversion:
+            #             hep_value, hep_unit, conversion_desc = hep_conversion
+            #             hep_unit_info = f"{hep_value} {hep_unit} ({conversion_desc})"
+            #     except ValueError:
+            #         pass
             
-            constants.append((name, value, uncertainty, unit, hep_unit_info))
+            # print(f":{codata_uncertainty}:")
+            constants.append((codata_cpp_name, codata_value, codata_uncertainty, codata_units, hep_unit_info))
     
+    print(constants)
     return constants
 
 
