@@ -39,6 +39,20 @@ namespace units {
     constexpr double cm2 = centimeter2;
     constexpr double cm3 = centimeter3;
 
+    constexpr double micrometer = micro * meter;
+    constexpr double micron = micrometer;
+
+    constexpr double nanometer = nano * meter;
+
+    constexpr double angstrom = 1e-10 * meter;
+
+    constexpr double femtometer = femto * meter;
+    constexpr double fermi = femtometer;
+
+    constexpr double fm = femtometer;
+    constexpr double fm2 = femtometer * femtometer;
+    constexpr double fm3 = femtometer * femtometer * femtometer;
+
     constexpr double kilometer = kilo * meter;
     constexpr double kilometer2 = kilometer * kilometer;
     constexpr double kilometer3 = kilometer * kilometer * kilometer;
@@ -46,6 +60,29 @@ namespace units {
     constexpr double km = kilometer;
     constexpr double km2 = kilometer2;
     constexpr double km3 = kilometer3;
+
+    constexpr double barn = 1.0e-28 * meter2;
+
+    constexpr double millibarn = milli * barn;
+    constexpr double microbarn = micro * barn;
+    constexpr double nanobarn = nano * barn;
+    constexpr double picobarn = pico * barn;
+    constexpr double femtobarn = femto * barn;
+    constexpr double attobarn = atto * barn;
+
+    constexpr double mb = millibarn;
+    constexpr double ub = microbarn;
+    constexpr double nb = nanobarn;
+    constexpr double pb = picobarn;
+    constexpr double fb = femtobarn;
+    constexpr double ab = attobarn;
+
+    constexpr double invmb = 1.0 / millibarn;
+    constexpr double invub = 1.0 / microbarn;
+    constexpr double invnb = 1.0 / nanobarn;
+    constexpr double invpb = 1.0 / picobarn;
+    constexpr double invfb = 1.0 / femtobarn;
+    constexpr double invab = 1.0 / attobarn;
 
     
 
@@ -69,6 +106,33 @@ namespace units {
     constexpr double ms = millisecond;
     constexpr double us = microsecond;
     constexpr double ps = picosecond;
+    constexpr double fs = femtosecond;
+    // shortcut "as = attosecond" not possible since "as" is a reserved word ;-)
+    constexpr double zs = zeptosecond;
+    constexpr double ys = yoctosecond;
+
+    constexpr double minute = 60 * second;
+    constexpr double hour = 60 * minute;
+    constexpr double day = 24 * hour;
+    constexpr double year = 365.25 * day;
+
+    constexpr double h = hour;
+    constexpr double d = day;
+    constexpr double y = year;
+
+    constexpr double hertz = 1.0 / second;
+
+    constexpr double kilohertz = kilo * hertz;
+    constexpr double megahertz = mega * hertz;
+    constexpr double gigahertz = giga * hertz;
+    constexpr double terahertz = tera * hertz;
+
+    constexpr double Hz = hertz;
+
+    constexpr double kHz = kilohertz;
+    constexpr double MHz = megahertz;
+    constexpr double GHz = gigahertz;
+    constexpr double THz = terahertz;
 
     
 
@@ -86,6 +150,9 @@ namespace units {
 
     constexpr double teraelectronvolt = tera * electronvolt;
     constexpr double TeV = teraelectronvolt;
+
+    constexpr double electronvolt2 = electronvolt * electronvolt;
+    constexpr double eV2 = electronvolt2;
 
     
     constexpr double keV = kilo * eV;  // keV
