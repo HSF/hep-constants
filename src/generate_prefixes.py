@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """Generate C++ header with SI prefixes from hepunits using Jinja template."""
 
-import sys
 from pathlib import Path
 
 import hepunits.units.prefixes as prefixes
@@ -14,7 +13,6 @@ def generate_prefixes_header(output_path: Path) -> None:
     data = {
         "pfx": { prefix : getattr(prefixes, prefix) for prefix in dir(prefixes) }
     }
-    print(data)
     
     # Setup Jinja2 environment
     env = Environment(
