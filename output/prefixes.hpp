@@ -9,77 +9,71 @@ namespace prefixes {
 
     // SI prefixes
     
-    constexpr double quetta = 1.0e+30;  // quetta
+    constexpr double atto = 1.0e-18;  // atto
     
-    constexpr double ronna = 1.0e+27;  // ronna
-    
-    constexpr double yotta = 1.0e+24;  // yotta
-    
-    constexpr double zetta = 1.0e+21;  // zetta
-    
-    constexpr double exa = 1.0e+18;  // exa
-    
-    constexpr double peta = 1.0e+15;  // peta
-    
-    constexpr double tera = 1.0e+12;  // tera
-    
-    constexpr double giga = 1.0e+09;  // giga
-    
-    constexpr double mega = 1.0e+06;  // mega
-    
-    constexpr double kilo = 1.0e+03;  // kilo
-    
-    constexpr double hecto = 1.0e+02;  // hecto
+    constexpr double centi = 1.0e-02;  // centi
     
     constexpr double deca = 1.0e+01;  // deca
     
     constexpr double deci = 1.0e-01;  // deci
     
-    constexpr double centi = 1.0e-02;  // centi
-    
-    constexpr double milli = 1.0e-03;  // milli
-    
-    constexpr double micro = 1.0e-06;  // micro
-    
-    constexpr double nano = 1.0e-09;  // nano
-    
-    constexpr double pico = 1.0e-12;  // pico
-    
-    constexpr double femto = 1.0e-15;  // femto
-    
-    constexpr double atto = 1.0e-18;  // atto
-    
-    constexpr double zepto = 1.0e-21;  // zepto
-    
-    constexpr double yocto = 1.0e-24;  // yocto
-    
-    constexpr double ronto = 1.0e-27;  // ronto
-    
-    constexpr double quecto = 1.0e-30;  // quecto
-    
-
-    // Binary prefixes
-    
-    constexpr double kibi = 1.0e+03;  // kibi
-    
-    constexpr double mebi = 1.0e+06;  // mebi
-    
-    constexpr double gibi = 1.1e+09;  // gibi
-    
-    constexpr double tebi = 1.1e+12;  // tebi
-    
-    constexpr double pebi = 1.1e+15;  // pebi
+    constexpr double exa = 1.0e+18;  // exa
     
     constexpr double exbi = 1.2e+18;  // exbi
     
-    constexpr double zebi = 1.2e+21;  // zebi
+    constexpr double femto = 1.0e-15;  // femto
+    
+    constexpr double gibi = 1.1e+09;  // gibi
+    
+    constexpr double giga = 1.0e+09;  // giga
+    
+    constexpr double googol = 1.0e+100;  // googol
+    
+    constexpr double hecto = 1.0e+02;  // hecto
+    
+    constexpr double kibi = 1.0e+03;  // kibi
+    
+    constexpr double kilo = 1.0e+03;  // kilo
+    
+    constexpr double mebi = 1.0e+06;  // mebi
+    
+    constexpr double mega = 1.0e+06;  // mega
+    
+    constexpr double micro = 1.0e-06;  // micro
+    
+    constexpr double milli = 1.0e-03;  // milli
+    
+    constexpr double nano = 1.0e-09;  // nano
+    
+    constexpr double pebi = 1.1e+15;  // pebi
+    
+    constexpr double peta = 1.0e+15;  // peta
+    
+    constexpr double pico = 1.0e-12;  // pico
+    
+    constexpr double quecto = 1.0e-30;  // quecto
+    
+    constexpr double quetta = 1.0e+30;  // quetta
+    
+    constexpr double ronna = 1.0e+27;  // ronna
+    
+    constexpr double ronto = 1.0e-27;  // ronto
+    
+    constexpr double tebi = 1.1e+12;  // tebi
+    
+    constexpr double tera = 1.0e+12;  // tera
     
     constexpr double yobi = 1.2e+24;  // yobi
     
-
-    // Miscellaneous prefixes
+    constexpr double yocto = 1.0e-24;  // yocto
     
-    constexpr double googol = 1.0e+100;  // googol
+    constexpr double yotta = 1.0e+24;  // yotta
+    
+    constexpr double zebi = 1.2e+21;  // zebi
+    
+    constexpr double zepto = 1.0e-21;  // zepto
+    
+    constexpr double zetta = 1.0e+21;  // zetta
     
 
 } // namespace prefixes

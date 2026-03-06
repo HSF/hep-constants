@@ -4,66 +4,17 @@
 import sys
 from pathlib import Path
 
-# Add the hepunits package to the path
-sys.path.insert(0, '.pixi/envs/default/lib/python3.14/site-packages')
-
-from hepunits.units.prefixes import *
+import hepunits.units.prefixes as prefixes
 from jinja2 import Environment, FileSystemLoader, select_autoescape
-
-# SI prefixes and their values
-si_prefixes = {
-    'quetta': quetta,
-    'ronna': ronna,
-    'yotta': yotta,
-    'zetta': zetta,
-    'exa': exa,
-    'peta': peta,
-    'tera': tera,
-    'giga': giga,
-    'mega': mega,
-    'kilo': kilo,
-    'hecto': hecto,
-    'deca': deca,
-    'deci': deci,
-    'centi': centi,
-    'milli': milli,
-    'micro': micro,
-    'nano': nano,
-    'pico': pico,
-    'femto': femto,
-    'atto': atto,
-    'zepto': zepto,
-    'yocto': yocto,
-    'ronto': ronto,
-    'quecto': quecto,
-}
-
-# Binary prefixes
-binary_prefixes = {
-    'kibi': kibi,
-    'mebi': mebi,
-    'gibi': gibi,
-    'tebi': tebi,
-    'pebi': pebi,
-    'exbi': exbi,
-    'zebi': zebi,
-    'yobi': yobi,
-}
-
-# Miscellaneous prefixes
-misc_prefixes = {
-    'googol': googol,
-}
 
 def generate_prefixes_header(output_path: Path) -> None:
     """Generate C++ header with SI prefixes using Jinja template."""
     
     # Prepare data for template
     data = {
-        'si_prefixes': si_prefixes,
-        'binary_prefixes': binary_prefixes,
-        'misc_prefixes': misc_prefixes,
+        "pfx": { prefix : getattr(prefixes, prefix) for prefix in dir(prefixes) }
     }
+    print(data)
     
     # Setup Jinja2 environment
     env = Environment(

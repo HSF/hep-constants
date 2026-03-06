@@ -8,17 +8,7 @@ namespace physicalconstants {
 namespace prefixes {
 
     // SI prefixes
-    {% for name, value in si_prefixes.items() %}
-    constexpr double {{ name }} = {{ "%.1e"|format(value) }};  // {{ name }}
-    {% endfor %}
-
-    // Binary prefixes
-    {% for name, value in binary_prefixes.items() %}
-    constexpr double {{ name }} = {{ "%.1e"|format(value) }};  // {{ name }}
-    {% endfor %}
-
-    // Miscellaneous prefixes
-    {% for name, value in misc_prefixes.items() %}
+    {% for name, value in pfx.items() %}
     constexpr double {{ name }} = {{ "%.1e"|format(value) }};  // {{ name }}
     {% endfor %}
 
