@@ -68,7 +68,7 @@ def construct_hep_constants():
 
 
 def generate_cpphep_header(constants, year: str,
-                        template_path = Path("templates/hep_constants.jinja2"), 
+                        template_path = Path("templates/hep_cpp_constants.jinja2"), 
                         output_path = Path("output/hepconstants.cpp")) -> None:
     """
     Generate a C++ header file with constexpr constants using Jinja2 template.
@@ -111,41 +111,3 @@ def main():
                            output_path = Path("output") / Path(f"hepconstants_{year}.cpp"))
 
 main()
-
-# """
-# Simple class holding the mapping from CODATA name to "standard" HEP name and
-# the conversion from the CODATA SI unit value to the HEP unit (mm, MeV, etc.).
-
-# The conversion should make sense as a constexpr, based on the prefixes and
-# units value headers.
-# """
-# class Codata2HEP:
-#     def __init__(self, codata_name: str, hep_name: str, si_to_hep: str):
-#         self.codata_name = codata_name
-#         self.hep_name = hep_name
-#         self.si_to_hep = si_to_hep
-
-#     def __repr__(self):
-#         return f"Codata2HEP(codata_name='{self.codata_name}', hep_name='{self.hep_name}', si_to_hep='{self.si_to_hep}')"
-
-
-
-# # This are the values that we want to convert to HEP style/units constants
-# hep_physical_constants_list = []
-# hep_physical_constants_list.append(Codata2HEP("Avogadro constant", "Avogadro", ""))
-# hep_physical_constants_list.append(Codata2HEP("speed of light in vacuum", "c_light", "m * s"))
-
-
-# codata2cpp = {
-#     "Avogadro constant": "Avogadro",
-#     "speed of light in vacuum": "c_light",
-#     "Planck constant": "h_Planck",
-#     "Boltzmann constant": "k_Boltzmann",
-#     "electron mass energy equivalent in MeV": "electron_mass_c2",
-#     "proton mass energy equivalent in MeV": "proton_mass_c2",
-#     "neutron mass energy equivalent in MeV": "neutron_mass_c2",
-#     "atomic mass constant energy equivalent in MeV": "amu_c2",
-#     "atomic mass constant": "amu",
-#     "vacuum mag. permeability": "mu0",
-#     "vacuum electric permittivity": "epsilon0",
-# }

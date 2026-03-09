@@ -20,7 +20,7 @@ def generate_units_header(output_path: Path) -> None:
         autoescape=select_autoescape()
     )
     
-    template = env.get_template('units_header.jinja2')
+    template = env.get_template('units_cpp_header.jinja2')
     
     # Render template
     rendered = template.render(data)

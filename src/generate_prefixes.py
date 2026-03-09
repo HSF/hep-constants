@@ -20,7 +20,7 @@ def generate_prefixes_header(output_path: Path) -> None:
         autoescape=select_autoescape()
     )
     
-    template = env.get_template('prefixes_header.jinja2')
+    template = env.get_template('prefixes_cpp_header.jinja2')
     
     # Render template
     rendered = template.render(data)

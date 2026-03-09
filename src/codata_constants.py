@@ -168,7 +168,7 @@ def main():
     parser = argparse.ArgumentParser(description='Parse CODATA ASCII files and generate C++ headers')
     parser.add_argument('--input_dir', type=Path, default=Path('data/codata'), 
                        help='Directory containing CODATA ASCII files')
-    parser.add_argument('--template', type=Path, default=Path('templates/cpp_header.jinja2'),
+    parser.add_argument('--template', type=Path, default=Path('templates/codata_cpp_header.jinja2'),
                        help='Path to Jinja2 template file')
     parser.add_argument('--output_dir', type=Path, default=Path('output'),
                        help='Directory for output C++ headers')
