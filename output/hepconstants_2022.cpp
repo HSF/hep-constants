@@ -25,7 +25,7 @@ namespace hepconstants2022 {
 
     constexpr double hbarc = c_light*hbar_Planck;
 
-    constexpr double hbarc_squared = std::pow(hbarc_squared, 2);
+    constexpr double hbarc_squared = std::pow(hbarc, 2);
 
 
 } // namespace hepconstants2022

@@ -58,7 +58,7 @@ def construct_hep_constants():
     list_of_equations.append(Eq(h_Planck, codata.Planck_constant * su["joule"] * su["second"]))
     list_of_equations.append(Eq(hbar_Planck, h_Planck / (2 * math.pi)))
     list_of_equations.append(Eq(hbarc, hbar_Planck * c_light))
-    list_of_equations.append(Eq(hbarc_squared, hbarc_squared**2))
+    list_of_equations.append(Eq(hbarc_squared, hbarc * hbarc))
 
     # Add these to the structure for Jinja
     for eqn in list_of_equations:
