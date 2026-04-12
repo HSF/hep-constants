@@ -1,93 +1,77 @@
 #!/usr/bin/env python3
 """Basic tests for the CODATA parser and C++ header generator."""
 
-import os
+import shutil
+import subprocess
 import sys
-import tempfile
 from pathlib import Path
+
+import pytest
 
 # Add src directory to Python path
 sys.path.insert(0, str(Path(__file__).parent.parent / 'src'))
 
-from main import parse_codata_file, generate_cpp_header
+from codata_constants import generate_cpp_header, parse_codata_file
 
 
-def test_parse_codata_file():
+def test_parse_codata_file(tmp_path):
     """Test parsing of a simple CODATA file."""
-    # Create a temporary CODATA file with proper separator
-    with tempfile.NamedTemporaryFile(mode='w', suffix='.txt', delete=False) as f:
-        f.write("""# Test CODATA file
+    codata_file = tmp_path / "allascii_2022.txt"
+    codata_file.write_text("""# Test CODATA file
 
   Quantity                                                       Value                 Uncertainty           Unit
 -----------------------------------------------------------------------------------------------------------------------------
-speed_of_light 299792458 0 m s^-1
-Planck_constant 6.62607015e-34 0 J s
+speed of light in vacuum                                      299 792 458            (exact)              m s^-1
+Planck constant                                               6.626 070 15 e-34      (exact)              J Hz^-1
 """)
-        temp_file = f.name
-    
-    try:
-        # Parse the file
-        constants = parse_codata_file(Path(temp_file))
-        
-        # Verify results (new format includes unit and hep_unit)
-        assert len(constants) == 2
-        assert constants[0][0] == 'speed_of_light'
-        print(f"Actual value: '{constants[0][1]}'")
-        assert constants[0][1] == '2997924580'  # Note: includes uncertainty for exact values
-        assert constants[0][2] == ''  # No uncertainty for exact values
-        print(f"Second constant: name='{constants[1][0]}', value='{constants[1][1]}', uncertainty='{constants[1][2]}'")
-        assert constants[1][0] == 'Planck_constant'
-        assert constants[1][1] == '6.62607015e-340'  # Includes uncertainty 0
-        assert constants[1][2] == ''  # No separate uncertainty
-        
-        print("✓ parse_codata_file test passed")
-        
-    finally:
-        # Clean up
-        os.unlink(temp_file)
 
+    constants = parse_codata_file(codata_file)
 
-def test_generate_cpp_header():
-    """Test generation of C++ header from constants."""
-    # Test constants
-    constants = [
-        ('speed_of_light', '299792458', '0'),
-        ('Planck_constant', '6.62607015e-34', '0')
+    assert constants == [
+        ("speed_of_light_in_vacuum", "299792458", "(exact)", "m s^-1"),
+        ("Planck_constant", "6.62607015e-34", "(exact)", "J Hz^-1"),
     ]
-    
-    # Create temporary template file
-    with tempfile.NamedTemporaryFile(mode='w', suffix='.jinja2', delete=False) as f:
-        f.write("""// Test header
-{% for name, value, uncertainty in constants %}
+
+
+def test_generate_cpp_header(tmp_path):
+    """Test generation of C++ header from constants."""
+    constants = [
+        ("speed_of_light_in_vacuum", "299792458", "(exact)", "m s^-1"),
+        ("Planck_constant", "6.62607015e-34", "(exact)", "J Hz^-1"),
+    ]
+    template_file = tmp_path / "test_header.jinja2"
+    output_file = tmp_path / "test.hpp"
+
+    template_file.write_text("""// Test header
+{% for name, value, uncertainty, unit in constants %}
 constexpr double {{ name }} = {{ value }};
 {% endfor %}
 """)
-        template_file = f.name
-    
-    # Create temporary output file
-    with tempfile.NamedTemporaryFile(mode='w', suffix='.hpp', delete=False) as f:
-        output_file = f.name
-    
-    try:
-        # Generate header
-        generate_cpp_header(constants, Path(template_file), Path(output_file), "2010")
-        
-        # Read and verify output
-        with open(output_file, 'r') as f:
-            content = f.read()
-        
-        assert 'constexpr double speed_of_light = 299792458;' in content
-        assert 'constexpr double Planck_constant = 6.62607015e-34;' in content
-        
-        print("✓ generate_cpp_header test passed")
-        
-    finally:
-        # Clean up
-        os.unlink(template_file)
-        os.unlink(output_file)
+
+    generate_cpp_header(constants, template_file, output_file, "2022")
+
+    content = output_file.read_text()
+
+    assert "constexpr double speed_of_light_in_vacuum = 299792458;" in content
+    assert "constexpr double Planck_constant = 6.62607015e-34;" in content
+
+
+def test_basic_codata_usage_example_compiles(tmp_path):
+    """Test the C++ usage example against the checked-in generated headers."""
+    compiler = shutil.which("g++") or shutil.which("c++")
+    if compiler is None:
+        pytest.skip("C++ compiler not available")
+
+    repo_root = Path(__file__).parent.parent
+    source_file = repo_root / "examples" / "basic_codata_usage.cpp"
+    executable = tmp_path / "basic_codata_usage"
+
+    subprocess.run(
+        [compiler, "-std=c++17", "-I", str(repo_root), str(source_file), "-o", str(executable)],
+        check=True,
+    )
+    subprocess.run([str(executable)], check=True)
 
 
 if __name__ == '__main__':
-    test_parse_codata_file()
-    test_generate_cpp_header()
-    print("All tests passed!")
+    raise SystemExit(pytest.main([__file__]))
